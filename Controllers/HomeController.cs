@@ -15,6 +15,11 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
+        Partida
         return View();
+    }
+
+    public IActionResult salaDeEstar(string nombre){
+
     }
 }
