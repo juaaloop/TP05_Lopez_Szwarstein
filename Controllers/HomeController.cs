@@ -15,11 +15,28 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        Partida
+        Partida partidaNueva = new Partida();
+        HttpContext.Session.SetString("partida", Objeto.ObjectToString(partidaNueva));
+       
         return View();
     }
 
-    public IActionResult salaDeEstar(string nombre){
+    public IActionResult ingresarNombre(string nombre){
+        Partida partidaNueva = Objeto.StringToObject<Partida>(HttpContext.Session.GetString("partida"));
+        partidaNueva.iniciarPartida(nombre);
+        HttpContext.Session.SetString("partida", Objeto.ObjectToString(partidaNueva));
 
+        return View("Index");
     }
+
+
+    public IActionResult desbloquearSala(string clave,string sala){
+        Partida partidaNueva = Objeto.StringToObject<Partida>(HttpContext.Session.GetString("partida"));
+        if(partidaNueva.salas[sala].clave == clave){
+            partidaNueva.salasDesbloqueadas[sala] = true;
+        }
+        HttpContext.Session.SetString("partida", Objeto.ObjectToString(partidaNueva));
+        return View("sala");
+    }
+
 }
