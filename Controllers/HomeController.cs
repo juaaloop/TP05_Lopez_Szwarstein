@@ -13,30 +13,31 @@ public class HomeController : Controller
         _logger = logger;
     }
 
+    Partida partidaNueva = new Partida();
     public IActionResult Index()
     {
-        Partida partidaNueva = new Partida();
-        HttpContext.Session.SetString("partida", Objeto.ObjectToString(partidaNueva));
-       
+        Partida partidaNuevaa = new Partida();   
         return View();
     }
 
     public IActionResult ingresarNombre(string nombre){
-        Partida partidaNueva = Objeto.StringToObject<Partida>(HttpContext.Session.GetString("partida"));
         partidaNueva.iniciarPartida(nombre);
-        HttpContext.Session.SetString("partida", Objeto.ObjectToString(partidaNueva));
-
-        return View("Index");
+        return View("salaDeEstar");
     }
 
+    public IActionResult salaDeEstar(){
 
-    public IActionResult desbloquearSala(string clave,string sala){
-        Partida partidaNueva = Objeto.StringToObject<Partida>(HttpContext.Session.GetString("partida"));
+        return View();
+    }
+
+    public IActionResult patio(){
+        return View();
+    }
+
+    public IActionResult desbloquearSala(string clave, string sala){
         if(partidaNueva.salas[sala].clave == clave){
-            partidaNueva.salasDesbloqueadas[sala] = true;
+            partidaNueva.salas[sala].estaDesbloqueada = true;
         }
-        HttpContext.Session.SetString("partida", Objeto.ObjectToString(partidaNueva));
-        return View("sala");
+        return View(sala);
     }
-
 }
