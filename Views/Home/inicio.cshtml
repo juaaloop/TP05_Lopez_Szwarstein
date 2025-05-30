@@ -1,0 +1,31 @@
+@{
+    ViewData["Title"] = "Inicio";
+}
+
+<!--Hecho con chat gpt -->
+<div id="contenedor-dialogo">
+    <p id="texto-dialogo">Haz clic para comenzar</p>
+</div>
+
+<script>
+    const dialogos = [
+        "Era un dia lluvioso, como cualquier otro en la mansión Karkhvouck...",
+        "La familia Karkvouck es una de las mas respetadas del país, en especial por el abuelo Rasputin",
+        "¡Vamos allá!",
+        "Fin del diálogo."
+    ];
+
+    let dialogoId = 0;
+
+    document.getElementById("contenedor-dialogo").addEventListener("click", function () {
+        if (dialogoId < dialogos.length) {
+            document.getElementById("texto-dialogo").textContent = dialogos[dialogoId];
+            dialogoId++;
+        }
+    });
+</script>
+<!--Hecho con chat gpt -->
+
+    <form action ='@Url.Action("ingresarNombre")' method="POST" >
+    <input type="text" name="nombre">
+    </form>

@@ -12,16 +12,21 @@ public class HomeController : Controller
     {
         _logger = logger;
     }
-
-    Partida partidaNueva = new Partida();
     public IActionResult Index()
     {
-        Partida partidaNuevaa = new Partida();   
+        Partida partidaNueva = new Partida();   
+        HttpContext.Session.SetString("partida", Objeto.ObjectToString(partidaNueva));
+        return View();
+    }
+
+    public IActionResult inicio(){
         return View();
     }
 
     public IActionResult ingresarNombre(string nombre){
+        Partida partidaNueva= Objeto.StringToObject<Partida>(HttpContext.Session.GetString("partida"));
         partidaNueva.iniciarPartida(nombre);
+        HttpContext.Session.SetString("partida", Objeto.ObjectToString(partidaNueva));
         return View("salaDeEstar");
     }
 
@@ -34,10 +39,22 @@ public class HomeController : Controller
         return View();
     }
 
-    public IActionResult desbloquearSala(string clave, string sala){
+    public IActionResult desbloquearSala(string clave, int sala, string salaOriginal){
+        Partida partidaNueva= Objeto.StringToObject<Partida>(HttpContext.Session.GetString("partida"));
         if(partidaNueva.salas[sala].clave == clave){
             partidaNueva.salas[sala].estaDesbloqueada = true;
         }
-        return View(sala);
+        HttpContext.Session.SetString("partida", Objeto.ObjectToString(partidaNueva));
+        return View(salaOriginal);
+    }
+
+    public IActionResult irASala(string sala, int numSala, string salaActual){
+         Partida partidaNueva= Objeto.StringToObject<Partida>(HttpContext.Session.GetString("partida"));
+         if (partidaNueva.salas[numSala].puedeEntrar()){
+            return RedirectToAction(sala);
+         }else{
+            ViewBag.sala = salaActual;
+            return View();
+         }
     }
 }

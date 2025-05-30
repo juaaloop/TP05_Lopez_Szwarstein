@@ -9,6 +9,15 @@
     <h1>esto es una prueba 2 </h1>
     <form action ='@Url.Action("desbloquearSala")' method="POST" >
     <input type="text" name="clave" placeholder="Clave">
-    <input type="submit" name="sala" value=salaDeEstar>
+    <input type="hidden" name="sala" value=1 placeholder="Arriesgar" >
+    <input type="hidden" name="salaOriginal" value="salaDeEstar" >
     </form>
+
+   <form action ='@Url.Action("irASala")' method="POST" >
+    <input type="hidden" name="sala" value="estudio">
+    <input type="hidden" name="numSala" value=7 >
+    <input type="hidden" name="salaActual" value="salaDeEstar" >
+    <input type="submit" name="Ir al estudio">
+    </form>
+
 </div>
