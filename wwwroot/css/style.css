@@ -1,0 +1,13 @@
+* {
+    border: 1px solid gray;
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-image: url('~/img/fondoinicio.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

@@ -1,18 +1,20 @@
 @{
     ViewData["Title"] = "Inicio";
 }
-
-<!--Hecho con chat gpt -->
 <div id="contenedor-dialogo">
     <p id="texto-dialogo">Haz clic para comenzar</p>
 </div>
 
 <script>
     const dialogos = [
-        "Era un dia lluvioso, como cualquier otro en la mansión Karkhvouck...",
-        "La familia Karkvouck es una de las mas respetadas del país, en especial por el abuelo Rasputin",
-        "¡Vamos allá!",
-        "Fin del diálogo."
+       "La mansión Karamázov. Ni piedra. Ni madera. Era un sepulcro opulento, denso con los secretos de una estirpe forjada en los grandes inviernos siberianos.",
+       "La neblina, un velo melancólico, la envolvía. Dentro, solo ecos de grandezas olvidadas y susurros que nunca debieron ser escuchados.",
+       "El patriarca, Iván Ilich, regresó de su ausencia. Un silencio anormal. Todo en su sitio, inmutable... excepto lo más sagrado.",
+        "La caja fuerte. Abierta. Su inmensa fortuna, amasada en los salones de San Petersburgo, desvanecida como un fantasma.",
+        "No hubo violencia. Solo la huella de una llave, esgrimida con una precisión tanto conocida como traidora. Una que, por derecho, nadie debía poseer.",
+        "La servidumbre y los parientes juraban inocencia. Pero las miradas... ah, esas miradas, acusaban sin voz.",
+        "La sombra del viejo patriarca se alzó, imponente. Una decisión implacable se forjaba en el aire denso de la mansión.",
+        "Si el culpable no emerge antes del anochecer, la vergüenza de los Karamázov será tuya. Tu juicio está por comenzar."
     ];
 
     let dialogoId = 0;
@@ -24,7 +26,6 @@
         }
     });
 </script>
-<!--Hecho con chat gpt -->
 
     <form action ='@Url.Action("ingresarNombre")' method="POST" >
     <input type="text" name="nombre">
