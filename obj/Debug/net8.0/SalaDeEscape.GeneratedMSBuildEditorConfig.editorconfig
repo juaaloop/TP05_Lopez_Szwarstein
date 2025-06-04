@@ -9,77 +9,83 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SalaDeEscape
 build_property.RootNamespace = SalaDeEscape
-build_property.ProjectDir = C:\Users\juana\Downloads\TP05\
+build_property.ProjectDir = C:\Users\49193480\Downloads\TP05\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\juana\Downloads\TP05
+build_property.MSBuildProjectDirectory = C:\Users\49193480\Downloads\TP05
 build_property._RazorSourceGeneratorDebug = 
-build_property.EffectiveAnalysisLevelStyle = 8.0
-build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/juana/Downloads/TP05/Views/Home/baño.cshtml]
+[C:/Users/49193480/Downloads/TP05/Views/Home/baño.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxiYcOxby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juana/Downloads/TP05/Views/Home/biblioteca.cshtml]
+[C:/Users/49193480/Downloads/TP05/Views/Home/biblioteca.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxiaWJsaW90ZWNhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juana/Downloads/TP05/Views/Home/cocina.cshtml]
+[C:/Users/49193480/Downloads/TP05/Views/Home/cocina.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxjb2NpbmEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juana/Downloads/TP05/Views/Home/estudio.cshtml]
+[C:/Users/49193480/Downloads/TP05/Views/Home/estudio.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxlc3R1ZGlvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juana/Downloads/TP05/Views/Home/final.cshtml]
+[C:/Users/49193480/Downloads/TP05/Views/Home/final.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxmaW5hbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juana/Downloads/TP05/Views/Home/index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxpbmRleC5jc2h0bWw=
+[C:/Users/49193480/Downloads/TP05/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juana/Downloads/TP05/Views/Home/inicio.cshtml]
+[C:/Users/49193480/Downloads/TP05/Views/Home/inicio.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxpbmljaW8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juana/Downloads/TP05/Views/Home/irASala.cshtml]
+[C:/Users/49193480/Downloads/TP05/Views/Home/irASala.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxpckFTYWxhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juana/Downloads/TP05/Views/Home/patio.cshtml]
+[C:/Users/49193480/Downloads/TP05/Views/Home/mapa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxtYXBhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/49193480/Downloads/TP05/Views/Home/patio.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxwYXRpby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juana/Downloads/TP05/Views/Home/salaDeEstar.cshtml]
+[C:/Users/49193480/Downloads/TP05/Views/Home/salaDeEstar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzYWxhRGVFc3Rhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juana/Downloads/TP05/Views/Home/salaDesbloqueada.cshtml]
+[C:/Users/49193480/Downloads/TP05/Views/Home/salaDeRetratos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzYWxhRGVSZXRyYXRvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/49193480/Downloads/TP05/Views/Home/salaDesbloqueada.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzYWxhRGVzYmxvcXVlYWRhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juana/Downloads/TP05/Views/Home/sotano.cshtml]
+[C:/Users/49193480/Downloads/TP05/Views/Home/sotano.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzb3Rhbm8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juana/Downloads/TP05/Views/Shared/_Layout.cshtml]
+[C:/Users/49193480/Downloads/TP05/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juana/Downloads/TP05/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/49193480/Downloads/TP05/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juana/Downloads/TP05/Views/_ViewImports.cshtml]
+[C:/Users/49193480/Downloads/TP05/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juana/Downloads/TP05/Views/_ViewStart.cshtml]
+[C:/Users/49193480/Downloads/TP05/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

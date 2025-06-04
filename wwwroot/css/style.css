@@ -5,9 +5,31 @@
 }
 
 body {
-    background-image: url('~/img/fondoinicio.png');
+    background-image: url('/img/fondoinicio.png');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+
+
+main img{
+    width:40%;
+    margin-left:30%;
+    position:relative;
+}
+header img{
+    width:10%;
+}
+#botonPatio {
+  position: absolute;
+    width: 2.5%;
+    height: 2.5%;
+    background-color: white 0.99;
+    padding: 4%;
+    margin-bottom: 20%;
+    margin-top: 16%;
+    margin-left: -24%;
+   /* hacer clickeo que haga qure aparezaca no que sea otra pestaña*/
+
 }

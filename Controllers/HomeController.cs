@@ -48,13 +48,15 @@ public class HomeController : Controller
         return View(salaOriginal);
     }
 
-    public IActionResult irASala(string sala, int numSala, string salaActual){
+    public IActionResult irASala(string sala, int numSala){
          Partida partidaNueva= Objeto.StringToObject<Partida>(HttpContext.Session.GetString("partida"));
          if (partidaNueva.salas[numSala].puedeEntrar()){
             return RedirectToAction(sala);
          }else{
-            ViewBag.sala = salaActual;
             return View();
          }
+    }
+    public IActionResult mapa(){
+        return View();
     }
 }

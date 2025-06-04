@@ -28,6 +28,9 @@ class Partida{
         List<Sala> listaDependencias3 = new List<Sala>();
         listaDependencias3.Add(salas[6]);
         salas.Add(7, (new Sala("Empezar",false,listaDependencias3)));
+        List<Sala> listaDependencias4 = new List<Sala>();
+        listaDependencias4.Add(salas[7]);
+        salas.Add(8, (new Sala("Empezar",false,listaDependencias4)));
 
     }
 }
