@@ -6,11 +6,11 @@
 </head>
 <main>
 <img src="/img/mapa.png">
-   <a href='@Url.Action("irASala",("patio"),2)' id="botonPatio"></a>
-    <a href='@Url.Action("irASala",("cocina",3))'id="botonCocina"></a>
-    <a href='@Url.Action("irASala",("sotano",4))'id="botonSotano"></a>
-    <a href='@Url.Action("irASala",("baño",5))'id="botonBaño"></a>
-    <a href='@Url.Action("irASala",("salaDeRetratos",6))'id="botonRetratos"></a>
-    <a href='@Url.Action("irASala",("biblioteca",7))'id="botonBiblioteca"></a>
+   <a href='@Url.Action("irASala", new{sala = "patio", numSala=2})' id="botonPatio"></a>
+    <a href='@Url.Action("irASala", new{sala = "cocina", numSala=3})'id="botonCocina"></a>
+    <a href='@Url.Action("irASala", new{sala = "sotano", numSala=4})'id="botonSotano"></a>
+    <a href='@Url.Action("irASala", new{sala = "baño", numSala=5})'id="botonBaño"></a>
+    <a href='@Url.Action("irASala", new{sala = "salaDeRetratos", numSala=6})'id="botonRetratos"></a>
+    <a href='@Url.Action("irASala", new{sala = "biblioteca", numSala=7})'id="botonBiblioteca"></a>
 
 </main>

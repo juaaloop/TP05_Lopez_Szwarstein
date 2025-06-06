@@ -14,10 +14,14 @@ class Sala{
 
     public bool puedeEntrar(){
         bool puede = true;
+        if (salaDependienteDe != null){
+           
         foreach(Sala salaDependiente in salaDependienteDe){
             if(salaDependiente.estaDesbloqueada == false){
                 puede = false;
             }
+        }
+         
         }
         return puede;
     }
