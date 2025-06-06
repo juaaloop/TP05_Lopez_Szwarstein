@@ -17,12 +17,40 @@
       "PackagePath": "staticwebassets\\img\\Mapa.png"
     },
     {
+      "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\baño.png",
+      "PackagePath": "staticwebassets\\img\\baño.png"
+    },
+    {
+      "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\cruz.png",
+      "PackagePath": "staticwebassets\\img\\cruz.png"
+    },
+    {
+      "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\diamante.png",
+      "PackagePath": "staticwebassets\\img\\diamante.png"
+    },
+    {
+      "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\estrella.png",
+      "PackagePath": "staticwebassets\\img\\estrella.png"
+    },
+    {
       "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\fondoinicio.png",
       "PackagePath": "staticwebassets\\img\\fondoinicio.png"
     },
     {
+      "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\luna.png",
+      "PackagePath": "staticwebassets\\img\\luna.png"
+    },
+    {
+      "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\patio.png",
+      "PackagePath": "staticwebassets\\img\\patio.png"
+    },
+    {
       "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\saladeestar.png",
       "PackagePath": "staticwebassets\\img\\saladeestar.png"
+    },
+    {
+      "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\triangulo.png",
+      "PackagePath": "staticwebassets\\img\\triangulo.png"
     },
     {
       "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\js\\site.js",
