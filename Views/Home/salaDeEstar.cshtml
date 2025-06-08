@@ -4,14 +4,13 @@
 <head>
     <link rel="stylesheet" href="~/css/style.css" />
 </head>
-<header>
-<a href='@Url.Action("mapa")'> <img src="/img/mapa.png"></a>
-</header>
-<body>
-<div>
-    <h1>Index</h1>
-    <p>Bienvenidos al sitio web de NombreProyecto</p>
 
+<body class="salaDeEstar">
+    <header>
+    <a href='@Url.Action("mapa")'> <img src="/img/mapa.png"></a>
+</header>
+<div>
+    <p>Bienvenidos al sitio web de NombreProyecto</p>
     <h1>esto es una prueba 2 </h1>
     <form action ='@Url.Action("desbloquearSala")' method="POST" >
     <input type="text" name="clave" placeholder="Clave">

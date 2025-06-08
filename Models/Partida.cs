@@ -4,17 +4,14 @@ class Partida{
     public int cantPistasUsadas{get;private set;}
     public List<Sospechoso> listaSospechosos {get;private set;}
 
-    public Partida(){
-        nombreJugador ="";
+    public Partida(string NombreJugador){
         salas = new Dictionary<int, Sala>();
         cantPistasUsadas = 0;
         listaSospechosos=new List<Sospechoso>();
-    }
-    public void iniciarPartida(string NombreJugador){
-        nombreJugador = NombreJugador;
+        this.nombreJugador = NombreJugador;
     
         salas.Add(1, (new Sala("Empezar",true,null)));
-        salas.Add(2, (new Sala("LLAVE",true,null)));
+        salas.Add(2, (new Sala("desbloquear",false,null)));
         salas.Add(3, (new Sala("Empezar",false,null)));
         salas.Add(4, (new Sala("Empezar",false, null)));
         List<Sala> listaDependencias = new List<Sala>();

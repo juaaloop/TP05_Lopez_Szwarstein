@@ -1,53 +1,106 @@
-
-<!--
 @{
     ViewData["Title"] = "patio";
 }
-
-<body class="patio"> 
-iara: BUSCAR JAVA DENTRO DE C# EN MVC 
-o si se puedehacer un bool o algo sobre eso
-
-@{ 
-    bool terminoDialogo = false;
+<head>
+    <link rel="stylesheet" href="~/css/style.css" />
+</head>
+<body class="patio">
+@{if(!ViewBag.estaDesbloqueada){ 
+<div id="zona-drop">
     
-    while(!terminoDialogo){
-            <script>
-                  const dialogos = [
-                    "La mansión Karamázov. Ni piedra. Ni madera. Era un sepulcro opulento, denso con los secretos de una estirpe forjada en los grandes inviernos siberianos.",
-                    "La neblina, un velo melancólico, la envolvía. Dentro, solo ecos de grandezas olvidadas y susurros que nunca debieron ser escuchados.",
-                    "El patriarca, Iván Ilich, regresó de su ausencia. Un silencio anormal. Todo en su sitio, inmutable... excepto lo más sagrado.",
-                    "La caja fuerte. Abierta. Su inmensa fortuna, amasada en los salones de San Petersburgo, desvanecida como un fantasma.",
-                    "No hubo violencia. Solo la huella de una llave, esgrimida con una precisión tanto conocida como traidora. Una que, por derecho, nadie debía poseer.",
-                    "La servidumbre y los parientes juraban inocencia. Pero las miradas... ah, esas miradas, acusaban sin voz.",
-                    "La sombra del viejo patriarca se alzó, imponente. Una decisión implacable se forjaba en el aire denso de la mansión.",
-                    "Si el culpable no emerge antes del anochecer, la vergüenza de los Karamázov será tuya. Tu juicio está por comenzar."
-                 ];
+</div>
+<div id="contenedor-dialogo">
+    <p id="texto-dialogo">Haz clic para comenzar</p>
+</div>
 
-                let dialogoId = 0;
+<div id="zonaorigen">
+<img src="/img/luna.png" id="luna" draggable="true" class="arbusto">
+<img src="/img/cruz.png" id="cruz" draggable="true" class="arbusto">
+<img src="/img/estrella.png" id="estrella" draggable="true" class="arbusto">
+<img src="/img/diamante.png" id="diamante" draggable="true" class="arbusto">
+<img src="/img/triangulo.png" id="triangulo" draggable="true" class="arbusto">
+</div>
 
-                  document.getElementById("contenedor-dialogo").addEventListener("click", function () {
-                if (dialogoId < dialogos.length) {
-                document.getElementById("texto-dialogo").textContent = dialogos[dialogoId];
-                dialogoId++;
-            
-               }
-                });
-                 if(dialogoId>=dialogos.length){
-                    terminoDialogo=true;
-                }
-            </script>
-            <img src="viktor.png" alt="viktor">
-    }
+<form id="claveForm" method="post" action='@Url.Action("desbloquearSala")'>
+    <input type="hidden" name="clave" value="desbloquear" />
+    <input type="hidden" name="sala" value=2 />
+    <input type="hidden" name="salaOriginal" value="patio" />
+</form>
+<script>
+    const dialogos = [
+        "@ViewBag.nombre La mansión Karamázov. Ni piedra. Ni madera. Era un sepulcro opulento, denso con los secretos de una estirpe forjada en los grandes inviernos siberianos.",
+        "La neblina, un velo melancólico, la envolvía. Dentro, solo ecos de grandezas olvidadas y susurros que nunca debieron ser escuchados.",
+        "El patriarca, Iván Ilich, regresó de su ausencia. Un silencio anormal. Todo en su sitio, inmutable... excepto lo más sagrado.",
+        "La caja fuerte. Abierta. Su inmensa fortuna, amasada en los salones de San Petersburgo, desvanecida como un fantasma.",
+        "No hubo violencia. Solo la huella de una llave, esgrimida con una precisión tanto conocida como traidora. Una que, por derecho, nadie debía poseer.",
+        "La servidumbre y los parientes juraban inocencia. Pero las miradas... ah, esas miradas, acusaban sin voz.",
+        "La sombra del viejo patriarca se alzó, imponente. Una decisión implacable se forjaba en el aire denso de la mansión.",
+        "Si el culpable no emerge antes del anochecer, la vergüenza de los Karamázov será tuya. Tu juicio está por comenzar."
+    ];
 
-    
+    let dialogoId = 0;
+    let terminoDialogo = false;
+
+    document.getElementById("contenedor-dialogo").addEventListener("click", function () {
+        if (dialogoId < dialogos.length) {
+            document.getElementById("texto-dialogo").textContent = dialogos[dialogoId];
+            dialogoId++;
+        } else {
+            terminoDialogo = true;
+            document.getElementById("contenedor-dialogo").style.display = "none";
+        }
+    });
+
+    const zonaDrop = document.getElementById("zona-drop");
+    const ordenActual = [];
+
+    document.querySelectorAll(".arbusto").forEach(el => {
+        el.addEventListener("dragstart", (e) => {
+            e.dataTransfer.setData("text/plain", e.target.id);
+        });
+    });
+
+    zonaDrop.addEventListener("dragover", (e) => {
+        e.preventDefault();
+        zonaDrop.style.backgroundColor = "#eef";
+    });
+
+    zonaDrop.addEventListener("dragleave", (e) => {
+        zonaDrop.style.backgroundColor = "";
+    });
+
+    zonaDrop.addEventListener("drop", (e) => {
+        e.preventDefault();
+        zonaDrop.style.backgroundColor = "";
+        const id = e.dataTransfer.getData("text/plain");
+      if (!ordenActual.includes(id)) {
+            const img = document.getElementById(id).cloneNode(true);
+            img.style.width = "50px";
+            img.draggable = false;
+
+ 
+            img.addEventListener("click", () => {
+                zonaDrop.removeChild(img);
+                const index = ordenActual.indexOf(id);
+                if (index !== -1) ordenActual.splice(index, 1);
+            });
+             zonaDrop.appendChild(img);
+            ordenActual.push(id);
+      }
+
+        const ordenCorrecto = ["estrella", "diamante", "luna", "triangulo", "cruz"];
+        if (ordenActual.length === ordenCorrecto.length &&
+            ordenActual.every((val, idx) => val === ordenCorrecto[idx])) {
+            document.getElementById("claveForm").submit();
+            document.getElementById("zonaorigen").style.display = "none";
+        }
+    });
+</script>
+}else{
+    <h5>Al acomodr los arbustos escuchas un misterioso ruido proveniente desde detras de una de las plantas. Al acercarte notas que hay una nota pegada discrtamente ahi</h5>
+    <img src="/img/pista1.png" alt=pista1>
+    <!-- <form method="post" action='@Url.Action("agregarPista")'></form> -->
+
+  }
 }
-<img src="/img/luna.png" id="arbustoLuna" draggable="true">
-<img src="/img/cruz.png" id="arbustoCruz">
-<img src="/img/estrella.png" id="arbustoEstrella">
-<img src="/img/diamante.png" id="arbustoDiamante">
-<img src="/img/triangulo.png" id="arbustoTriangulo">
-
-
 </body>
--->

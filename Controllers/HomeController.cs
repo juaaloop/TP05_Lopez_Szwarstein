@@ -14,8 +14,7 @@ public class HomeController : Controller
     }
     public IActionResult Index()
     {
-        Partida partidaNueva = new Partida();   
-        HttpContext.Session.SetString("partida", Objeto.ObjectToString(partidaNueva));
+       
         return View();
     }
 
@@ -24,12 +23,9 @@ public class HomeController : Controller
     }
 
     public IActionResult ingresarNombre(string nombre){
-        if (Objeto.StringToObject<Partida>(HttpContext.Session.GetString("partida")) != null)
-        {    
-             Partida partidaNueva= Objeto.StringToObject<Partida>(HttpContext.Session.GetString("partida"));
-             partidaNueva.iniciarPartida(nombre);
-            HttpContext.Session.SetString("partida", Objeto.ObjectToString(partidaNueva));
-        }     
+        Partida partidaNueva = new Partida(nombre);
+        HttpContext.Session.SetString("partida", Objeto.ObjectToString(partidaNueva));
+        
        
         return View("salaDeEstar");
     }
@@ -40,6 +36,9 @@ public class HomeController : Controller
     }
 
     public IActionResult patio(){
+        Partida partidaNueva= Objeto.StringToObject<Partida>(HttpContext.Session.GetString("partida"));
+        ViewBag.estaDesbloqueada = partidaNueva.salas[2].estaDesbloqueada;
+        ViewBag.nombre = partidaNueva.nombreJugador;
         return View();
     }
 
@@ -55,7 +54,7 @@ public class HomeController : Controller
           }     
 
  
-        return View(salaOriginal);
+        return RedirectToAction(salaOriginal);
     }
 
     public IActionResult irASala(string sala, int numSala){

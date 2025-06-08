@@ -1,8 +1,3 @@
-* {
-    border: 1px solid gray;
-    padding: 0%;
-    margin: 0%;
-}
 
 body {
     background-image: url('/img/fondoinicio.png');
@@ -13,7 +8,7 @@ body {
 }
 
 
-main img{
+.salaDeEstar main img{
     width:40%;
     margin-left:30%;
     position:relative;
@@ -32,4 +27,29 @@ header img{
     margin-left: -18%;
    /* hacer clickeo que haga qure aparezaca no que sea otra pestaña*/
 
+}
+.patio{
+    background-image: url('/img/patio.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#arbusto {
+    width: 100px;
+    margin: 10px;
+    cursor: grab;
+    /*ARREGLAR!! QUEDAN FEOS, PONER QUE TODOS TENGAN EL MISMO TAMAÑO ESTOS SON VALORES DE PRUEBA*/
+}
+
+#zona-drop{
+    border: 2px dashed gray; 
+    padding: 20px; 
+    min-height: 100px; 
+    margin: 20px;
+    /* para arbustos, ARREGLAR!!!!! ESTOS VALORES SON DE PRUEBA atte:iara*/
+}
+
+#claveForm{
+    display:none;
 }
