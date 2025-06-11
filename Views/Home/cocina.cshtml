@@ -1,0 +1,101 @@
+@{ ViewData["Title"] = "cocina"; }
+<div id="contenedor-dialogo">
+    <p id="texto-dialogo"></p>
+</div>
+@{
+    if(!ViewBag.estaDesbloqueada){
+        <div>
+        <img src='/img/olga.png' class="olga"  style="cursor:pointer;">
+        <script>
+         const dialogos = [
+        "¡Ah, joven! Buenos días. Ah, ¿quiere abrir el cajón ese?",
+        "Creo que yo tenía la llave pero no la puedo ir a buscar, tengo que preparar el té ahora para el señor. Si me ayudas a preparar el te puedo conseguir la llave… ",
+        "El té del señor es muy específico, si no está hecho correctamente él lo va a rechazar, la receta es fácil pero los frascos de ingredientes están mezclados y no los puedo descifrar. Usted seguro que si le sale, avísame cuando termine y le abriré el cajón"
+    ];
+
+    let dialogoId = 0;
+    let terminoDialogo = false;
+    let olgaYaClickeada=false;
+
+    document.getElementById("contenedor-dialogo").addEventListener("click", function () {
+        if (dialogoId < dialogos.length && olgaYaClickeada) {
+            document.getElementById("texto-dialogo").textContent = dialogos[dialogoId];
+            dialogoId++;
+        } else {
+            terminoDialogo = true;
+            document.getElementById("contenedor-dialogo").style.display = "none";
+        }
+    });
+         const olga = document.querySelector('.olga');
+
+        olga.addEventListener('click', () => {
+        olgaYaClickeada=true;
+        dialogoId = 0;
+        textoDialogo.textContent = dialogos[dialogoId];
+        contenedorDialogo.style.display = "block";
+        dialogoId++;
+        
+        }); 
+    </script>
+        
+        <div class="frasco" value="crema agria">
+        <img src="/img/frasco1.png" alt=fraso>
+        </div>
+
+        <div class="frasco" value="kéfir">
+        <img src="/img/frasco2.png" alt=fraso>
+        </div>
+
+        <div class="frasco" value="encurtidos">
+        <img src="/img/frasco3.png" alt=fraso>
+        </div>
+
+        <div class="frasco" value="remolacha">
+        <img src="/img/frasco4.png" alt=fraso>
+        </div>
+
+        <div class="frasco" value="cebada">
+        <img src="/img/frasco5.png" alt=fraso>
+        </div>
+
+        <script>
+        const frasco = document.querySelector('.frasco');
+
+        frasco.addEventListener('click', () => {
+        frasco.classList.toggle('active');
+
+        }); 
+        const pista = document.querySelector('.pistaFrascos');
+
+        pista.addEventListener('click', () => {
+         pista.classList.toggle('active');
+
+        }); 
+   
+        </script>
+
+        <div id=pistafrascos>
+        <img src="/img/pistaFrascos.png">
+        <img src="/img/pistaFrascos2.png" id="pistaFrascos2">
+        </div>
+        <form action='@Url.Action("desbloquearSala")'>
+        <input type="text" name="clave">
+        <input type="hidden" name="sala" value=3>
+        <input type="hidden" name="salaOriginal" value="cocina">
+        </form>
+
+        </div>
+    }else{
+        /* dialogo*/
+        <img href="/img/cajon.png" class=fotocajon>
+        <script>
+        const elemento = document.querySelector('.fotocajon');
+
+        elemento.addEventListener('click', () => {
+        elemento.classList.toggle('active');
+
+        }); 
+        </script>
+    }
+}
+

@@ -35,6 +35,12 @@ public class HomeController : Controller
         return View();
     }
 
+    public IActionResult cocina(){
+        Partida partidaNueva= Objeto.StringToObject<Partida>(HttpContext.Session.GetString("partida"));
+        ViewBag.estaDesbloqueada = partidaNueva.salas[3].estaDesbloqueada;
+        return View();
+    }
+
     public IActionResult patio(){
         Partida partidaNueva= Objeto.StringToObject<Partida>(HttpContext.Session.GetString("partida"));
         ViewBag.estaDesbloqueada = partidaNueva.salas[2].estaDesbloqueada;

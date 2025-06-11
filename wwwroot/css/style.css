@@ -53,3 +53,13 @@ header img{
 #claveForm{
     display:none;
 }
+
+.frasco{
+  padding: 10px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.frasco:hover, .frasco.active {
+  background-color: rgb(235, 217, 157);
+  width:30%
+} 
