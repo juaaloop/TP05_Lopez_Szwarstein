@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\img\\baño.png"
     },
     {
+      "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\cocina.png",
+      "PackagePath": "staticwebassets\\img\\cocina.png"
+    },
+    {
       "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\cruz.png",
       "PackagePath": "staticwebassets\\img\\cruz.png"
     },
@@ -35,6 +39,26 @@
     {
       "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\fondoinicio.png",
       "PackagePath": "staticwebassets\\img\\fondoinicio.png"
+    },
+    {
+      "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\frasco1.png",
+      "PackagePath": "staticwebassets\\img\\frasco1.png"
+    },
+    {
+      "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\frasco2.png",
+      "PackagePath": "staticwebassets\\img\\frasco2.png"
+    },
+    {
+      "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\frasco3.png",
+      "PackagePath": "staticwebassets\\img\\frasco3.png"
+    },
+    {
+      "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\frasco4.png",
+      "PackagePath": "staticwebassets\\img\\frasco4.png"
+    },
+    {
+      "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\frasco5.png",
+      "PackagePath": "staticwebassets\\img\\frasco5.png"
     },
     {
       "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\luna.png",

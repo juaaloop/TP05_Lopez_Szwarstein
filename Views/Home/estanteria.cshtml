@@ -1,0 +1,20 @@
+@{ ViewData["Title"] = "estanteria"; }
+    <link rel="stylesheet" href="~/css/style.css" />
+@{
+    if(!ViewBag.estaDesbloqueada){
+        <img src="/img/frasco1.png" alt=frasco class="frasco">
+         <img src="/img/frasco2.png" alt=frasco class="frasco">
+          <img src="/img/frasco3.png" alt=frasco class="frasco">
+         <img src="/img/frasco4.png" alt=frasco class="frasco">
+         <img src="/img/frasco5.png" alt=frasco class="frasco">
+
+        <form action='@Url.Action("desbloquearSala")'>
+        <input type="text" name="clave">
+        <input type="hidden" name="sala" value=3>
+        <input type="hidden" name="salaOriginal" value="estanteria">
+        </form>
+    }else{
+        <h1>Lo lograste iara:PONER EL CAJON ACA</h1>
+    }
+}
+      

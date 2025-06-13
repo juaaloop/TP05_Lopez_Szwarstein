@@ -55,11 +55,5 @@ header img{
 }
 
 .frasco{
-  padding: 10px;
-  border: 1px solid black;
-  cursor: pointer;
+    width:10%;
 }
-.frasco:hover, .frasco.active {
-  background-color: rgb(235, 217, 157);
-  width:30%
-} 

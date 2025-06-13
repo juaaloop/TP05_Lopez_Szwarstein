@@ -40,6 +40,11 @@ public class HomeController : Controller
         ViewBag.estaDesbloqueada = partidaNueva.salas[3].estaDesbloqueada;
         return View();
     }
+      public IActionResult estanteria(){
+        Partida partidaNueva= Objeto.StringToObject<Partida>(HttpContext.Session.GetString("partida"));
+        ViewBag.estaDesbloqueada = partidaNueva.salas[3].estaDesbloqueada;
+        return View();
+    }
 
     public IActionResult patio(){
         Partida partidaNueva= Objeto.StringToObject<Partida>(HttpContext.Session.GetString("partida"));

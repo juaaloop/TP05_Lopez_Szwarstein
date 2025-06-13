@@ -12,7 +12,7 @@ class Partida{
     
         salas.Add(1, (new Sala("Empezar",true,null)));
         salas.Add(2, (new Sala("desbloquear",false,null)));
-        salas.Add(3, (new Sala("Empezar",false,null)));
+        salas.Add(3, (new Sala("CDBAE",false,null)));
         salas.Add(4, (new Sala("Empezar",false, null)));
         List<Sala> listaDependencias = new List<Sala>();
         listaDependencias.Add(salas[2]);
