@@ -1,41 +1,31 @@
 @{ ViewData["Title"] = "cocina"; }
-<div id="contenedor-dialogo">
-    <p id="texto-dialogo"></p>
-</div>
+
 @{
     if(!ViewBag.estaDesbloqueada){
         <div>
         <img src='/img/olga.png' class="olga"  style="cursor:pointer;">
-        <script>
+        <div id="contenedor-dialogo">
+          <p id="texto-dialogo"></p>
+        </div>
+        <script> 
+        window.onload = function () {
+        
          const dialogos = [
         "¡Ah, joven! Buenos días. Ah, ¿quiere abrir el cajón ese?",
         "Creo que yo tenía la llave pero no la puedo ir a buscar, tengo que preparar el té ahora para el señor. Si me ayudas a preparar el te puedo conseguir la llave… ",
         "El té del señor es muy específico, si no está hecho correctamente él lo va a rechazar, la receta es fácil pero los frascos de ingredientes están mezclados y no los puedo descifrar. Usted seguro que si le sale, avísame cuando termine y le abriré el cajón"
     ];
-
-    let dialogoId = 0;
-    let terminoDialogo = false;
-    let olgaYaClickeada=false;
-
-    document.getElementById("contenedor-dialogo").addEventListener("click", function () {
-        if (dialogoId < dialogos.length && olgaYaClickeada) {
-            document.getElementById("texto-dialogo").textContent = dialogos[dialogoId];
-            dialogoId++;
-        } else {
-            terminoDialogo = true;
-            document.getElementById("contenedor-dialogo").style.display = "none";
-        }
-    });
-         const olga = document.querySelector('.olga');
-
-        olga.addEventListener('click', () => {
-        olgaYaClickeada=true;
-        dialogoId = 0;
-        textoDialogo.textContent = dialogos[dialogoId];
-        contenedorDialogo.style.display = "block";
-        dialogoId++;
-        
-        }); 
+   
+    let dialogoId = 0;        
+            document.querySelector('.olga').addEventListener("click", function () {      
+            if (dialogoId < dialogos.length) {
+               document.getElementById("texto-dialogo").textContent = dialogos[dialogoId];
+                dialogoId++;
+            } else {
+                document.getElementById("contenedor-dialogo").style.display = "none";
+            }
+        });
+    }
     </script>
         
         <div class="frasco" value="crema agria">
