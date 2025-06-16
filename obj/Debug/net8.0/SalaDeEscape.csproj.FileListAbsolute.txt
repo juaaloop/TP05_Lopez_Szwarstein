@@ -33,7 +33,6 @@ C:\Users\49193480\Downloads\TP05\obj\Debug\net8.0\ref\SalaDeEscape.dll
 C:\Users\juana\Downloads\TP05\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\juana\Downloads\TP05\bin\Debug\net8.0\appsettings.json
 C:\Users\juana\Downloads\TP05\bin\Debug\net8.0\SalaDeEscape.staticwebassets.runtime.json
-C:\Users\juana\Downloads\TP05\bin\Debug\net8.0\SalaDeEscape.staticwebassets.endpoints.json
 C:\Users\juana\Downloads\TP05\bin\Debug\net8.0\SalaDeEscape.exe
 C:\Users\juana\Downloads\TP05\bin\Debug\net8.0\SalaDeEscape.deps.json
 C:\Users\juana\Downloads\TP05\bin\Debug\net8.0\SalaDeEscape.runtimeconfig.json
@@ -52,9 +51,7 @@ C:\Users\juana\Downloads\TP05\obj\Debug\net8.0\SalaDeEscape.sourcelink.json
 C:\Users\juana\Downloads\TP05\obj\Debug\net8.0\scopedcss\bundle\SalaDeEscape.styles.css
 C:\Users\juana\Downloads\TP05\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\juana\Downloads\TP05\obj\Debug\net8.0\staticwebassets.development.json
-C:\Users\juana\Downloads\TP05\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\Users\juana\Downloads\TP05\obj\Debug\net8.0\staticwebassets\msbuild.SalaDeEscape.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\juana\Downloads\TP05\obj\Debug\net8.0\staticwebassets\msbuild.SalaDeEscape.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
 C:\Users\juana\Downloads\TP05\obj\Debug\net8.0\staticwebassets\msbuild.build.SalaDeEscape.props
 C:\Users\juana\Downloads\TP05\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.SalaDeEscape.props
 C:\Users\juana\Downloads\TP05\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.SalaDeEscape.props

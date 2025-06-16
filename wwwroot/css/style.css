@@ -1,59 +1,77 @@
-
 body {
-    background-image: url('/img/fondoinicio.png');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+  background-image: url("/img/fondoinicio.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-
-.salaDeEstar main img{
-    width:40%;
-    margin-left:30%;
-    position:relative;
+.contenedor-dialogo {
+background-color: rgba(0, 0, 0, 0.85); /* Fondo negro con transparencia sutil */
+    color: white;
+    padding: 30px;
+    border: 2px solid #8b0000; /* Bordó oscuro para elegancia */
+    border-radius: 12px;
+    width: 70%;
+    margin: 10% auto;
+    text-align: center;
+    font-size: 1.3rem;
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.2); /* Leve brillo dorado */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
-header img{
-    width:10%;
+.salaDeEstar {
+  background-image: url("/img/saladeestar.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.salaDeEstar main img {
+  width: 40%;
+  margin-left: 30%;
+  position: relative;
+}
+header img {
+  width: 10%;
 }
 #botonPatio {
   position: absolute;
-    width: 2.5%;
-    height: 2.5%;
-    background-color: white 0.99;
-    padding: 4%;
-    margin-bottom: 20%;
-    margin-top: 16%;
-    margin-left: -18%;
-   /* hacer clickeo que haga qure aparezaca no que sea otra pestaña*/
-
+  width: 2.5%;
+  height: 2.5%;
+  background-color: white 0.99;
+  padding: 4%;
+  margin-bottom: 20%;
+  margin-top: 16%;
+  margin-left: -18%;
+  /* hacer clickeo que haga qure aparezaca no que sea otra pestaña*/
 }
-.patio{
-    background-image: url('/img/patio.png');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+.patio {
+  background-image: url("/img/patio.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 #arbusto {
-    width: 100px;
-    margin: 10px;
-    cursor: grab;
-    /*ARREGLAR!! QUEDAN FEOS, PONER QUE TODOS TENGAN EL MISMO TAMAÑO ESTOS SON VALORES DE PRUEBA*/
+  width: 100px;
+  margin: 10px;
+  cursor: grab;
+  /*ARREGLAR!! QUEDAN FEOS, PONER QUE TODOS TENGAN EL MISMO TAMAÑO ESTOS SON VALORES DE PRUEBA*/
 }
 
-#zona-drop{
-    border: 2px dashed gray; 
-    padding: 20px; 
-    min-height: 100px; 
-    margin: 20px;
-    /* para arbustos, ARREGLAR!!!!! ESTOS VALORES SON DE PRUEBA atte:iara*/
+#zona-drop {
+  border: 2px dashed gray;
+  padding: 20px;
+  min-height: 100px;
+  margin: 20px;
+  /* para arbustos, ARREGLAR!!!!! ESTOS VALORES SON DE PRUEBA atte:iara*/
 }
 
-#claveForm{
-    display:none;
+#claveForm {
+  display: none;
 }
 
-.frasco{
-    width:10%;
+.frasco {
+  width: 10%;
 }
