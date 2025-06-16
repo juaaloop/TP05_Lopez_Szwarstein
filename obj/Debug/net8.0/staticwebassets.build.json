@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "X6jvrkjq746bH2VIHULdFv29OiL3GPnokp8jpJJVQUE=",
+  "Hash": "gNj1wWr9QV4jvcxXt7549xIUr4eTjScx/nwl0aVKrgE=",
   "Source": "SalaDeEscape",
   "BasePath": "_content/SalaDeEscape",
   "Mode": "Default",
@@ -167,6 +167,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\diamante.png"
+    },
+    {
+      "Identity": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\estanteria.png",
+      "SourceId": "SalaDeEscape",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\",
+      "BasePath": "_content/SalaDeEscape",
+      "RelativePath": "img/estanteria.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\estanteria.png"
     },
     {
       "Identity": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\estrella.png",
@@ -397,6 +416,25 @@
       "OriginalItemSpec": "wwwroot\\img\\patio.png"
     },
     {
+      "Identity": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\pergamino.png",
+      "SourceId": "SalaDeEscape",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\",
+      "BasePath": "_content/SalaDeEscape",
+      "RelativePath": "img/pergamino.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\pergamino.png"
+    },
+    {
       "Identity": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\saladeestar.png",
       "SourceId": "SalaDeEscape",
       "SourceType": "Discovered",
@@ -414,6 +452,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\saladeestar.png"
+    },
+    {
+      "Identity": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\titulo.png",
+      "SourceId": "SalaDeEscape",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\",
+      "BasePath": "_content/SalaDeEscape",
+      "RelativePath": "img/titulo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\titulo.png"
     },
     {
       "Identity": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\triangulo.png",

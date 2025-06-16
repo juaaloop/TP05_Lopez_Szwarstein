@@ -37,6 +37,10 @@
       "PackagePath": "staticwebassets\\img\\diamante.png"
     },
     {
+      "Id": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\estanteria.png",
+      "PackagePath": "staticwebassets\\img\\estanteria.png"
+    },
+    {
       "Id": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\estrella.png",
       "PackagePath": "staticwebassets\\img\\estrella.png"
     },
@@ -81,8 +85,16 @@
       "PackagePath": "staticwebassets\\img\\patio.png"
     },
     {
+      "Id": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\pergamino.png",
+      "PackagePath": "staticwebassets\\img\\pergamino.png"
+    },
+    {
       "Id": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\saladeestar.png",
       "PackagePath": "staticwebassets\\img\\saladeestar.png"
+    },
+    {
+      "Id": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\titulo.png",
+      "PackagePath": "staticwebassets\\img\\titulo.png"
     },
     {
       "Id": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\triangulo.png",

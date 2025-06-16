@@ -1,9 +1,12 @@
 @{ ViewData["Title"] = "cocina"; }
-
+<head>
+<link rel="stylesheet" href="/css/style.css" />
+</head>
+<body class="cocina">
         <div>
-        <img src='/img/olga.png' class="olga"  style="cursor:pointer;">
-        <div id="contenedor-dialogo">
-          <p id="texto-dialogo"></p>
+        <img src='/img/olga.png' id="olga"  style="cursor:pointer;">
+        <div id="contenedorDialogo">
+          <p id="textoDialogo"></p>
         </div>
         <script> 
         window.onload = function () {
@@ -23,19 +26,19 @@
     ];
     let dialogoYaRecorrido=false;
     let dialogoId = 0;        
-            document.querySelector('.olga').addEventListener("click", function () {      
+            document.getElementById("olga").addEventListener("click", function () {      
             if (dialogoId < dialogos.length && !dialogoYaRecorrido) {
-                     document.getElementById("texto-dialogo").textContent = dialogos[dialogoId];
+                     document.getElementById("textoDialogo").textContent = dialogos[dialogoId];
                      dialogoId++;
             }else if(dialogoId < dialogosNuevos.length && dialogoYaRecorrido){
-                if (document.getElementById("contenedor-dialogo").style.display === "none") {
-                      document.getElementById("contenedor-dialogo").style.display = "block";
+                if (document.getElementById("contenedorDialogo").style.display === "none") {
+                      document.getElementById("contenedorDialogo").style.display = "block";
                 }
-                      document.getElementById("texto-dialogo").textContent = dialogosNuevos[dialogoId];
+                      document.getElementById("textoDialogo").textContent = dialogosNuevos[dialogoId];
                       dialogoId++;
 
             }else{
-                document.getElementById("contenedor-dialogo").style.display = "none";
+                document.getElementById("contenedorDialogo").style.display = "none";
                 dialogoId = 0; 
                 dialogoYaRecorrido=true;
             }
@@ -52,3 +55,4 @@
         <a href='@Url.Action("estanteria")'><img src="/img/frasco1.png"></a>
         </div>
 
+</body>

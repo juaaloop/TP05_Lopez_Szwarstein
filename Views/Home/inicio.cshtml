@@ -1,10 +1,11 @@
 @{
     ViewData["Title"] = "Inicio";
 }
+<body class= "inicio">
 <head>
 <link rel="stylesheet" href="/css/style.css" />
 </head>
-<div id="contenedor-dialogo">
+<div class="contenedorDialogo" id="contenedorInicio">
     <p id="textoDialogo">Haz clic para comenzar</p>
 </div>
 
@@ -18,30 +19,30 @@
         "La servidumbre y los parientes juraban inocencia. Pero las miradas... ah, esas miradas, acusaban sin voz.",
         "La sombra del viejo patriarca se alzó, imponente. Una decisión implacable se forjaba en el aire denso de la mansión.",
         "Si el culpable no emerge antes del anochecer, la vergüenza de los Karamázov será tuya. Tu juicio está por comenzar.",
-        "Ingresa tu nombre:",
-        "form"  
+        "form"
     ];
 
-  let dialogoId = 0;
+    let dialogoId = 0;
 
-document.querySelector(".contenedor-dialogo").addEventListener("click", function () {
-    if (dialogoId < dialogos.length) {
-        if (dialogos[dialogoId] === "form") {
-            // reemplaza solo el párrafo, no todo el div
-            document.querySelector(".contenedor-dialogo").innerHTML = `
-                <form action='@Url.Action("ingresarNombre")' method="POST">
-                    <input type="text" name="nombre" placeholder="Tu nombre" required>
-                    <input type="submit" value="Entrar">
-                </form>`;
-        } else {
-            const texto = document.getElementById("textoDialogo");
-            if (texto) {
-                texto.textContent = dialogos[dialogoId];
+    document.getElementById("contenedorInicio").addEventListener("click", function () {
+        if (dialogoId < dialogos.length) {
+            const contenedor = document.getElementById("contenedorInicio");
+
+            if (dialogos[dialogoId] === "form") {
+                contenedor.innerHTML = `
+                <p>Ingresá tu nombre</p>
+                    <form action='@Url.Action("ingresarNombre", "Home")' method="POST">
+                        <input type="text" name="nombre" placeholder="Tu nombre" required />
+                        <input type="submit" value="Entrar" />
+                    </form>
+                `;
+            } else {
+                document.getElementById("textoDialogo").textContent = dialogos[dialogoId];
             }
+
+            dialogoId++;
         }
-        dialogoId++;
-    }
-});
+    });
 </script>
 
-    
+    </body>

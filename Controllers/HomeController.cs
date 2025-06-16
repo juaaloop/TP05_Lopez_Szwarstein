@@ -21,12 +21,11 @@ public class HomeController : Controller
     public IActionResult inicio(){
         return View();
     }
-
+[HttpPost]
     public IActionResult ingresarNombre(string nombre){
         Partida partidaNueva = new Partida(nombre);
         HttpContext.Session.SetString("partida", Objeto.ObjectToString(partidaNueva));
-        
-       
+
         return View("salaDeEstar");
     }
 

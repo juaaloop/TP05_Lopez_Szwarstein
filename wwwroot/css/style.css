@@ -1,24 +1,43 @@
-body {
+.inicio,
+.indice {
   background-image: url("/img/fondoinicio.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-
-.contenedor-dialogo {
-background-color: rgba(0, 0, 0, 0.85); /* Fondo negro con transparencia sutil */
-    color: white;
-    padding: 30px;
-    border: 2px solid #8b0000; /* Bordó oscuro para elegancia */
-    border-radius: 12px;
-    width: 70%;
-    margin: 10% auto;
-    text-align: center;
-    font-size: 1.3rem;
-    box-shadow: 0 0 20px rgba(255, 215, 0, 0.2); /* Leve brillo dorado */
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+.indice img{
+  margin-top:5%;
+  margin-left:30%;
+  width: 40%;
+}
+.indice::before {
+    content: "";
+    position: fixed;  /* para que cubra toda la pantalla */
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.753); /* sombra negra semi-transparente */
+    pointer-events: none; /* no bloquea interacción */
+  }
+   .indice > * {
+    position: relative;
+    z-index: 2;
+  }
+.contenedorDialogo {
+  background-color: rgba(0, 0, 0, 0.85);
+  color: white;
+  padding: 30px;
+  border: 2px solid #8b0000;
+  border-radius: 12px;
+  width: 70%;
+  margin: 10% auto;
+  text-align: center;
+  font-size: 1.3rem;
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.2);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 .salaDeEstar {
   background-image: url("/img/saladeestar.png");
@@ -46,6 +65,9 @@ header img {
   margin-left: -18%;
   /* hacer clickeo que haga qure aparezaca no que sea otra pestaña*/
 }
+
+/*PATIO*/
+
 .patio {
   background-image: url("/img/patio.png");
   background-size: cover;
@@ -59,7 +81,57 @@ header img {
   cursor: grab;
   /*ARREGLAR!! QUEDAN FEOS, PONER QUE TODOS TENGAN EL MISMO TAMAÑO ESTOS SON VALORES DE PRUEBA*/
 }
+#modalPergamino {
+  display: none;
+  position: fixed;
+  z-index: 2000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
 
+#modalContenido {
+  background-color: #f5f0e6;
+  margin: 5% auto;
+  padding: 40px 30px;
+  border: 5px solid #b48a58;
+  width: 80%;
+  max-width: 600px;
+  border-radius: 15px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  font-family: "Georgia", serif;
+  position: relative;
+  color: #3b2e1a;
+  background-image: url("/img/pergamino-textura.png"); /* opcional, si tenés una textura */
+  background-size: cover;
+}
+
+#textoPergamino p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  text-align: justify;
+  margin: 0;
+}
+
+#cerrarModal {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #3b2e1a;
+  cursor: pointer;
+}
+
+#pergamino {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1500;
+  cursor: pointer;
+}
 #zona-drop {
   border: 2px dashed gray;
   padding: 20px;
@@ -68,10 +140,72 @@ header img {
   /* para arbustos, ARREGLAR!!!!! ESTOS VALORES SON DE PRUEBA atte:iara*/
 }
 
-#claveForm {
-  display: none;
+/*COCINA*/
+.cocina {
+  background-image: url("/img/cocina.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-.frasco {
-  width: 10%;
+/*Estanteria*/
+.estanteria {
+  background-image: url("/img/estanteria.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.estanteria li {
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  user-select: none;
+  transition: transform 0.25s ease;
+}
+
+.estanteria li:hover {
+  transform: scale(1.05);
+}
+
+.estanteria li img.frasco {
+  height: 250px;
+  width: auto;
+  display: block;
+  user-select: none;
+  pointer-events: none;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+.frasco.selected {
+  transform: scale(1.1); /* 10% más grande */
+}
+button[type="submit"] {
+  background-color: #520000;
+  border: 2px solid #d4af37;
+  border-radius: 10px;
+  color: #d4af37;
+  font-size: 1.1rem;
+  padding: 10px 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  box-shadow: 0 0 10px #b87333;
+}
+
+button[type="submit"]:hover {
+  background-color: #d4af37;
+  color: #520000;
+  box-shadow: 0 0 15px #ffd700;
+}
+#claveForm {
+  display: none;
 }
