@@ -7,18 +7,19 @@
     <h2>Ordená los frascos haciendo clic en dos para intercambiarlos</h2>
 
     <form id="ordenForm" method="post" action="@Url.Action("desbloquearSala")">
+                <button type="submit">Confirmar orden</button>
+
         <ul id="estanteria" class="estanteria">
-            <li data-nombre="Keemun"><img src="/img/frasco1.png" alt="Té Keemun" class="frasco"></li>
-            <li data-nombre="Menta"><img src="/img/frasco2.png" alt="Menta" class="frasco"></li>
-            <li data-nombre="Canela"><img src="/img/frasco3.png" alt="Canela" class="frasco"></li>
-            <li data-nombre="Jengibre"><img src="/img/frasco4.png" alt="Jengibre" class="frasco"></li>
-            <li data-nombre="Miel"><img src="/img/frasco5.png" alt="Miel" class="frasco"></li>
+            <li data-nombre="Keemun"><img src="/img/frasco1.png" alt="Miel" class="frasco"></li>
+            <li data-nombre="Menta"><img src="/img/frasco2.png" alt="Mermelada" class="frasco"></li>
+            <li data-nombre="Canela"><img src="/img/frasco3.png" alt="Jenjibre" class="frasco"></li>
+            <li data-nombre="Jengibre"><img src="/img/frasco4.png" alt="Té verde" class="frasco"></li>
+            <li data-nombre="Miel"><img src="/img/frasco5.png" alt="Té negro" class="frasco"></li>
         </ul>
         
         <input type="hidden" name="ordenFrascos" id="ordenFrascos" />
         <input type="hidden" name="sala" value="3" />
         <input type="hidden" name="salaOriginal" value="estanteria" />
-        <button type="submit">Confirmar orden</button>
     </form>
 }
 else

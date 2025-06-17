@@ -1,3 +1,9 @@
+* {
+  border: 1px solid gray;
+  margin: 0%;
+  padding: 0%;
+}
+
 .inicio,
 .indice {
   background-image: url("/img/fondoinicio.png");
@@ -6,25 +12,32 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-.indice img{
-  margin-top:5%;
-  margin-left:30%;
+
+.indice img {
+  margin-top: 5%;
+  margin-left: 30%;
   width: 40%;
 }
+
 .indice::before {
-    content: "";
-    position: fixed;  /* para que cubra toda la pantalla */
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.753); /* sombra negra semi-transparente */
-    pointer-events: none; /* no bloquea interacción */
-  }
-   .indice > * {
-    position: relative;
-    z-index: 2;
-  }
+  content: "";
+  position: fixed;
+  /* para que cubra toda la pantalla */
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.753);
+  /* sombra negra semi-transparente */
+  pointer-events: none;
+  /* no bloquea interacción */
+}
+
+.indice>* {
+  position: relative;
+  z-index: 2;
+}
+
 .contenedorDialogo {
   background-color: rgba(0, 0, 0, 0.85);
   color: white;
@@ -39,6 +52,7 @@
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
+
 .salaDeEstar {
   background-image: url("/img/saladeestar.png");
   background-size: cover;
@@ -46,14 +60,17 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
 .salaDeEstar main img {
   width: 40%;
   margin-left: 30%;
   position: relative;
 }
+
 header img {
   width: 10%;
 }
+
 #botonPatio {
   position: absolute;
   width: 2.5%;
@@ -75,12 +92,30 @@ header img {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-#arbusto {
-  width: 100px;
+
+#zonaorigen {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  justify-content: center;
+  display: flex;
+
+}
+
+.arbusto {
+  width: 10%;
+  height: auto;
   margin: 10px;
   cursor: grab;
   /*ARREGLAR!! QUEDAN FEOS, PONER QUE TODOS TENGAN EL MISMO TAMAÑO ESTOS SON VALORES DE PRUEBA*/
 }
+
+.arbusto:hover {
+  transform: scale(1.05);
+  transition: transform 0.25s ease;
+
+}
+
 #modalPergamino {
   display: none;
   position: fixed;
@@ -104,7 +139,8 @@ header img {
   font-family: "Georgia", serif;
   position: relative;
   color: #3b2e1a;
-  background-image: url("/img/pergamino-textura.png"); /* opcional, si tenés una textura */
+  background-image: url("/img/pergamino-textura.png");
+  /* opcional, si tenés una textura */
   background-size: cover;
 }
 
@@ -132,6 +168,7 @@ header img {
   z-index: 1500;
   cursor: pointer;
 }
+
 #zona-drop {
   border: 2px dashed gray;
   padding: 20px;
@@ -147,6 +184,23 @@ header img {
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+.cocina a {
+  position: absolute;
+  padding: 3%;
+  width: 15%;
+  margin-top: 5%;
+  margin-left: 11%;
+  border: 2px dashed #fff;
+  text-decoration: none;
+  z-index: 9999;
+}
+
+#olga {
+  margin-top:20%;
+  margin-left: 60%;
+  transform: scaleX(-1);
 }
 
 /*Estanteria*/
@@ -166,6 +220,7 @@ header img {
 }
 
 .estanteria li {
+  width: 60%;
   padding: 0;
   margin: 0;
   cursor: pointer;
@@ -177,18 +232,22 @@ header img {
   transform: scale(1.05);
 }
 
-.estanteria li img.frasco {
-  height: 250px;
-  width: auto;
+.estanteria li img .frasco {
+  margin-top: 0%;
+  height: auto;
+  width: 0%;
   display: block;
   user-select: none;
   pointer-events: none;
   border-radius: 8px;
   transition: transform 0.3s ease;
 }
+
 .frasco.selected {
-  transform: scale(1.1); /* 10% más grande */
+  transform: scale(1.1);
+  /* 10% más grande */
 }
+
 button[type="submit"] {
   background-color: #520000;
   border: 2px solid #d4af37;
@@ -206,6 +265,7 @@ button[type="submit"]:hover {
   color: #520000;
   box-shadow: 0 0 15px #ffd700;
 }
+
 #claveForm {
   display: none;
 }
