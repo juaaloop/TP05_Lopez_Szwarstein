@@ -1,850 +1,19 @@
 {
   "Version": 1,
-  "Hash": "/+Ngu51SA0oxIGMigkrcrEAN1BVB8VejJR1T/vKv6as=",
-  "Source": "SalaDeEscape",
-  "BasePath": "_content/SalaDeEscape",
-  "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [
-    {
-      "Name": "SalaDeEscape\\wwwroot",
-      "Source": "SalaDeEscape",
-      "ContentRoot": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\",
-      "BasePath": "_content/SalaDeEscape",
-      "Pattern": "**"
-    }
-  ],
-  "Assets": [
-    {
-      "Identity": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\css\\site.css",
-      "SourceId": "SalaDeEscape",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\",
-      "BasePath": "_content/SalaDeEscape",
-      "RelativePath": "css/site#[.{fingerprint}]?.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "quyvav9uuy",
-      "Integrity": "Mvh5m/xtnIwHRQaZoAhVhiJc7Qt1QSi8GBuiRCkal1s=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\site.css"
-    },
-    {
-      "Identity": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\css\\style.css",
-      "SourceId": "SalaDeEscape",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\",
-      "BasePath": "_content/SalaDeEscape",
-      "RelativePath": "css/style#[.{fingerprint}]?.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "55q7kmn9ye",
-      "Integrity": "5yObgGnuiH7wxDiJyYlzB7IiHdKyPF4tlAzF9ACmKhE=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\style.css"
-    },
-    {
-      "Identity": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\favicon.ico",
-      "SourceId": "SalaDeEscape",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\",
-      "BasePath": "_content/SalaDeEscape",
-      "RelativePath": "favicon#[.{fingerprint}]?.ico",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "61n19gt1b8",
-      "Integrity": "Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\favicon.ico"
-    },
-    {
-      "Identity": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\baño.png",
-      "SourceId": "SalaDeEscape",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\",
-      "BasePath": "_content/SalaDeEscape",
-      "RelativePath": "img/baño#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "dxxjv3u694",
-      "Integrity": "fwIlCUWI/cfd9otFUD40e5/x8pHU6qKfe88QqUr8ZTA=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\baño.png"
-    },
-    {
-      "Identity": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\cajon.png",
-      "SourceId": "SalaDeEscape",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\",
-      "BasePath": "_content/SalaDeEscape",
-      "RelativePath": "img/cajon#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "92n7l22tpe",
-      "Integrity": "gU3x04zgGhc2vqPwj18xBQPDhMkutxm5ww7t2fOx3GY=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\cajon.png"
-    },
-    {
-      "Identity": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\cocina.png",
-      "SourceId": "SalaDeEscape",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\",
-      "BasePath": "_content/SalaDeEscape",
-      "RelativePath": "img/cocina#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "i7ru5jdp1v",
-      "Integrity": "PkaFVTsf2MUjSS1dgyhDVnK+BUoM6uM+QmHfH29wDhk=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\cocina.png"
-    },
-    {
-      "Identity": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\cruz.png",
-      "SourceId": "SalaDeEscape",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\",
-      "BasePath": "_content/SalaDeEscape",
-      "RelativePath": "img/cruz#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "wsnynvesio",
-      "Integrity": "ACA8ty2lfYOwdf00i0bfzlJadQjJVV/62M0TRvI7Ju4=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\cruz.png"
-    },
-    {
-      "Identity": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\diamante.png",
-      "SourceId": "SalaDeEscape",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\",
-      "BasePath": "_content/SalaDeEscape",
-      "RelativePath": "img/diamante#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "u99y6hv2cw",
-      "Integrity": "joJdddOnQK3yL3+A68E09TAruSJvnJlK5r9Yvs0c3G4=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\diamante.png"
-    },
-    {
-      "Identity": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\estanteria.png",
-      "SourceId": "SalaDeEscape",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\",
-      "BasePath": "_content/SalaDeEscape",
-      "RelativePath": "img/estanteria#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "691ajlm4uy",
-      "Integrity": "JhRIp4xmzIrO+KI8+8o7uJvusS0eSf6tHji5Kilnd6g=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\estanteria.png"
-    },
-    {
-      "Identity": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\estrella.png",
-      "SourceId": "SalaDeEscape",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\",
-      "BasePath": "_content/SalaDeEscape",
-      "RelativePath": "img/estrella#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "pglv3kz13i",
-      "Integrity": "aaGQwrKjNtBp1a4ajNasNP6IAXN5lFungCH+bsKGgWM=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\estrella.png"
-    },
-    {
-      "Identity": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\fondoinicio.png",
-      "SourceId": "SalaDeEscape",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\",
-      "BasePath": "_content/SalaDeEscape",
-      "RelativePath": "img/fondoinicio#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "5jj6xuu24w",
-      "Integrity": "n/4ZgbwtCazgMEwtqRr4WOrEb2aGuGKLAXnjP10vOQI=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\fondoinicio.png"
-    },
-    {
-      "Identity": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\frasco1.png",
-      "SourceId": "SalaDeEscape",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\",
-      "BasePath": "_content/SalaDeEscape",
-      "RelativePath": "img/frasco1#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "a4mk3o7ozw",
-      "Integrity": "BqCShczM9a+2Nm0EL8s0bZFgfpTODfnN4Vhc6dnS9vk=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\frasco1.png"
-    },
-    {
-      "Identity": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\frasco2.png",
-      "SourceId": "SalaDeEscape",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\",
-      "BasePath": "_content/SalaDeEscape",
-      "RelativePath": "img/frasco2#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "2bbel37sw9",
-      "Integrity": "vsGAvJ+iN+VU7cWrOgs8n3b9pEjASToCaNKRe1okuek=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\frasco2.png"
-    },
-    {
-      "Identity": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\frasco3.png",
-      "SourceId": "SalaDeEscape",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\",
-      "BasePath": "_content/SalaDeEscape",
-      "RelativePath": "img/frasco3#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "xcvjbscr1u",
-      "Integrity": "f3/fQx+Zguri4vbZezRlsj+Xgzod3zXj/pLmtDTVl9g=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\frasco3.png"
-    },
-    {
-      "Identity": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\frasco4.png",
-      "SourceId": "SalaDeEscape",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\",
-      "BasePath": "_content/SalaDeEscape",
-      "RelativePath": "img/frasco4#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "bc506zfdvz",
-      "Integrity": "9YIbxtVNW9201DVsCXnaP0luFZE2Gbmcj8ik2aZnZYo=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\frasco4.png"
-    },
-    {
-      "Identity": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\frasco5.png",
-      "SourceId": "SalaDeEscape",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\",
-      "BasePath": "_content/SalaDeEscape",
-      "RelativePath": "img/frasco5#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "45j3l0txda",
-      "Integrity": "qMgsHyfu9LZttiQ2JGmvw/3f8O+vD5SMV/h2ZeHF1DE=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\frasco5.png"
-    },
-    {
-      "Identity": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\luna.png",
-      "SourceId": "SalaDeEscape",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\",
-      "BasePath": "_content/SalaDeEscape",
-      "RelativePath": "img/luna#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "h4jnpmi0xz",
-      "Integrity": "b074SylJp229yo3kbBT4ltH4G2H9u3E84JSMJ8uh+a8=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\luna.png"
-    },
-    {
-      "Identity": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\manijas.png",
-      "SourceId": "SalaDeEscape",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\",
-      "BasePath": "_content/SalaDeEscape",
-      "RelativePath": "img/manijas#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "knlaovf889",
-      "Integrity": "IHCYoOtMOFdGm64AYPkUAtd+j1jphHHgSAda3jTBx5M=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\manijas.png"
-    },
-    {
-      "Identity": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\Mapa.png",
-      "SourceId": "SalaDeEscape",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\",
-      "BasePath": "_content/SalaDeEscape",
-      "RelativePath": "img/Mapa#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "bkn01nkf4z",
-      "Integrity": "S9RBQyQ5x9wr30slXfOnYNXm0jNMAhcm48/inPD+e1k=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\Mapa.png"
-    },
-    {
-      "Identity": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\olga.png",
-      "SourceId": "SalaDeEscape",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\",
-      "BasePath": "_content/SalaDeEscape",
-      "RelativePath": "img/olga#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "u5x3jx1ekn",
-      "Integrity": "onH/NtSPesYuWljcSkSHT9cC7g6Um+3xRuqkwS1HQ8M=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\olga.png"
-    },
-    {
-      "Identity": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\patio.png",
-      "SourceId": "SalaDeEscape",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\",
-      "BasePath": "_content/SalaDeEscape",
-      "RelativePath": "img/patio#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "kr2r36xfd9",
-      "Integrity": "QC6Y00IfLu63+o9utoa7wzgFR2AcEpC5DGgY521GREI=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\patio.png"
-    },
-    {
-      "Identity": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\pergamino.png",
-      "SourceId": "SalaDeEscape",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\",
-      "BasePath": "_content/SalaDeEscape",
-      "RelativePath": "img/pergamino#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "zfao4oc8ix",
-      "Integrity": "IREMCcaknmHNK0OIf3DtNYWHKkd6U2iEGC5gTx+DpXs=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\pergamino.png"
-    },
-    {
-      "Identity": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\saladeestar.png",
-      "SourceId": "SalaDeEscape",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\",
-      "BasePath": "_content/SalaDeEscape",
-      "RelativePath": "img/saladeestar#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "bp90qdg4hy",
-      "Integrity": "4SC4Y0JWCMfGnGiE0FaPR5/Ez9jNaHoFwTkY8beFULk=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\saladeestar.png"
-    },
-    {
-      "Identity": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\titulo.png",
-      "SourceId": "SalaDeEscape",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\",
-      "BasePath": "_content/SalaDeEscape",
-      "RelativePath": "img/titulo#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "szcr1bz7xf",
-      "Integrity": "eOg99ZvNdS+NS0VwCB3bWbk4cas9gOYxaJy2kjQnntc=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\titulo.png"
-    },
-    {
-      "Identity": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\triangulo.png",
-      "SourceId": "SalaDeEscape",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\",
-      "BasePath": "_content/SalaDeEscape",
-      "RelativePath": "img/triangulo#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "rtb2pew17x",
-      "Integrity": "X5nii6qJvzofT/Fuouri6n55w5GXKlO2G7odwHYMsGM=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\triangulo.png"
-    },
-    {
-      "Identity": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\viktor.png",
-      "SourceId": "SalaDeEscape",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\",
-      "BasePath": "_content/SalaDeEscape",
-      "RelativePath": "img/viktor#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "aacot9b8xn",
-      "Integrity": "MgXNtxsW8BZ1ewItt7NGEl3HNrB41+rRcaLCU7j8nSA=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\viktor.png"
-    },
-    {
-      "Identity": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\js\\site.js",
-      "SourceId": "SalaDeEscape",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\",
-      "BasePath": "_content/SalaDeEscape",
-      "RelativePath": "js/site#[.{fingerprint}]?.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "xtxxf3hu2r",
-      "Integrity": "hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\site.js"
-    },
-    {
-      "Identity": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
-      "SourceId": "SalaDeEscape",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\",
-      "BasePath": "_content/SalaDeEscape",
-      "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive#[.{fingerprint}]?.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "03hjc8e09r",
-      "Integrity": "xJbBMLGhYbXlPrrrddrSVmduyF6KEtbxEsYxw7hYZV4=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
-    },
-    {
-      "Identity": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
-      "SourceId": "SalaDeEscape",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\",
-      "BasePath": "_content/SalaDeEscape",
-      "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min#[.{fingerprint}]?.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "48y08845bh",
-      "Integrity": "RFWFWIIPsjB4DucR4jqwxTWw13ZmtI+s6tVR2LJmZXk=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
-    },
-    {
-      "Identity": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
-      "SourceId": "SalaDeEscape",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\",
-      "BasePath": "_content/SalaDeEscape",
-      "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE#[.{fingerprint}]?.txt",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "356vix0kms",
-      "Integrity": "16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
-    },
-    {
-      "Identity": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-      "SourceId": "SalaDeEscape",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\",
-      "BasePath": "_content/SalaDeEscape",
-      "RelativePath": "lib/jquery-validation/dist/additional-methods#[.{fingerprint}]?.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "ay5nd8zt9x",
-      "Integrity": "4jrcLBsi0Ugm8iLKdqDsAyaCDjkscYZdoGuNH/zqs4E=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
-    },
-    {
-      "Identity": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
-      "SourceId": "SalaDeEscape",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\",
-      "BasePath": "_content/SalaDeEscape",
-      "RelativePath": "lib/jquery-validation/dist/additional-methods.min#[.{fingerprint}]?.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "9oaff4kq20",
-      "Integrity": "N11IyJpHTgDcSCb3AfX4VrBnpGQeem1NoNzzgcXVyCc=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
-    },
-    {
-      "Identity": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
-      "SourceId": "SalaDeEscape",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\",
-      "BasePath": "_content/SalaDeEscape",
-      "RelativePath": "lib/jquery-validation/dist/jquery.validate#[.{fingerprint}]?.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "6d0lkjaslc",
-      "Integrity": "5qqb5VxQ2t2a6Zx/neW5uppLLvaGn4nn0NdYp6g8Lyg=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
-    },
-    {
-      "Identity": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
-      "SourceId": "SalaDeEscape",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\",
-      "BasePath": "_content/SalaDeEscape",
-      "RelativePath": "lib/jquery-validation/dist/jquery.validate.min#[.{fingerprint}]?.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "l1zq2mitth",
-      "Integrity": "6e0N+WJiVKBeTitK1GKSwPi3rbdPpLtuqaiitZjeD2w=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
-    },
-    {
-      "Identity": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
-      "SourceId": "SalaDeEscape",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\",
-      "BasePath": "_content/SalaDeEscape",
-      "RelativePath": "lib/jquery-validation/LICENSE#[.{fingerprint}]?.md",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "x0q3zqp4vz",
-      "Integrity": "geHEkw/WGPdaHQMRq5HuNY9snliNzU/y2OW8ycnhGXw=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
-    },
-    {
-      "Identity": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\lib\\jquery\\dist\\jquery.js",
-      "SourceId": "SalaDeEscape",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\",
-      "BasePath": "_content/SalaDeEscape",
-      "RelativePath": "lib/jquery/dist/jquery#[.{fingerprint}]?.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "7s2n0ol71w",
-      "Integrity": "KSI/3xxCrCexCupdzQJRP1B6Iqg+2NA+X2u38cQdqq8=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
-    },
-    {
-      "Identity": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
-      "SourceId": "SalaDeEscape",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\",
-      "BasePath": "_content/SalaDeEscape",
-      "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "ehgnz7f14e",
-      "Integrity": "zp0HUArZHsK1JMJwdk7EyaM+eDINjTdOxADt5Ij2JRs=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
-    },
-    {
-      "Identity": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
-      "SourceId": "SalaDeEscape",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\",
-      "BasePath": "_content/SalaDeEscape",
-      "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "5pze98is44",
-      "Integrity": "OZVI+w57FGwS9boYCZpH1ZSpcP7pYhLu4KtIUvPlZ4I=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
-    },
-    {
-      "Identity": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\lib\\jquery\\LICENSE.txt",
-      "SourceId": "SalaDeEscape",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\",
-      "BasePath": "_content/SalaDeEscape",
-      "RelativePath": "lib/jquery/LICENSE#[.{fingerprint}]?.txt",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "mlv21k5csn",
-      "Integrity": "hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
-    }
-  ],
   "Endpoints": [
     {
       "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\css\\site.css",
+      "AssetFile": "css/site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Length",
@@ -861,10 +30,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         }
       ],
       "EndpointProperties": [
@@ -876,12 +41,16 @@
     },
     {
       "Route": "css/site.quyvav9uuy.css",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\css\\site.css",
+      "AssetFile": "css/site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -898,10 +67,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -910,23 +75,27 @@
           "Value": "quyvav9uuy"
         },
         {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
           "Name": "integrity",
           "Value": "sha256-Mvh5m/xtnIwHRQaZoAhVhiJc7Qt1QSi8GBuiRCkal1s="
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
         }
       ]
     },
     {
       "Route": "css/style.55q7kmn9ye.css",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\css\\style.css",
+      "AssetFile": "css/style.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -943,10 +112,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 20 Jun 2025 02:23:10 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -955,23 +120,27 @@
           "Value": "55q7kmn9ye"
         },
         {
-          "Name": "label",
-          "Value": "css/style.css"
-        },
-        {
           "Name": "integrity",
           "Value": "sha256-5yObgGnuiH7wxDiJyYlzB7IiHdKyPF4tlAzF9ACmKhE="
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css"
         }
       ]
     },
     {
       "Route": "css/style.css",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\css\\style.css",
+      "AssetFile": "css/style.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Length",
@@ -988,10 +157,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 20 Jun 2025 02:23:10 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         }
       ],
       "EndpointProperties": [
@@ -1003,12 +168,16 @@
     },
     {
       "Route": "favicon.61n19gt1b8.ico",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\favicon.ico",
+      "AssetFile": "favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -1025,10 +194,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -1037,23 +202,27 @@
           "Value": "61n19gt1b8"
         },
         {
-          "Name": "label",
-          "Value": "favicon.ico"
-        },
-        {
           "Name": "integrity",
           "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        },
+        {
+          "Name": "label",
+          "Value": "favicon.ico"
         }
       ]
     },
     {
       "Route": "favicon.ico",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\favicon.ico",
+      "AssetFile": "favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
         },
         {
           "Name": "Content-Length",
@@ -1070,10 +239,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
@@ -1084,13 +249,99 @@
       ]
     },
     {
-      "Route": "img/baño.dxxjv3u694.png",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\baño.png",
+      "Route": "img/Mapa.bkn01nkf4z.png",
+      "AssetFile": "img/Mapa.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "54151"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S9RBQyQ5x9wr30slXfOnYNXm0jNMAhcm48/inPD+e1k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bkn01nkf4z"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-S9RBQyQ5x9wr30slXfOnYNXm0jNMAhcm48/inPD+e1k="
+        },
+        {
+          "Name": "label",
+          "Value": "img/Mapa.png"
+        }
+      ]
+    },
+    {
+      "Route": "img/Mapa.png",
+      "AssetFile": "img/Mapa.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "54151"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S9RBQyQ5x9wr30slXfOnYNXm0jNMAhcm48/inPD+e1k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-S9RBQyQ5x9wr30slXfOnYNXm0jNMAhcm48/inPD+e1k="
+        }
+      ]
+    },
+    {
+      "Route": "img/baño.dxxjv3u694.png",
+      "AssetFile": "img/baño.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -1107,10 +358,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -1119,23 +366,27 @@
           "Value": "dxxjv3u694"
         },
         {
-          "Name": "label",
-          "Value": "img/baño.png"
-        },
-        {
           "Name": "integrity",
           "Value": "sha256-fwIlCUWI/cfd9otFUD40e5/x8pHU6qKfe88QqUr8ZTA="
+        },
+        {
+          "Name": "label",
+          "Value": "img/baño.png"
         }
       ]
     },
     {
       "Route": "img/baño.png",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\baño.png",
+      "AssetFile": "img/baño.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
         },
         {
           "Name": "Content-Length",
@@ -1152,10 +403,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
@@ -1167,12 +414,16 @@
     },
     {
       "Route": "img/cajon.92n7l22tpe.png",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\cajon.png",
+      "AssetFile": "img/cajon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -1189,10 +440,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -1201,23 +448,27 @@
           "Value": "92n7l22tpe"
         },
         {
-          "Name": "label",
-          "Value": "img/cajon.png"
-        },
-        {
           "Name": "integrity",
           "Value": "sha256-gU3x04zgGhc2vqPwj18xBQPDhMkutxm5ww7t2fOx3GY="
+        },
+        {
+          "Name": "label",
+          "Value": "img/cajon.png"
         }
       ]
     },
     {
       "Route": "img/cajon.png",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\cajon.png",
+      "AssetFile": "img/cajon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
         },
         {
           "Name": "Content-Length",
@@ -1234,10 +485,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
@@ -1249,12 +496,16 @@
     },
     {
       "Route": "img/cocina.i7ru5jdp1v.png",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\cocina.png",
+      "AssetFile": "img/cocina.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -1271,10 +522,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -1283,23 +530,27 @@
           "Value": "i7ru5jdp1v"
         },
         {
-          "Name": "label",
-          "Value": "img/cocina.png"
-        },
-        {
           "Name": "integrity",
           "Value": "sha256-PkaFVTsf2MUjSS1dgyhDVnK+BUoM6uM+QmHfH29wDhk="
+        },
+        {
+          "Name": "label",
+          "Value": "img/cocina.png"
         }
       ]
     },
     {
       "Route": "img/cocina.png",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\cocina.png",
+      "AssetFile": "img/cocina.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
         },
         {
           "Name": "Content-Length",
@@ -1316,10 +567,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
@@ -1331,12 +578,16 @@
     },
     {
       "Route": "img/cruz.png",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\cruz.png",
+      "AssetFile": "img/cruz.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
         },
         {
           "Name": "Content-Length",
@@ -1353,10 +604,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
@@ -1368,12 +615,16 @@
     },
     {
       "Route": "img/cruz.wsnynvesio.png",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\cruz.png",
+      "AssetFile": "img/cruz.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -1390,10 +641,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -1402,23 +649,27 @@
           "Value": "wsnynvesio"
         },
         {
-          "Name": "label",
-          "Value": "img/cruz.png"
-        },
-        {
           "Name": "integrity",
           "Value": "sha256-ACA8ty2lfYOwdf00i0bfzlJadQjJVV/62M0TRvI7Ju4="
+        },
+        {
+          "Name": "label",
+          "Value": "img/cruz.png"
         }
       ]
     },
     {
       "Route": "img/diamante.png",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\diamante.png",
+      "AssetFile": "img/diamante.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
         },
         {
           "Name": "Content-Length",
@@ -1435,10 +686,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
@@ -1450,12 +697,16 @@
     },
     {
       "Route": "img/diamante.u99y6hv2cw.png",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\diamante.png",
+      "AssetFile": "img/diamante.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -1472,10 +723,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -1484,23 +731,27 @@
           "Value": "u99y6hv2cw"
         },
         {
-          "Name": "label",
-          "Value": "img/diamante.png"
-        },
-        {
           "Name": "integrity",
           "Value": "sha256-joJdddOnQK3yL3+A68E09TAruSJvnJlK5r9Yvs0c3G4="
+        },
+        {
+          "Name": "label",
+          "Value": "img/diamante.png"
         }
       ]
     },
     {
       "Route": "img/estanteria.691ajlm4uy.png",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\estanteria.png",
+      "AssetFile": "img/estanteria.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -1517,10 +768,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -1529,23 +776,27 @@
           "Value": "691ajlm4uy"
         },
         {
-          "Name": "label",
-          "Value": "img/estanteria.png"
-        },
-        {
           "Name": "integrity",
           "Value": "sha256-JhRIp4xmzIrO+KI8+8o7uJvusS0eSf6tHji5Kilnd6g="
+        },
+        {
+          "Name": "label",
+          "Value": "img/estanteria.png"
         }
       ]
     },
     {
       "Route": "img/estanteria.png",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\estanteria.png",
+      "AssetFile": "img/estanteria.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
         },
         {
           "Name": "Content-Length",
@@ -1562,10 +813,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
@@ -1577,12 +824,16 @@
     },
     {
       "Route": "img/estrella.pglv3kz13i.png",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\estrella.png",
+      "AssetFile": "img/estrella.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -1599,10 +850,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -1611,23 +858,27 @@
           "Value": "pglv3kz13i"
         },
         {
-          "Name": "label",
-          "Value": "img/estrella.png"
-        },
-        {
           "Name": "integrity",
           "Value": "sha256-aaGQwrKjNtBp1a4ajNasNP6IAXN5lFungCH+bsKGgWM="
+        },
+        {
+          "Name": "label",
+          "Value": "img/estrella.png"
         }
       ]
     },
     {
       "Route": "img/estrella.png",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\estrella.png",
+      "AssetFile": "img/estrella.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
         },
         {
           "Name": "Content-Length",
@@ -1644,10 +895,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
@@ -1659,12 +906,16 @@
     },
     {
       "Route": "img/fondoinicio.5jj6xuu24w.png",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\fondoinicio.png",
+      "AssetFile": "img/fondoinicio.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -1681,10 +932,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -1693,23 +940,27 @@
           "Value": "5jj6xuu24w"
         },
         {
-          "Name": "label",
-          "Value": "img/fondoinicio.png"
-        },
-        {
           "Name": "integrity",
           "Value": "sha256-n/4ZgbwtCazgMEwtqRr4WOrEb2aGuGKLAXnjP10vOQI="
+        },
+        {
+          "Name": "label",
+          "Value": "img/fondoinicio.png"
         }
       ]
     },
     {
       "Route": "img/fondoinicio.png",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\fondoinicio.png",
+      "AssetFile": "img/fondoinicio.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
         },
         {
           "Name": "Content-Length",
@@ -1726,10 +977,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
@@ -1741,12 +988,16 @@
     },
     {
       "Route": "img/frasco1.a4mk3o7ozw.png",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\frasco1.png",
+      "AssetFile": "img/frasco1.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -1763,10 +1014,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -1775,23 +1022,27 @@
           "Value": "a4mk3o7ozw"
         },
         {
-          "Name": "label",
-          "Value": "img/frasco1.png"
-        },
-        {
           "Name": "integrity",
           "Value": "sha256-BqCShczM9a+2Nm0EL8s0bZFgfpTODfnN4Vhc6dnS9vk="
+        },
+        {
+          "Name": "label",
+          "Value": "img/frasco1.png"
         }
       ]
     },
     {
       "Route": "img/frasco1.png",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\frasco1.png",
+      "AssetFile": "img/frasco1.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
         },
         {
           "Name": "Content-Length",
@@ -1808,10 +1059,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
@@ -1823,12 +1070,16 @@
     },
     {
       "Route": "img/frasco2.2bbel37sw9.png",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\frasco2.png",
+      "AssetFile": "img/frasco2.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -1845,10 +1096,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -1857,23 +1104,27 @@
           "Value": "2bbel37sw9"
         },
         {
-          "Name": "label",
-          "Value": "img/frasco2.png"
-        },
-        {
           "Name": "integrity",
           "Value": "sha256-vsGAvJ+iN+VU7cWrOgs8n3b9pEjASToCaNKRe1okuek="
+        },
+        {
+          "Name": "label",
+          "Value": "img/frasco2.png"
         }
       ]
     },
     {
       "Route": "img/frasco2.png",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\frasco2.png",
+      "AssetFile": "img/frasco2.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
         },
         {
           "Name": "Content-Length",
@@ -1890,10 +1141,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
@@ -1905,12 +1152,16 @@
     },
     {
       "Route": "img/frasco3.png",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\frasco3.png",
+      "AssetFile": "img/frasco3.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
         },
         {
           "Name": "Content-Length",
@@ -1927,10 +1178,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
@@ -1942,12 +1189,16 @@
     },
     {
       "Route": "img/frasco3.xcvjbscr1u.png",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\frasco3.png",
+      "AssetFile": "img/frasco3.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -1964,10 +1215,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -1976,23 +1223,27 @@
           "Value": "xcvjbscr1u"
         },
         {
-          "Name": "label",
-          "Value": "img/frasco3.png"
-        },
-        {
           "Name": "integrity",
           "Value": "sha256-f3/fQx+Zguri4vbZezRlsj+Xgzod3zXj/pLmtDTVl9g="
+        },
+        {
+          "Name": "label",
+          "Value": "img/frasco3.png"
         }
       ]
     },
     {
       "Route": "img/frasco4.bc506zfdvz.png",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\frasco4.png",
+      "AssetFile": "img/frasco4.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -2009,10 +1260,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -2021,23 +1268,27 @@
           "Value": "bc506zfdvz"
         },
         {
-          "Name": "label",
-          "Value": "img/frasco4.png"
-        },
-        {
           "Name": "integrity",
           "Value": "sha256-9YIbxtVNW9201DVsCXnaP0luFZE2Gbmcj8ik2aZnZYo="
+        },
+        {
+          "Name": "label",
+          "Value": "img/frasco4.png"
         }
       ]
     },
     {
       "Route": "img/frasco4.png",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\frasco4.png",
+      "AssetFile": "img/frasco4.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
         },
         {
           "Name": "Content-Length",
@@ -2054,10 +1305,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
@@ -2069,12 +1316,16 @@
     },
     {
       "Route": "img/frasco5.45j3l0txda.png",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\frasco5.png",
+      "AssetFile": "img/frasco5.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -2091,10 +1342,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -2103,23 +1350,27 @@
           "Value": "45j3l0txda"
         },
         {
-          "Name": "label",
-          "Value": "img/frasco5.png"
-        },
-        {
           "Name": "integrity",
           "Value": "sha256-qMgsHyfu9LZttiQ2JGmvw/3f8O+vD5SMV/h2ZeHF1DE="
+        },
+        {
+          "Name": "label",
+          "Value": "img/frasco5.png"
         }
       ]
     },
     {
       "Route": "img/frasco5.png",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\frasco5.png",
+      "AssetFile": "img/frasco5.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
         },
         {
           "Name": "Content-Length",
@@ -2136,10 +1387,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
@@ -2151,12 +1398,16 @@
     },
     {
       "Route": "img/luna.h4jnpmi0xz.png",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\luna.png",
+      "AssetFile": "img/luna.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -2173,10 +1424,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -2185,23 +1432,27 @@
           "Value": "h4jnpmi0xz"
         },
         {
-          "Name": "label",
-          "Value": "img/luna.png"
-        },
-        {
           "Name": "integrity",
           "Value": "sha256-b074SylJp229yo3kbBT4ltH4G2H9u3E84JSMJ8uh+a8="
+        },
+        {
+          "Name": "label",
+          "Value": "img/luna.png"
         }
       ]
     },
     {
       "Route": "img/luna.png",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\luna.png",
+      "AssetFile": "img/luna.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
         },
         {
           "Name": "Content-Length",
@@ -2218,10 +1469,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
@@ -2233,12 +1480,16 @@
     },
     {
       "Route": "img/manijas.knlaovf889.png",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\manijas.png",
+      "AssetFile": "img/manijas.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -2255,10 +1506,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -2267,23 +1514,27 @@
           "Value": "knlaovf889"
         },
         {
-          "Name": "label",
-          "Value": "img/manijas.png"
-        },
-        {
           "Name": "integrity",
           "Value": "sha256-IHCYoOtMOFdGm64AYPkUAtd+j1jphHHgSAda3jTBx5M="
+        },
+        {
+          "Name": "label",
+          "Value": "img/manijas.png"
         }
       ]
     },
     {
       "Route": "img/manijas.png",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\manijas.png",
+      "AssetFile": "img/manijas.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
         },
         {
           "Name": "Content-Length",
@@ -2300,10 +1551,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
@@ -2314,95 +1561,17 @@
       ]
     },
     {
-      "Route": "img/Mapa.bkn01nkf4z.png",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\Mapa.png",
+      "Route": "img/olga.png",
+      "AssetFile": "img/olga.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "54151"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"S9RBQyQ5x9wr30slXfOnYNXm0jNMAhcm48/inPD+e1k=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "bkn01nkf4z"
-        },
-        {
-          "Name": "label",
-          "Value": "img/Mapa.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-S9RBQyQ5x9wr30slXfOnYNXm0jNMAhcm48/inPD+e1k="
-        }
-      ]
-    },
-    {
-      "Route": "img/Mapa.png",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\Mapa.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "54151"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"S9RBQyQ5x9wr30slXfOnYNXm0jNMAhcm48/inPD+e1k=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-S9RBQyQ5x9wr30slXfOnYNXm0jNMAhcm48/inPD+e1k="
-        }
-      ]
-    },
-    {
-      "Route": "img/olga.png",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\olga.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
         },
         {
           "Name": "Content-Length",
@@ -2419,10 +1588,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
@@ -2434,12 +1599,16 @@
     },
     {
       "Route": "img/olga.u5x3jx1ekn.png",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\olga.png",
+      "AssetFile": "img/olga.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -2456,10 +1625,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -2468,23 +1633,27 @@
           "Value": "u5x3jx1ekn"
         },
         {
-          "Name": "label",
-          "Value": "img/olga.png"
-        },
-        {
           "Name": "integrity",
           "Value": "sha256-onH/NtSPesYuWljcSkSHT9cC7g6Um+3xRuqkwS1HQ8M="
+        },
+        {
+          "Name": "label",
+          "Value": "img/olga.png"
         }
       ]
     },
     {
       "Route": "img/patio.kr2r36xfd9.png",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\patio.png",
+      "AssetFile": "img/patio.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -2501,10 +1670,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -2513,23 +1678,27 @@
           "Value": "kr2r36xfd9"
         },
         {
-          "Name": "label",
-          "Value": "img/patio.png"
-        },
-        {
           "Name": "integrity",
           "Value": "sha256-QC6Y00IfLu63+o9utoa7wzgFR2AcEpC5DGgY521GREI="
+        },
+        {
+          "Name": "label",
+          "Value": "img/patio.png"
         }
       ]
     },
     {
       "Route": "img/patio.png",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\patio.png",
+      "AssetFile": "img/patio.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
         },
         {
           "Name": "Content-Length",
@@ -2546,10 +1715,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
@@ -2561,12 +1726,16 @@
     },
     {
       "Route": "img/pergamino.png",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\pergamino.png",
+      "AssetFile": "img/pergamino.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
         },
         {
           "Name": "Content-Length",
@@ -2583,10 +1752,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
@@ -2598,12 +1763,16 @@
     },
     {
       "Route": "img/pergamino.zfao4oc8ix.png",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\pergamino.png",
+      "AssetFile": "img/pergamino.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -2620,10 +1789,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -2632,23 +1797,27 @@
           "Value": "zfao4oc8ix"
         },
         {
-          "Name": "label",
-          "Value": "img/pergamino.png"
-        },
-        {
           "Name": "integrity",
           "Value": "sha256-IREMCcaknmHNK0OIf3DtNYWHKkd6U2iEGC5gTx+DpXs="
+        },
+        {
+          "Name": "label",
+          "Value": "img/pergamino.png"
         }
       ]
     },
     {
       "Route": "img/saladeestar.bp90qdg4hy.png",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\saladeestar.png",
+      "AssetFile": "img/saladeestar.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -2665,10 +1834,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -2677,23 +1842,27 @@
           "Value": "bp90qdg4hy"
         },
         {
-          "Name": "label",
-          "Value": "img/saladeestar.png"
-        },
-        {
           "Name": "integrity",
           "Value": "sha256-4SC4Y0JWCMfGnGiE0FaPR5/Ez9jNaHoFwTkY8beFULk="
+        },
+        {
+          "Name": "label",
+          "Value": "img/saladeestar.png"
         }
       ]
     },
     {
       "Route": "img/saladeestar.png",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\saladeestar.png",
+      "AssetFile": "img/saladeestar.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
         },
         {
           "Name": "Content-Length",
@@ -2710,10 +1879,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
@@ -2725,12 +1890,16 @@
     },
     {
       "Route": "img/titulo.png",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\titulo.png",
+      "AssetFile": "img/titulo.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
         },
         {
           "Name": "Content-Length",
@@ -2747,10 +1916,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
@@ -2762,12 +1927,16 @@
     },
     {
       "Route": "img/titulo.szcr1bz7xf.png",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\titulo.png",
+      "AssetFile": "img/titulo.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -2784,10 +1953,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -2796,23 +1961,27 @@
           "Value": "szcr1bz7xf"
         },
         {
-          "Name": "label",
-          "Value": "img/titulo.png"
-        },
-        {
           "Name": "integrity",
           "Value": "sha256-eOg99ZvNdS+NS0VwCB3bWbk4cas9gOYxaJy2kjQnntc="
+        },
+        {
+          "Name": "label",
+          "Value": "img/titulo.png"
         }
       ]
     },
     {
       "Route": "img/triangulo.png",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\triangulo.png",
+      "AssetFile": "img/triangulo.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
         },
         {
           "Name": "Content-Length",
@@ -2829,10 +1998,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
@@ -2844,12 +2009,16 @@
     },
     {
       "Route": "img/triangulo.rtb2pew17x.png",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\triangulo.png",
+      "AssetFile": "img/triangulo.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -2866,10 +2035,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -2878,23 +2043,27 @@
           "Value": "rtb2pew17x"
         },
         {
-          "Name": "label",
-          "Value": "img/triangulo.png"
-        },
-        {
           "Name": "integrity",
           "Value": "sha256-X5nii6qJvzofT/Fuouri6n55w5GXKlO2G7odwHYMsGM="
+        },
+        {
+          "Name": "label",
+          "Value": "img/triangulo.png"
         }
       ]
     },
     {
       "Route": "img/viktor.aacot9b8xn.png",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\viktor.png",
+      "AssetFile": "img/viktor.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -2911,10 +2080,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -2923,23 +2088,27 @@
           "Value": "aacot9b8xn"
         },
         {
-          "Name": "label",
-          "Value": "img/viktor.png"
-        },
-        {
           "Name": "integrity",
           "Value": "sha256-MgXNtxsW8BZ1ewItt7NGEl3HNrB41+rRcaLCU7j8nSA="
+        },
+        {
+          "Name": "label",
+          "Value": "img/viktor.png"
         }
       ]
     },
     {
       "Route": "img/viktor.png",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\viktor.png",
+      "AssetFile": "img/viktor.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
         },
         {
           "Name": "Content-Length",
@@ -2956,10 +2125,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
@@ -2971,12 +2136,16 @@
     },
     {
       "Route": "js/site.js",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\js\\site.js",
+      "AssetFile": "js/site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Length",
@@ -2993,10 +2162,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         }
       ],
       "EndpointProperties": [
@@ -3008,12 +2173,16 @@
     },
     {
       "Route": "js/site.xtxxf3hu2r.js",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\js\\site.js",
+      "AssetFile": "js/site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -3030,10 +2199,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -3042,23 +2207,109 @@
           "Value": "xtxxf3hu2r"
         },
         {
-          "Name": "label",
-          "Value": "js/site.js"
-        },
-        {
           "Name": "integrity",
           "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js"
         }
       ]
     },
     {
-      "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.03hjc8e09r.js",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Route": "lib/jquery-validation-unobtrusive/LICENSE.356vix0kms.txt",
+      "AssetFile": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1139"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "356vix0kms"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s="
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery-validation-unobtrusive/LICENSE.txt"
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "AssetFile": "lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1139"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.03hjc8e09r.js",
+      "AssetFile": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -3075,10 +2326,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -3087,23 +2334,27 @@
           "Value": "03hjc8e09r"
         },
         {
-          "Name": "label",
-          "Value": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
-        },
-        {
           "Name": "integrity",
           "Value": "sha256-xJbBMLGhYbXlPrrrddrSVmduyF6KEtbxEsYxw7hYZV4="
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
         }
       ]
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "AssetFile": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Length",
@@ -3120,10 +2371,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         }
       ],
       "EndpointProperties": [
@@ -3135,12 +2382,16 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.48y08845bh.js",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "AssetFile": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -3157,10 +2408,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -3169,23 +2416,27 @@
           "Value": "48y08845bh"
         },
         {
-          "Name": "label",
-          "Value": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
-        },
-        {
           "Name": "integrity",
           "Value": "sha256-RFWFWIIPsjB4DucR4jqwxTWw13ZmtI+s6tVR2LJmZXk="
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
         }
       ]
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "AssetFile": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Length",
@@ -3202,10 +2453,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         }
       ],
       "EndpointProperties": [
@@ -3216,423 +2463,17 @@
       ]
     },
     {
-      "Route": "lib/jquery-validation-unobtrusive/LICENSE.356vix0kms.txt",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1139"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "356vix0kms"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/jquery-validation-unobtrusive/LICENSE.txt"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s="
-        }
-      ]
-    },
-    {
-      "Route": "lib/jquery-validation-unobtrusive/LICENSE.txt",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1139"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s="
-        }
-      ]
-    },
-    {
-      "Route": "lib/jquery-validation/dist/additional-methods.ay5nd8zt9x.js",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "52977"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"4jrcLBsi0Ugm8iLKdqDsAyaCDjkscYZdoGuNH/zqs4E=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ay5nd8zt9x"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/jquery-validation/dist/additional-methods.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-4jrcLBsi0Ugm8iLKdqDsAyaCDjkscYZdoGuNH/zqs4E="
-        }
-      ]
-    },
-    {
-      "Route": "lib/jquery-validation/dist/additional-methods.js",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "52977"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"4jrcLBsi0Ugm8iLKdqDsAyaCDjkscYZdoGuNH/zqs4E=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-4jrcLBsi0Ugm8iLKdqDsAyaCDjkscYZdoGuNH/zqs4E="
-        }
-      ]
-    },
-    {
-      "Route": "lib/jquery-validation/dist/additional-methods.min.9oaff4kq20.js",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "22177"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"N11IyJpHTgDcSCb3AfX4VrBnpGQeem1NoNzzgcXVyCc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "9oaff4kq20"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/jquery-validation/dist/additional-methods.min.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-N11IyJpHTgDcSCb3AfX4VrBnpGQeem1NoNzzgcXVyCc="
-        }
-      ]
-    },
-    {
-      "Route": "lib/jquery-validation/dist/additional-methods.min.js",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "22177"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"N11IyJpHTgDcSCb3AfX4VrBnpGQeem1NoNzzgcXVyCc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-N11IyJpHTgDcSCb3AfX4VrBnpGQeem1NoNzzgcXVyCc="
-        }
-      ]
-    },
-    {
-      "Route": "lib/jquery-validation/dist/jquery.validate.6d0lkjaslc.js",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "52831"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"5qqb5VxQ2t2a6Zx/neW5uppLLvaGn4nn0NdYp6g8Lyg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "6d0lkjaslc"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/jquery-validation/dist/jquery.validate.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-5qqb5VxQ2t2a6Zx/neW5uppLLvaGn4nn0NdYp6g8Lyg="
-        }
-      ]
-    },
-    {
-      "Route": "lib/jquery-validation/dist/jquery.validate.js",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "52831"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"5qqb5VxQ2t2a6Zx/neW5uppLLvaGn4nn0NdYp6g8Lyg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-5qqb5VxQ2t2a6Zx/neW5uppLLvaGn4nn0NdYp6g8Lyg="
-        }
-      ]
-    },
-    {
-      "Route": "lib/jquery-validation/dist/jquery.validate.min.js",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "24604"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"6e0N+WJiVKBeTitK1GKSwPi3rbdPpLtuqaiitZjeD2w=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-6e0N+WJiVKBeTitK1GKSwPi3rbdPpLtuqaiitZjeD2w="
-        }
-      ]
-    },
-    {
-      "Route": "lib/jquery-validation/dist/jquery.validate.min.l1zq2mitth.js",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "24604"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"6e0N+WJiVKBeTitK1GKSwPi3rbdPpLtuqaiitZjeD2w=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "l1zq2mitth"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/jquery-validation/dist/jquery.validate.min.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-6e0N+WJiVKBeTitK1GKSwPi3rbdPpLtuqaiitZjeD2w="
-        }
-      ]
-    },
-    {
       "Route": "lib/jquery-validation/LICENSE.md",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "AssetFile": "lib/jquery-validation/LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Length",
@@ -3649,10 +2490,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         }
       ],
       "EndpointProperties": [
@@ -3664,12 +2501,16 @@
     },
     {
       "Route": "lib/jquery-validation/LICENSE.x0q3zqp4vz.md",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "AssetFile": "lib/jquery-validation/LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -3686,10 +2527,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -3698,23 +2535,437 @@
           "Value": "x0q3zqp4vz"
         },
         {
-          "Name": "label",
-          "Value": "lib/jquery-validation/LICENSE.md"
-        },
-        {
           "Name": "integrity",
           "Value": "sha256-geHEkw/WGPdaHQMRq5HuNY9snliNzU/y2OW8ycnhGXw="
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery-validation/LICENSE.md"
         }
       ]
     },
     {
-      "Route": "lib/jquery/dist/jquery.7s2n0ol71w.js",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Route": "lib/jquery-validation/dist/additional-methods.ay5nd8zt9x.js",
+      "AssetFile": "lib/jquery-validation/dist/additional-methods.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "52977"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4jrcLBsi0Ugm8iLKdqDsAyaCDjkscYZdoGuNH/zqs4E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ay5nd8zt9x"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4jrcLBsi0Ugm8iLKdqDsAyaCDjkscYZdoGuNH/zqs4E="
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery-validation/dist/additional-methods.js"
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-validation/dist/additional-methods.js",
+      "AssetFile": "lib/jquery-validation/dist/additional-methods.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "52977"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4jrcLBsi0Ugm8iLKdqDsAyaCDjkscYZdoGuNH/zqs4E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4jrcLBsi0Ugm8iLKdqDsAyaCDjkscYZdoGuNH/zqs4E="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-validation/dist/additional-methods.min.9oaff4kq20.js",
+      "AssetFile": "lib/jquery-validation/dist/additional-methods.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22177"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"N11IyJpHTgDcSCb3AfX4VrBnpGQeem1NoNzzgcXVyCc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9oaff4kq20"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-N11IyJpHTgDcSCb3AfX4VrBnpGQeem1NoNzzgcXVyCc="
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery-validation/dist/additional-methods.min.js"
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-validation/dist/additional-methods.min.js",
+      "AssetFile": "lib/jquery-validation/dist/additional-methods.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22177"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"N11IyJpHTgDcSCb3AfX4VrBnpGQeem1NoNzzgcXVyCc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-N11IyJpHTgDcSCb3AfX4VrBnpGQeem1NoNzzgcXVyCc="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-validation/dist/jquery.validate.6d0lkjaslc.js",
+      "AssetFile": "lib/jquery-validation/dist/jquery.validate.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "52831"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5qqb5VxQ2t2a6Zx/neW5uppLLvaGn4nn0NdYp6g8Lyg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6d0lkjaslc"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5qqb5VxQ2t2a6Zx/neW5uppLLvaGn4nn0NdYp6g8Lyg="
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery-validation/dist/jquery.validate.js"
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-validation/dist/jquery.validate.js",
+      "AssetFile": "lib/jquery-validation/dist/jquery.validate.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "52831"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5qqb5VxQ2t2a6Zx/neW5uppLLvaGn4nn0NdYp6g8Lyg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5qqb5VxQ2t2a6Zx/neW5uppLLvaGn4nn0NdYp6g8Lyg="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-validation/dist/jquery.validate.min.js",
+      "AssetFile": "lib/jquery-validation/dist/jquery.validate.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24604"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6e0N+WJiVKBeTitK1GKSwPi3rbdPpLtuqaiitZjeD2w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6e0N+WJiVKBeTitK1GKSwPi3rbdPpLtuqaiitZjeD2w="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-validation/dist/jquery.validate.min.l1zq2mitth.js",
+      "AssetFile": "lib/jquery-validation/dist/jquery.validate.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24604"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6e0N+WJiVKBeTitK1GKSwPi3rbdPpLtuqaiitZjeD2w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l1zq2mitth"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6e0N+WJiVKBeTitK1GKSwPi3rbdPpLtuqaiitZjeD2w="
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery-validation/dist/jquery.validate.min.js"
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery/LICENSE.mlv21k5csn.txt",
+      "AssetFile": "lib/jquery/LICENSE.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1117"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mlv21k5csn"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk="
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery/LICENSE.txt"
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery/LICENSE.txt",
+      "AssetFile": "lib/jquery/LICENSE.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1117"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery/dist/jquery.7s2n0ol71w.js",
+      "AssetFile": "lib/jquery/dist/jquery.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -3731,10 +2982,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -3743,23 +2990,27 @@
           "Value": "7s2n0ol71w"
         },
         {
-          "Name": "label",
-          "Value": "lib/jquery/dist/jquery.js"
-        },
-        {
           "Name": "integrity",
           "Value": "sha256-KSI/3xxCrCexCupdzQJRP1B6Iqg+2NA+X2u38cQdqq8="
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery/dist/jquery.js"
         }
       ]
     },
     {
       "Route": "lib/jquery/dist/jquery.js",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "AssetFile": "lib/jquery/dist/jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Length",
@@ -3776,10 +3027,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         }
       ],
       "EndpointProperties": [
@@ -3791,12 +3038,16 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.5pze98is44.map",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "AssetFile": "lib/jquery/dist/jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -3813,10 +3064,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -3825,23 +3072,27 @@
           "Value": "5pze98is44"
         },
         {
-          "Name": "label",
-          "Value": "lib/jquery/dist/jquery.min.map"
-        },
-        {
           "Name": "integrity",
           "Value": "sha256-OZVI+w57FGwS9boYCZpH1ZSpcP7pYhLu4KtIUvPlZ4I="
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery/dist/jquery.min.map"
         }
       ]
     },
     {
       "Route": "lib/jquery/dist/jquery.min.ehgnz7f14e.js",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "AssetFile": "lib/jquery/dist/jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -3858,10 +3109,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -3870,23 +3117,27 @@
           "Value": "ehgnz7f14e"
         },
         {
-          "Name": "label",
-          "Value": "lib/jquery/dist/jquery.min.js"
-        },
-        {
           "Name": "integrity",
           "Value": "sha256-zp0HUArZHsK1JMJwdk7EyaM+eDINjTdOxADt5Ij2JRs="
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery/dist/jquery.min.js"
         }
       ]
     },
     {
       "Route": "lib/jquery/dist/jquery.min.js",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "AssetFile": "lib/jquery/dist/jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Length",
@@ -3903,10 +3154,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         }
       ],
       "EndpointProperties": [
@@ -3918,12 +3165,16 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.map",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "AssetFile": "lib/jquery/dist/jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Length",
@@ -3940,98 +3191,12 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
           "Value": "sha256-OZVI+w57FGwS9boYCZpH1ZSpcP7pYhLu4KtIUvPlZ4I="
-        }
-      ]
-    },
-    {
-      "Route": "lib/jquery/LICENSE.mlv21k5csn.txt",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\lib\\jquery\\LICENSE.txt",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1117"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "mlv21k5csn"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/jquery/LICENSE.txt"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk="
-        }
-      ]
-    },
-    {
-      "Route": "lib/jquery/LICENSE.txt",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\lib\\jquery\\LICENSE.txt",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1117"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 20 Jun 2025 02:00:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk="
         }
       ]
     }

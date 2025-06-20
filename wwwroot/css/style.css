@@ -198,7 +198,7 @@ header img {
 }
 
 #olga {
-  margin-top:20%;
+  margin-top: 20%;
   margin-left: 60%;
   transform: scaleX(-1);
 }
@@ -214,15 +214,15 @@ header img {
   padding: 0;
   margin: 0;
   display: flex;
-  gap: 20px;
+  clear: both;
   justify-content: center;
   align-items: flex-end;
 }
 
 .estanteria li {
-  width: 60%;
-  padding: 0;
-  margin: 0;
+  width: 15%;
+  padding: 1%;
+  margin: 0%;
   cursor: pointer;
   user-select: none;
   transition: transform 0.25s ease;
@@ -232,14 +232,10 @@ header img {
   transform: scale(1.05);
 }
 
-.estanteria li img .frasco {
-  margin-top: 0%;
+.estanteria li .frasco {
+  clear: both;
   height: auto;
-  width: 0%;
-  display: block;
-  user-select: none;
-  pointer-events: none;
-  border-radius: 8px;
+  width:90%;
   transition: transform 0.3s ease;
 }
 
@@ -269,3 +265,9 @@ button[type="submit"]:hover {
 #claveForm {
   display: none;
 }
+
+
+  /* SALA DE RETRATOS*/
+  .salaDeRetratos{
+
+  }

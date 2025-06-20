@@ -158,3 +158,6 @@ C:\Users\49002406\Downloads\TP05\obj\Debug\net8.0\refint\SalaDeEscape.dll
 C:\Users\49002406\Downloads\TP05\obj\Debug\net8.0\SalaDeEscape.pdb
 C:\Users\49002406\Downloads\TP05\obj\Debug\net8.0\SalaDeEscape.genruntimeconfig.cache
 C:\Users\49002406\Downloads\TP05\obj\Debug\net8.0\ref\SalaDeEscape.dll
+C:\Users\juana\Downloads\TP05\bin\Debug\net8.0\SalaDeEscape.staticwebassets.endpoints.json
+C:\Users\juana\Downloads\TP05\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\juana\Downloads\TP05\obj\Debug\net8.0\staticwebassets\msbuild.SalaDeEscape.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
