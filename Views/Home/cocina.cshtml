@@ -2,12 +2,13 @@
 <head>
 <link rel="stylesheet" href="/css/style.css" />
 </head>
+ <header>
+        <a href="@Url.Action("salaDeEstar")">Volver a la sala de estar</a>
+    </header>
 <body class="cocina">
-                <a href='@Url.Action("estanteria")'></a id="botonEstante">
-
         <div>
         <img src='/img/olga.png' id="olga"  style="cursor:pointer;">
-        <div id="contenedorDialogo">
+        <div id="contenedorDialogo" class="contenedorDialogo">
           <p id="textoDialogo"></p>
         </div>
         <script> 
@@ -54,6 +55,7 @@
         }); 
    
         </script>
+        <a href='@Url.Action("estanteria")'><img src="/img/frasco1.png"></a>
         </div>
 
 </body>

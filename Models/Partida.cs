@@ -12,21 +12,22 @@ class Partida{
     
         salas.Add(1, (new Sala("Empezar",true,null)));
         salas.Add(2, (new Sala("desbloquear",false,null)));
-        salas.Add(3, (new Sala("CDBAE",false,null)));
-        salas.Add(4, (new Sala("Empezar",false, null)));
-        List<Sala> listaDependencias = new List<Sala>();
-        listaDependencias.Add(salas[2]);
-        listaDependencias.Add(salas[3]);
-        listaDependencias.Add(salas[4]);
+        salas.Add(3, (new Sala("JKCNM",false,null)));
+        List<int> listaDependencias0 = new List<int>();
+        listaDependencias0.Add(3);
+        salas.Add(4, (new Sala("Karamázov1900",false, listaDependencias0)));
+        List<int> listaDependencias = new List<int>();
+        listaDependencias.Add(2);
+        listaDependencias.Add(4);
         salas.Add(5, (new Sala("Empezar",false, listaDependencias)));
-        List<Sala> listaDependencias2 = new List<Sala>();
-        listaDependencias2.Add(salas[5]);
+        List<int> listaDependencias2 = new List<int>();
+        listaDependencias2.Add(5);
         salas.Add(6, (new Sala("Empezar",false,listaDependencias2)));
-        List<Sala> listaDependencias3 = new List<Sala>();
-        listaDependencias3.Add(salas[6]);
+        List<int> listaDependencias3 = new List<int>();
+        listaDependencias3.Add(6);
         salas.Add(7, (new Sala("Empezar",false,listaDependencias3)));
-        List<Sala> listaDependencias4 = new List<Sala>();
-        listaDependencias4.Add(salas[7]);
+        List<int> listaDependencias4 = new List<int>();
+        listaDependencias4.Add(7);
         salas.Add(8, (new Sala("Empezar",false,listaDependencias4)));
 
     }
