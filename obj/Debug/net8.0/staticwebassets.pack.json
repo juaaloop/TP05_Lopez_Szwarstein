@@ -89,6 +89,14 @@
       "PackagePath": "staticwebassets\\img\\pergamino.png"
     },
     {
+      "Id": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\retrato1.png",
+      "PackagePath": "staticwebassets\\img\\retrato1.png"
+    },
+    {
+      "Id": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\salaDeRetratos.png",
+      "PackagePath": "staticwebassets\\img\\salaDeRetratos.png"
+    },
+    {
       "Id": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\saladeestar.png",
       "PackagePath": "staticwebassets\\img\\saladeestar.png"
     },

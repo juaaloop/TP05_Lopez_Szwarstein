@@ -85,7 +85,7 @@
       ]
     },
     {
-      "Route": "css/style.55q7kmn9ye.css",
+      "Route": "css/style.3zswkn4sbq.css",
       "AssetFile": "css/style.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -99,7 +99,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5123"
+          "Value": "5358"
         },
         {
           "Name": "Content-Type",
@@ -107,21 +107,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"5yObgGnuiH7wxDiJyYlzB7IiHdKyPF4tlAzF9ACmKhE=\""
+          "Value": "\"r+rqXtNLWPUGqRd1sXEbb9Axtw2keqCCX5pQ+BiFsdU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 20 Jun 2025 02:23:10 GMT"
+          "Value": "Fri, 20 Jun 2025 14:17:14 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "55q7kmn9ye"
+          "Value": "3zswkn4sbq"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-5yObgGnuiH7wxDiJyYlzB7IiHdKyPF4tlAzF9ACmKhE="
+          "Value": "sha256-r+rqXtNLWPUGqRd1sXEbb9Axtw2keqCCX5pQ+BiFsdU="
         },
         {
           "Name": "label",
@@ -144,7 +144,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5123"
+          "Value": "5358"
         },
         {
           "Name": "Content-Type",
@@ -152,17 +152,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"5yObgGnuiH7wxDiJyYlzB7IiHdKyPF4tlAzF9ACmKhE=\""
+          "Value": "\"r+rqXtNLWPUGqRd1sXEbb9Axtw2keqCCX5pQ+BiFsdU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 20 Jun 2025 02:23:10 GMT"
+          "Value": "Fri, 20 Jun 2025 14:17:14 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-5yObgGnuiH7wxDiJyYlzB7IiHdKyPF4tlAzF9ACmKhE="
+          "Value": "sha256-r+rqXtNLWPUGqRd1sXEbb9Axtw2keqCCX5pQ+BiFsdU="
         }
       ]
     },
@@ -1803,6 +1803,170 @@
         {
           "Name": "label",
           "Value": "img/pergamino.png"
+        }
+      ]
+    },
+    {
+      "Route": "img/retrato1.kk8xllmr7m.png",
+      "AssetFile": "img/retrato1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2452265"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pHIsEMQ+sTUll21XHTSGZ/DDessDaO0bjYwE0GYhork=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 14:17:20 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kk8xllmr7m"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pHIsEMQ+sTUll21XHTSGZ/DDessDaO0bjYwE0GYhork="
+        },
+        {
+          "Name": "label",
+          "Value": "img/retrato1.png"
+        }
+      ]
+    },
+    {
+      "Route": "img/retrato1.png",
+      "AssetFile": "img/retrato1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2452265"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pHIsEMQ+sTUll21XHTSGZ/DDessDaO0bjYwE0GYhork=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 14:17:20 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pHIsEMQ+sTUll21XHTSGZ/DDessDaO0bjYwE0GYhork="
+        }
+      ]
+    },
+    {
+      "Route": "img/salaDeRetratos.04oirvpj0c.png",
+      "AssetFile": "img/salaDeRetratos.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2206905"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cI6txOrfTRnK2sN+ZuKXUDi/JkzxWHtKbssgk/742Og=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 14:03:08 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "04oirvpj0c"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cI6txOrfTRnK2sN+ZuKXUDi/JkzxWHtKbssgk/742Og="
+        },
+        {
+          "Name": "label",
+          "Value": "img/salaDeRetratos.png"
+        }
+      ]
+    },
+    {
+      "Route": "img/salaDeRetratos.png",
+      "AssetFile": "img/salaDeRetratos.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2206905"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cI6txOrfTRnK2sN+ZuKXUDi/JkzxWHtKbssgk/742Og=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 14:03:08 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cI6txOrfTRnK2sN+ZuKXUDi/JkzxWHtKbssgk/742Og="
         }
       ]
     },

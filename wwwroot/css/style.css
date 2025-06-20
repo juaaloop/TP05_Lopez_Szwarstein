@@ -269,5 +269,12 @@ button[type="submit"]:hover {
 
   /* SALA DE RETRATOS*/
   .salaDeRetratos{
-
+    background-image: url("/img/salaDeRetratos.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  list-style: none;
+  padding: 0;
+  margin: 0;
   }
