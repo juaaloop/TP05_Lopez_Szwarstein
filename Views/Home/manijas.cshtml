@@ -3,28 +3,53 @@
  <header>
         <a href="@Url.Action("salaDeEstar")">Volver a la sala de estar</a>
     </header>
-
-<form action="@Url.Action("enviarValorManija")" method="post">
-    <input type="hidden" name="" id="">
+@{ if(ViewBag.estaDesbloqueada){
+    <h1>Desbloqueada</h1>
+}else{
+    <form action="@Url.Action("enviarValorManija")" method="post">
     <input type="hidden" name="valor" value="1">
     <input type="hidden" name="manija" value="1">
-    <input type="hidden" name="numeroActual" value="ViewBag.numeroActual">
-    <input type="hidden" name="manija1" value="ViewBag.manija1">
-    <input type="hidden" name="manija2" value="ViewBag.manija2">
+    <input type="hidden" name="numeroActual" value="@ViewBag.numeroActual">
+    <input type="hidden" name="manija1" value="@ViewBag.manija1">
+    <input type="hidden" name="manija2" value="@ViewBag.manija2">
     <button type="submit" alt="enviar manija 1"><a href=""></a></button>
     
 </form>
-
+    <form action="@Url.Action("enviarValorManija")" method="post">
+    <input type="hidden" name="valor" value="-1">
+    <input type="hidden" name="manija" value="1">
+    <input type="hidden" name="numeroActual" value="@ViewBag.numeroActual">
+    <input type="hidden" name="manija1" value="@ViewBag.manija1">
+    <input type="hidden" name="manija2" value="@ViewBag.manija2">
+    <button type="submit" alt="enviar manija 1 menos"><a href=""></a></button>
+    
+</form>
 <form action="@Url.Action("enviarValorManija")" method="post">
     <input type="hidden" name="valor" value="3">
     <input type="hidden" name="manija" value="2">
-    <input type="hidden" name="numeroActual" value="ViewBag.numeroActual">
-    <input type="hidden" name="manija1" value="ViewBag.manija1">
-    <input type="hidden" name="manija2" value="ViewBag.manija2">
+    <input type="hidden" name="numeroActual" value="@ViewBag.numeroActual">
+    <input type="hidden" name="manija1" value="@ViewBag.manija1">
+    <input type="hidden" name="manija2" value="@ViewBag.manija2">
     <button type="submit" alt="enviar manija 2"><a href=""></a></button>
 
-    
+</form>
+<form action="@Url.Action("enviarValorManija")" method="post">
+    <input type="hidden" name="valor" value="-3">
+    <input type="hidden" name="manija" value="2">
+    <input type="hidden" name="numeroActual" value="@ViewBag.numeroActual">
+    <input type="hidden" name="manija1" value="@ViewBag.manija1">
+    <input type="hidden" name="manija2" value="@ViewBag.manija2">
+    <button type="submit" alt="enviar manija 2 menos"><a href=""></a></button>
+
 </form>
 <h2>@ViewBag.numeroActual</h2>
 <h3>@ViewBag.manija1</h3>
 <h3>@ViewBag.manija2</h3>
+<form action="@Url.Action("desbloquearSala")" method="post">
+    <input type="hidden" name="clave" value="@(ViewBag.manija1.ToString() + ViewBag.manija2.ToString())">
+    <input type="hidden" name="sala" value="5">
+    <input type="hidden" name="salaOriginal" value="baño">
+
+    
+</form>
+}}

@@ -19,7 +19,7 @@ class Partida{
         List<int> listaDependencias = new List<int>();
         listaDependencias.Add(2);
         listaDependencias.Add(4);
-        salas.Add(5, (new Sala("Empezar",false, listaDependencias)));
+        salas.Add(5, (new Sala("53",false, listaDependencias)));
         List<int> listaDependencias2 = new List<int>();
         listaDependencias2.Add(5);
         salas.Add(6, (new Sala("Empezar",false,listaDependencias2)));

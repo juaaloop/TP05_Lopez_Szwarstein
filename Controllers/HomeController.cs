@@ -64,25 +64,36 @@ public class HomeController : Controller
 
         return View();
     }
-     public IActionResult manijas(int numeroActual, int manija1, int manija2){
-        ViewBag.numeroActual=numeroActual;
+     public IActionResult manijas(int numeroActual1, int manija1, int manija2){
+        Partida partidaNueva= Objeto.StringToObject<Partida>(HttpContext.Session.GetString("partida"));
+        ViewBag.estaDesbloqueada = partidaNueva.salas[5].estaDesbloqueada;
+        ViewBag.numeroActual=numeroActual1;
         ViewBag.manija1 = manija1;
         ViewBag.manija2 = manija2;
         return View();
     }
-    public IActionResult enviarValorManija(int valor, int manija, int numeroActual, int manija1, int manija2)
+    public IActionResult enviarValorManija(int valor, int manija, int numeroActual, int Manija1, int Manija2)
     {
-        numeroActual += valor;
-        if (manija == 1)
-             {
-                 manija1++;
-             }
-        else
-             {
-                 manija2++;
-             }
+        
+        if (!(numeroActual == 0 && valor < 0)){ 
+            numeroActual = numeroActual+valor;
+            if (manija == 1){
+                if (valor == -1){
+                    Manija1 = Manija1 - 1;
+                }
+            else{
+                Manija1++;
+                }
+            }else if (valor == -3){
+                 Manija2 = Manija2 - 1;
+                }else{
+                     Manija2++;
+                    }
+             
 
-        return RedirectToAction("manijas", new { numeroActual = numeroActual, manija1 = manija1, manija2 = manija2 });
+        }
+       
+        return RedirectToAction("manijas", new { numeroActual1 = numeroActual, manija1 = Manija1, manija2 = Manija2 });
     }
     public IActionResult desbloquearSala(string clave, int sala, string salaOriginal)
     {
