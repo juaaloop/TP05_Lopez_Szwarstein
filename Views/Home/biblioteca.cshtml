@@ -1,3 +1,141 @@
+@{ ViewData["Title"] = "estanteria"; }
+    <link rel="stylesheet" href="~/css/style.css" />
+<body class="biblioteca">
  <header>
         <a href="@Url.Action("salaDeEstar")">Volver a la sala de estar</a>
     </header>
+
+<div class="grid-container">
+    <div class="libro" data-name="Libro1">
+        <div class="libro-dentro">
+             <div class="carta-frente"><img src="/img/libro1.png"></div>
+             <div class="carta-detras"><img src="/img/libro1ContraTapa.png"></div>
+        </div>
+    </div>
+
+      <div class="libro" data-name="Libro2">
+        <div class="libro-dentro">
+             <div class="carta-frente"><img src="/img/libro2.png"></div>
+             <div class="carta-detras"><img src="/img/libro2ContraTapa.png"></div>
+        </div>
+    </div>
+
+   <div class="libro" data-name="Libro2">
+        <div class="libro-dentro">
+             <div class="carta-frente"><img src="/img/libro2.png"></div>
+             <div class="carta-detras"><img src="/img/libro2ContraTapa.png"></div>
+        </div>
+    </div>
+    <div class="libro" data-name="Libro1">
+        <div class="libro-dentro">
+             <div class="carta-frente"><img src="/img/libro1.png"></div>
+             <div class="carta-detras"><img src="/img/libro1ContraTapa.png"></div>
+        </div>
+    </div>
+
+    <div class="libro" data-name="Libro3">
+        <div class="libro-dentro">
+             <div class="carta-frente"><img src="/img/libro3.png"></div>
+             <div class="carta-detras"><img src="/img/libro3ContraTapa.png"></div>
+        </div>
+    </div>
+
+    <div class="libro" data-name="Libro5">
+        <div class="libro-dentro">
+             <div class="carta-frente"><img src="/img/libro5.png"></div>
+             <div class="carta-detras"><img src="/img/libro5ContraTapa.png"></div>
+        </div>
+    </div>
+    <div class="libro" data-name="Libro5">
+        <div class="libro-dentro">
+             <div class="carta-frente"><img src="/img/libro5.png"></div>
+             <div class="carta-detras"><img src="/img/libro5ContraTapa.png"></div>
+        </div>
+    </div>
+   <div class="libro" data-name="Libro3">
+        <div class="libro-dentro">
+             <div class="carta-frente"><img src="/img/libro3.png"></div>
+             <div class="carta-detras"><img src="/img/libro3ContraTapa.png"></div>
+        </div>
+    </div>
+
+</div>
+  <div class="actions">
+        <button onclick="restart()">Restart</button>
+    </div>
+<form id="claveForm" method="post" action='@Url.Action("desbloquearSala")'>
+    <input type="hidden" name="clave" value="Empezar" />
+    <input type="hidden" name="sala" value=7 />
+    <input type="hidden" name="salaOriginal" value="biblioteca" />
+</form>
+<script>
+const gridContainer =  document.querySelectorAll(".libro")
+let libros = document.querySelectorAll(".libro");
+
+
+let score=0;
+let firstCard, secondCard;
+let lockBoard = false;
+
+libros.forEach(libro => {
+  libro.addEventListener("click", flipCard);
+});
+
+function restart() {
+  location.reload();
+}
+    function flipCard() {
+  if (lockBoard) return;
+  if (this === firstCard) return;
+
+  this.classList.add("flipped");
+
+  if (!firstCard) {
+    firstCard = this;
+    return;
+  }
+
+  secondCard = this;
+  lockBoard = true;
+
+  checkForMatch();
+}
+function checkForMatch() {
+  let isMatch = firstCard.dataset.name === secondCard.dataset.name;
+   
+  isMatch ? disableCards() : score++: unflipCards();
+  if(score==4){
+    document.getElementById("claveForm").submit();
+  }
+}
+
+function disableCards() {
+  firstCard.removeEventListener("click", flipCard);
+  secondCard.removeEventListener("click", flipCard);
+
+  resetBoard();
+}
+
+function unflipCards() {
+  setTimeout(() => {
+    firstCard.classList.remove("flipped");
+    secondCard.classList.remove("flipped");
+    resetBoard();
+  }, 1000);
+}
+
+function resetBoard() {
+  firstCard = null;
+  secondCard = null;
+  lockBoard = false;
+}
+
+function restart() {
+  resetBoard();
+  shuffleCards();
+  gridContainer.innerHTML = "";
+  generateCards();
+}
+</script>
+
+</body>

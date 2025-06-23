@@ -278,3 +278,58 @@ button[type="submit"]:hover {
   padding: 0;
   margin: 0;
   }
+
+  .actions {
+    display: flex;
+    justify-content: center;
+}
+
+.actions button {
+    padding: 8px 16px;
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: #27ae60;
+    color: white;
+}
+
+.grid-container {
+  display: grid;
+  justify-content: center;
+  grid-gap: 16px;
+  grid-template-columns: repeat(6, 140px);
+  grid-template-rows: repeat(2, calc(140px / 2 * 3));
+}
+
+.libro {
+  height: calc(140px / 2 * 3);
+  width: 140px;
+  border-radius: 10px;
+  background-color: white;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease-in-out;
+}
+.front-image {
+  width: 60px;
+  height: 60px;
+}
+
+.libro.flipped {
+  transform: rotateY(180deg);
+}
+
+.front, .back {
+    backface-visibility: hidden;
+    position: absolute;
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.libro .front {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

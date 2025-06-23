@@ -64,6 +64,24 @@ public class HomeController : Controller
 
         return View();
     }
+
+      public IActionResult salaDeRetratos(){
+
+        return View();
+    }
+
+      public IActionResult biblioteca(){
+
+        return View();
+    }
+     public IActionResult estudio(){
+
+        return View();
+    }
+      public IActionResult final(){
+
+        return View();
+    }
      public IActionResult manijas(int numeroActual1, int manija1, int manija2){
         Partida partidaNueva= Objeto.StringToObject<Partida>(HttpContext.Session.GetString("partida"));
         ViewBag.estaDesbloqueada = partidaNueva.salas[5].estaDesbloqueada;

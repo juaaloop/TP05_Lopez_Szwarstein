@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6fj8FRTvUv1r/oVWJ09rsFQ+pCg2kws2TB2iF8cvK1E=",
+  "Hash": "YnWkn6KIDSVzrvEsVz6w6qOeL+ow8bJIdtiG2xr+lCk=",
   "Source": "SalaDeEscape",
   "BasePath": "_content/SalaDeEscape",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "SalaDeEscape\\wwwroot",
       "Source": "SalaDeEscape",
-      "ContentRoot": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\",
       "BasePath": "_content/SalaDeEscape",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\css\\site.css",
       "SourceId": "SalaDeEscape",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\",
       "BasePath": "_content/SalaDeEscape",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\css\\style.css",
+      "Identity": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\css\\style.css",
       "SourceId": "SalaDeEscape",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\",
       "BasePath": "_content/SalaDeEscape",
       "RelativePath": "css/style.css",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
-      "Identity": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\favicon.ico",
       "SourceId": "SalaDeEscape",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\",
       "BasePath": "_content/SalaDeEscape",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\img\\baño.png",
+      "Identity": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\baño.png",
       "SourceId": "SalaDeEscape",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\",
       "BasePath": "_content/SalaDeEscape",
       "RelativePath": "img/baño.png",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\img\\baño.png"
     },
     {
-      "Identity": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\img\\cajon.png",
+      "Identity": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\cajon.png",
       "SourceId": "SalaDeEscape",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\",
       "BasePath": "_content/SalaDeEscape",
       "RelativePath": "img/cajon.png",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\img\\cajon.png"
     },
     {
-      "Identity": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\img\\cocina.png",
+      "Identity": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\cocina.png",
       "SourceId": "SalaDeEscape",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\",
       "BasePath": "_content/SalaDeEscape",
       "RelativePath": "img/cocina.png",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\img\\cocina.png"
     },
     {
-      "Identity": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\img\\cruz.png",
+      "Identity": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\cruz.png",
       "SourceId": "SalaDeEscape",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\",
       "BasePath": "_content/SalaDeEscape",
       "RelativePath": "img/cruz.png",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\img\\cruz.png"
     },
     {
-      "Identity": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\img\\diamante.png",
+      "Identity": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\diamante.png",
       "SourceId": "SalaDeEscape",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\",
       "BasePath": "_content/SalaDeEscape",
       "RelativePath": "img/diamante.png",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\img\\diamante.png"
     },
     {
-      "Identity": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\img\\estanteria.png",
+      "Identity": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\estanteria.png",
       "SourceId": "SalaDeEscape",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\",
       "BasePath": "_content/SalaDeEscape",
       "RelativePath": "img/estanteria.png",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\img\\estanteria.png"
     },
     {
-      "Identity": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\img\\estrella.png",
+      "Identity": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\estrella.png",
       "SourceId": "SalaDeEscape",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\",
       "BasePath": "_content/SalaDeEscape",
       "RelativePath": "img/estrella.png",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\img\\estrella.png"
     },
     {
-      "Identity": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\img\\fondoinicio.png",
+      "Identity": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\fondoinicio.png",
       "SourceId": "SalaDeEscape",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\",
       "BasePath": "_content/SalaDeEscape",
       "RelativePath": "img/fondoinicio.png",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\img\\fondoinicio.png"
     },
     {
-      "Identity": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\img\\frasco1.png",
+      "Identity": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\frasco1.png",
       "SourceId": "SalaDeEscape",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\",
       "BasePath": "_content/SalaDeEscape",
       "RelativePath": "img/frasco1.png",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\img\\frasco1.png"
     },
     {
-      "Identity": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\img\\frasco2.png",
+      "Identity": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\frasco2.png",
       "SourceId": "SalaDeEscape",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\",
       "BasePath": "_content/SalaDeEscape",
       "RelativePath": "img/frasco2.png",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\img\\frasco2.png"
     },
     {
-      "Identity": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\img\\frasco3.png",
+      "Identity": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\frasco3.png",
       "SourceId": "SalaDeEscape",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\",
       "BasePath": "_content/SalaDeEscape",
       "RelativePath": "img/frasco3.png",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\img\\frasco3.png"
     },
     {
-      "Identity": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\img\\frasco4.png",
+      "Identity": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\frasco4.png",
       "SourceId": "SalaDeEscape",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\",
       "BasePath": "_content/SalaDeEscape",
       "RelativePath": "img/frasco4.png",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\img\\frasco4.png"
     },
     {
-      "Identity": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\img\\frasco5.png",
+      "Identity": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\frasco5.png",
       "SourceId": "SalaDeEscape",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\",
       "BasePath": "_content/SalaDeEscape",
       "RelativePath": "img/frasco5.png",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\img\\frasco5.png"
     },
     {
-      "Identity": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\img\\luna.png",
+      "Identity": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\luna.png",
       "SourceId": "SalaDeEscape",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\",
       "BasePath": "_content/SalaDeEscape",
       "RelativePath": "img/luna.png",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\img\\luna.png"
     },
     {
-      "Identity": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\img\\manijas.png",
+      "Identity": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\manijas.png",
       "SourceId": "SalaDeEscape",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\",
       "BasePath": "_content/SalaDeEscape",
       "RelativePath": "img/manijas.png",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\img\\manijas.png"
     },
     {
-      "Identity": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\img\\Mapa.png",
+      "Identity": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\Mapa.png",
       "SourceId": "SalaDeEscape",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\",
       "BasePath": "_content/SalaDeEscape",
       "RelativePath": "img/Mapa.png",
       "AssetKind": "All",
@@ -378,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Mapa.png"
     },
     {
-      "Identity": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\img\\olga.png",
+      "Identity": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\olga.png",
       "SourceId": "SalaDeEscape",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\",
       "BasePath": "_content/SalaDeEscape",
       "RelativePath": "img/olga.png",
       "AssetKind": "All",
@@ -397,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\img\\olga.png"
     },
     {
-      "Identity": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\img\\patio.png",
+      "Identity": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\patio.png",
       "SourceId": "SalaDeEscape",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\",
       "BasePath": "_content/SalaDeEscape",
       "RelativePath": "img/patio.png",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\img\\patio.png"
     },
     {
-      "Identity": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\img\\pergamino.png",
+      "Identity": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\pergamino.png",
       "SourceId": "SalaDeEscape",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\",
       "BasePath": "_content/SalaDeEscape",
       "RelativePath": "img/pergamino.png",
       "AssetKind": "All",
@@ -435,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\img\\pergamino.png"
     },
     {
-      "Identity": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\img\\retrato1.png",
+      "Identity": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\retrato1.png",
       "SourceId": "SalaDeEscape",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\",
       "BasePath": "_content/SalaDeEscape",
       "RelativePath": "img/retrato1.png",
       "AssetKind": "All",
@@ -454,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\img\\retrato1.png"
     },
     {
-      "Identity": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\img\\saladeestar.png",
+      "Identity": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\saladeestar.png",
       "SourceId": "SalaDeEscape",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\",
       "BasePath": "_content/SalaDeEscape",
       "RelativePath": "img/saladeestar.png",
       "AssetKind": "All",
@@ -473,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\img\\saladeestar.png"
     },
     {
-      "Identity": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\img\\salaDeRetratos.png",
+      "Identity": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\salaDeRetratos.png",
       "SourceId": "SalaDeEscape",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\",
       "BasePath": "_content/SalaDeEscape",
       "RelativePath": "img/salaDeRetratos.png",
       "AssetKind": "All",
@@ -492,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\img\\salaDeRetratos.png"
     },
     {
-      "Identity": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\img\\titulo.png",
+      "Identity": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\titulo.png",
       "SourceId": "SalaDeEscape",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\",
       "BasePath": "_content/SalaDeEscape",
       "RelativePath": "img/titulo.png",
       "AssetKind": "All",
@@ -511,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\img\\titulo.png"
     },
     {
-      "Identity": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\img\\triangulo.png",
+      "Identity": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\triangulo.png",
       "SourceId": "SalaDeEscape",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\",
       "BasePath": "_content/SalaDeEscape",
       "RelativePath": "img/triangulo.png",
       "AssetKind": "All",
@@ -530,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\img\\triangulo.png"
     },
     {
-      "Identity": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\img\\viktor.png",
+      "Identity": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\viktor.png",
       "SourceId": "SalaDeEscape",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\",
       "BasePath": "_content/SalaDeEscape",
       "RelativePath": "img/viktor.png",
       "AssetKind": "All",
@@ -549,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\img\\viktor.png"
     },
     {
-      "Identity": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\js\\site.js",
       "SourceId": "SalaDeEscape",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\",
       "BasePath": "_content/SalaDeEscape",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -568,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "SalaDeEscape",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\",
       "BasePath": "_content/SalaDeEscape",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -587,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "SalaDeEscape",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\",
       "BasePath": "_content/SalaDeEscape",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -606,10 +606,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "SalaDeEscape",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\",
       "BasePath": "_content/SalaDeEscape",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -625,10 +625,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "SalaDeEscape",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\",
       "BasePath": "_content/SalaDeEscape",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -644,10 +644,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "SalaDeEscape",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\",
       "BasePath": "_content/SalaDeEscape",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "SalaDeEscape",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\",
       "BasePath": "_content/SalaDeEscape",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -682,10 +682,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "SalaDeEscape",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\",
       "BasePath": "_content/SalaDeEscape",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -701,10 +701,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "SalaDeEscape",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\",
       "BasePath": "_content/SalaDeEscape",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -720,10 +720,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "SalaDeEscape",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\",
       "BasePath": "_content/SalaDeEscape",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -739,10 +739,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "SalaDeEscape",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\",
       "BasePath": "_content/SalaDeEscape",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -758,10 +758,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "SalaDeEscape",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\",
       "BasePath": "_content/SalaDeEscape",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -777,10 +777,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "SalaDeEscape",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\",
       "BasePath": "_content/SalaDeEscape",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
