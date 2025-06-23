@@ -1,13 +1,20 @@
 class Partida{
     public string nombreJugador {get;private set;}
     public Dictionary<int,Sala> salas{get;private set;}    
-    public int cantPistasUsadas{get;private set;}
+    public Dictionary<int,bool>  pistasRecolectadas{get;private set;}
     public List<Sospechoso> listaSospechosos {get;private set;}
 
     public Partida(string NombreJugador){
         salas = new Dictionary<int, Sala>();
-        cantPistasUsadas = 0;
-        listaSospechosos=new List<Sospechoso>();
+        pistasRecolectadas = new Dictionary<int, bool>();
+        pistasRecolectadas.Add(2, false);
+        pistasRecolectadas.Add(3, false);
+        pistasRecolectadas.Add(4, false);
+        pistasRecolectadas.Add(5, false);
+        pistasRecolectadas.Add(6, false);
+        pistasRecolectadas.Add(7, false);
+
+        listaSospechosos =new List<Sospechoso>();
         this.nombreJugador = NombreJugador;
     
         salas.Add(1, (new Sala("Empezar",true,null)));

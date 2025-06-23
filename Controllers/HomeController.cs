@@ -122,6 +122,7 @@ public class HomeController : Controller
             if (partidaNueva.salas[sala].clave == clave)
             {
                 partidaNueva.salas[sala].estaDesbloqueada = true;
+                partidaNueva.pistasRecolectadas[sala] = true;
             }       
                  HttpContext.Session.SetString("partida", Objeto.ObjectToString(partidaNueva));
         }

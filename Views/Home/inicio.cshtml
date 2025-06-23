@@ -5,7 +5,7 @@
 <head>
 <link rel="stylesheet" href="/css/style.css" />
 </head>
-<div class="contenedorDialogo" id="contenedorInicio">
+<div class="contenedorDialogo" id="contenedorInicio" tabindex="0">
     <p id="textoDialogo">Haz clic para comenzar</p>
 </div>
 
@@ -23,8 +23,7 @@
     ];
 
     let dialogoId = 0;
-
-    document.getElementById("contenedorInicio").addEventListener("click", function () {
+    function avanzarDialogo(){
         if (dialogoId < dialogos.length) {
             const contenedor = document.getElementById("contenedorInicio");
 
@@ -41,8 +40,14 @@
             }
 
             dialogoId++;
+                 }
+    }
+    document.getElementById("contenedorInicio").addEventListener("click", avanzarDialogo);
+     document.getElementById("contenedorInicio").addEventListener("keydown", function (event) {
+        if(event.key=="Enter" || event.key==" "){
+             avanzarDialogo();
         }
-    });
+        });
 </script>
 
     </body>
