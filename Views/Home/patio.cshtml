@@ -9,9 +9,7 @@
     </header>
 <body class="patio">
 @{if(!ViewBag.estaDesbloqueada){ 
-<div id="zona-drop">
-    
-</div>
+<div id="zona-drop"></div>
 <div class="contenedor-dialogo" id="contenedorPatio">
     <p id="textoDialogo">Haz clic para comenzar</p>
 </div>
@@ -29,6 +27,7 @@
     <input type="hidden" name="sala" value=2 />
     <input type="hidden" name="salaOriginal" value="patio" />
 </form>
+
 <a href="#" id="pergamino"><img src="/img/pergamino.png" alt="elemento"> </a>
 <div id="modalPergamino" style="display:none;">
     <div id="modalContenido">
@@ -106,18 +105,17 @@ Y al final, la cruz solemne donde los caminos se unen.<br>
         }
     });
 
-// Abrir modal al hacer clic en el pergamino
 document.getElementById("pergamino").addEventListener("click", function(e) {
-    e.preventDefault(); // evita que el enlace recargue la página
+    e.preventDefault();
     document.getElementById("modalPergamino").style.display = "block";
 });
 
-// Cerrar modal al hacer clic en la X
+
 document.getElementById("cerrarModal").addEventListener("click", function() {
     document.getElementById("modalPergamino").style.display = "none";
 });
 
-// Cerrar modal si haces clic fuera del contenido
+
 window.addEventListener("click", function(e) {
     if (e.target === document.getElementById("modalPergamino")) {
         document.getElementById("modalPergamino").style.display = "none";
@@ -127,8 +125,6 @@ window.addEventListener("click", function(e) {
 }else{
     <h5>Al acomodr los arbustos escuchas un misterioso ruido proveniente desde detras de una de las plantas. Al acercarte notas que hay una nota pegada discrtamente ahi</h5>
     <img src="/img/pista1.png" alt=pista1>
-    /* <form method="post" action='@Url.Action("agregarPista")'></form> */
-
   }
 }
 </body>

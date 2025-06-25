@@ -3,9 +3,13 @@ class Partida{
     public Dictionary<int,Sala> salas{get;private set;}    
     public Dictionary<int,bool>  pistasRecolectadas{get;private set;}
     public List<Sospechoso> listaSospechosos {get;private set;}
+    public bool partidaGanada{get;private set;}
+    public Sospechoso culpable{get;private set;}
+    public List<int> idPistas{get;private set;}
 
     public Partida(string NombreJugador){
         salas = new Dictionary<int, Sala>();
+        partidaGanada=false;
         pistasRecolectadas = new Dictionary<int, bool>();
         pistasRecolectadas.Add(2, false);
         pistasRecolectadas.Add(3, false);
@@ -13,6 +17,7 @@ class Partida{
         pistasRecolectadas.Add(5, false);
         pistasRecolectadas.Add(6, false);
         pistasRecolectadas.Add(7, false);
+        pistasRecolectadas.Add(8, false);
 
         listaSospechosos =new List<Sospechoso>();
         this.nombreJugador = NombreJugador;
@@ -36,6 +41,22 @@ class Partida{
         List<int> listaDependencias4 = new List<int>();
         listaDependencias4.Add(7);
         salas.Add(8, (new Sala("Empezar",false,listaDependencias4)));
+
+
+        listaSospechosos.Add(new("Abuelo Iván","abuelo.png"));
+        listaSospechosos.Add(new("Dmitri","tio.png"));
+        listaSospechosos.Add(new("Elena","hermana.png"));
+        listaSospechosos.Add(new("Andrei","primo.png"));
+        listaSospechosos.Add(new("Nikolai","mayordomo.png"));
+        listaSospechosos.Add(new("Olga","cocinera.png"));
+        listaSospechosos.Add(new("Viktor","jardinera.png"));
+
+        culpable=listaSospechosos[3];
+        idPistas.Add(2);
+        idPistas.Add(3);
+        idPistas.Add(5);
+        idPistas.Add(7);
+        idPistas.Add(8);
 
     }
 }

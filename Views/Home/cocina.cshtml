@@ -7,6 +7,9 @@
     </header>
 <body class="cocina">
         <div>
+        @{ if(ViewBag.estaDesbloqueada==false){
+            
+
         <img src='/img/olga.png' id="olga"  style="cursor:pointer;">
         <div id="contenedorDialogo" class="contenedorDialogo">
           <p id="textoDialogo"></p>
@@ -56,6 +59,5 @@
    
         </script>
         <a href='@Url.Action("estanteria")'><img src="/img/frasco1.png"></a>
-        </div>
-
+        }}
 </body>

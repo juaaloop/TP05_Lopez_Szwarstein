@@ -56,6 +56,10 @@ public class HomeController : Controller
 
         return View();
     }
+     public IActionResult caja(){
+
+        return View();
+    }
     public IActionResult luz(){
 
         return View();
@@ -75,11 +79,8 @@ public class HomeController : Controller
         return View();
     }
      public IActionResult estudio(){
-
-        return View();
-    }
-      public IActionResult final(){
-
+         Partida partidaNueva= Objeto.StringToObject<Partida>(HttpContext.Session.GetString("partida"));
+         ViewBag.ListaSospechosos=partidaNueva.listaSospechosos;
         return View();
     }
      public IActionResult manijas(int numeroActual1, int manija1, int manija2){
@@ -138,7 +139,46 @@ public class HomeController : Controller
             return View();
          }
     }
+
+        public IActionResult comprobarVictoria(Sospechoso acusado, List<int> pistasElegidas){
+         Partida partidaNueva= Objeto.StringToObject<Partida>(HttpContext.Session.GetString("partida"));
+         pistasElegidas.Sort();
+         int i=0;
+         bool perdio=false;
+         if(partidaNueva.culpable==acusado){
+            if(pistasElegidas.Count == partidaNueva.idPistas.Count){
+               foreach(int num in idPistas){
+                if(num!=pistasElegidas[i]){
+                    perdio==true;
+                }
+               }
+               i++;
+            }
+            if(!perdio){
+                partidaNueva.partidaGanada==true;
+            }
+         }
+        HttpContext.Session.SetString("partida", Objeto.ObjectToString(partidaNueva));
+        return RedirectToAction(final);
+    }
     public IActionResult mapa(){
         return View();
     }
-}
+    public IActionResult final(){
+        Partida partidaNueva= Objeto.StringToObject<Partida>(HttpContext.Session.GetString("partida"));
+        if(partidaGanada){
+            return RedirectToAction("finalBueno");
+        }else{
+            return RedirectToAction("finalMalo");
+        }
+
+    }
+      public IActionResult finalBueno(){
+      return View();
+      }
+    public IActionResult finalMalo(){
+        Partida partidaNueva= Objeto.StringToObject<Partida>(HttpContext.Session.GetString("partida"));
+        return View();
+    }
+    }
+

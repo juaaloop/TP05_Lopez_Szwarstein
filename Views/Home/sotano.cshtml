@@ -1,11 +1,9 @@
-@{ ViewData["Title"] = "estanteria"; }
+@{ ViewData["Title"] = "sotano"; }
     <link rel="stylesheet" href="~/css/style.css" />
  <header>
         <a href="@Url.Action("salaDeEstar")">Volver a la sala de estar</a>
     </header>
- <form  method="post" action="@Url.Action("desbloquearSala")">
-        <input type="text" name="clave" class="contenedorDialogo"/>
-        <input type="hidden" name="sala" value="4" />
-        <input type="hidden" name="salaOriginal" value="sotano" />
-        <button type="submit">Desbloquear</button>
-    </form>
+<main>
+<a href="@Url.Action("caja")">a</a>
+
+</main>

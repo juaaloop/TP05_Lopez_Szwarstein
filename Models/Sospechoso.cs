@@ -6,4 +6,9 @@ class Sospechoso{
         nombreSospechoso = "";
         foto ="";
     }
+
+    public void generarSospechoso(string NombreSospechoso,string Foto){
+        nombreSospechoso=NombreSospechoso;
+        foto=Foto;
+    }
 }
