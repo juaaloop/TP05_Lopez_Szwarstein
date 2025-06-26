@@ -13,10 +13,8 @@
   background-attachment: fixed;
 }
 
-.indice img {
-  margin-top: 5%;
-  margin-left: 30%;
-  width: 40%;
+.indice h1 {
+  font-family: 'Titulo', sans-serif;
 }
 
 .indice::before {
@@ -332,4 +330,13 @@ button[type="submit"]:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/*FUENTESS*/
+@font-face {
+  font-family: 'Titulo';
+  src: url('~/fonts/RigorMortisRegular.woff2') format('woff2'),
+       url('~/fonts/RigorMortisRegular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }

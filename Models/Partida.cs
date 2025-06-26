@@ -3,7 +3,7 @@ class Partida{
     public Dictionary<int,Sala> salas{get;private set;}    
     public Dictionary<int,bool>  pistasRecolectadas{get;private set;}
     public List<Sospechoso> listaSospechosos {get;private set;}
-    public bool partidaGanada{get;private set;}
+    public bool partidaGanada{get;set;}
     public Sospechoso culpable{get;private set;}
     public List<int> idPistas{get;private set;}
 

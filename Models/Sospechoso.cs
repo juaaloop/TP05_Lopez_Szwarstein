@@ -1,14 +1,9 @@
-class Sospechoso{
+public class Sospechoso{
     public string nombreSospechoso {get;private set;}
     public string foto {get;private set;}
-
-    public Sospechoso (){
-        nombreSospechoso = "";
-        foto ="";
-    }
-
-    public void generarSospechoso(string NombreSospechoso,string Foto){
-        nombreSospechoso=NombreSospechoso;
-        foto=Foto;
+     public Sospechoso(string nombreSospechoso, string foto)
+    {
+        this.nombreSospechoso = nombreSospechoso;
+        this.foto = foto;
     }
 }
