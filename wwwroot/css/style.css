@@ -1,43 +1,175 @@
 * {
-  border: 1px solid gray;
   margin: 0%;
   padding: 0%;
+  font-family: 'Crimson Text', serif;
+}
+
+.fondo-blur {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/img/fondoinicio.png');
+  background-size: cover;
+  background-position: center;
+  filter: blur(2px);
+  z-index: -1;
+}
+
+.contenido {
+  position: relative;
+  z-index: 1;
+  color: white;
+  text-align: center;
+  top: 30%;
 }
 
 .inicio,
 .indice {
-  background-image: url("/img/fondoinicio.png");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  font-family: 'Times New Roman', serif;
 }
+
 
 .indice h1 {
-  font-family: 'Titulo', sans-serif;
+  margin-top: 7.5%;
+  font-weight: 700;
+  font-size: 125px;
+  letter-spacing: 0.1em;
+  color: #572020;
+  font-family: 'Cormorant SC', serif;
+  text-shadow:
+    -1px -1px 0 #a17847,
+    1px -1px 0 #cfa879,
+    -1px 1px 0 #a17847,
+    1px 1px 0 #a17847,
+    0 0 5px #8b5e3c,
+    0 0 10px #7a4c28,
+    0 0 15px #6f4620;
+  text-align: center;
+}
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(ellipse at center, rgba(255,255,255,0) 40%, rgba(0,0,0,0.5) 100%);
+  pointer-events: none;
+}
+.snowflake {
+  position: fixed;
+  top: -5%;
+  color: white;
+  font-size: 1.2rem;
+  opacity: 0.8;
+  animation-name: caer;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  pointer-events: none;
 }
 
-.indice::before {
+@keyframes caer {
+  0% {
+    transform: translateY(-100px) translateX(0);
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateY(110vh) translateX(50px);
+    opacity: 0;
+  }
+}
+/*COPITOS*/
+.snowflake:nth-child(1)  { left: 5%;  font-size: 1rem;  animation-delay: 0s; }
+.snowflake:nth-child(2)  { left: 12%; font-size: 1.6rem;animation-delay: 2s; }
+.snowflake:nth-child(3)  { left: 20%; font-size: 1.2rem;animation-delay: 1s; }
+.snowflake:nth-child(4)  { left: 28%; font-size: 1.4rem;animation-delay: 3s; }
+.snowflake:nth-child(5)  { left: 36%; font-size: 1.1rem;animation-delay: 4s; }
+.snowflake:nth-child(6)  { left: 44%; font-size: 1.8rem;animation-delay: 2.5s; }
+.snowflake:nth-child(7)  { left: 52%; font-size: 1.3rem;animation-delay: 1.8s; }
+.snowflake:nth-child(8)  { left: 60%; font-size: 1.5rem;animation-delay: 3.2s; }
+.snowflake:nth-child(9)  { left: 68%; font-size: 1.2rem;animation-delay: 0.5s; }
+.snowflake:nth-child(10) { left: 76%; font-size: 1.7rem;animation-delay: 2.8s; }
+.snowflake:nth-child(11) { left: 84%; font-size: 1.1rem;animation-delay: 0.8s; }
+.snowflake:nth-child(12) { left: 90%; font-size: 1.6rem;animation-delay: 4.5s; }
+.snowflake:nth-child(13) { left: 25%; font-size: 1.3rem;animation-delay: 1.3s; }
+.snowflake:nth-child(14) { left: 50%; font-size: 1.9rem;animation-delay: 2.3s; }
+.snowflake:nth-child(15) { left: 70%; font-size: 1.4rem;animation-delay: 3.7s; }
+h2 {
+  margin-top:-1.5%;
+  text-align: center;
+  font-family: 'Cormorant SC', serif;
+  font-weight: 800;
+  font-size: 2rem;
+  color: #1f1b1b;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 5%;
+}
+
+nav a {
+  clear: both;
+  width: 12%;
+  display: inline-block;
+  padding: 0.75%;
+  font-family: 'Crimson Text', serif;
+  font-weight: normal;
+  font-size: 1.2rem;
+  color: white;
+  background-color: #572020;
+  border: 2px solid #a17847;
+  outline: 5px solid #572020;
+  border-radius: 8px;
+  text-decoration: none;
+  text-align: center;
+  box-shadow: 0 0 0 0 transparent;
+  cursor: pointer;
+  transition: background-color 0.3s ease,
+    color 0.3s ease,
+    border-color 0.3s ease,
+    outline-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+nav a:hover,
+nav a:focus {
+  background-color: #f0d68a;
+  color: #6a2a1f;
+  border-color: #f0d68a;
+  outline-color: #f0d68a;
+  box-shadow:
+    0 0 15px 6px rgba(240, 214, 138, 0.85),
+    0 0 30px 8px rgba(240, 214, 138, 0.6);
+  transition: all 0.3 ease;
+}
+
+.fondo-blur::before {
   content: "";
   position: fixed;
-  /* para que cubra toda la pantalla */
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.753);
-  /* sombra negra semi-transparente */
+  background-color: rgba(158, 152, 152, 0.3);
   pointer-events: none;
-  /* no bloquea interacción */
 }
 
 .indice>* {
   position: relative;
   z-index: 2;
 }
-
+.inicio
 .contenedorDialogo {
-  display:block;
+  display: block;
   background-color: rgba(0, 0, 0, 0.85);
   color: white;
   padding: 30px;
@@ -51,8 +183,9 @@
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
+
 .contenedorDialogoPersonaje {
-  display:none;
+  display: none;
   background-color: rgba(0, 0, 0, 0.85);
   color: white;
   padding: 30px;
@@ -65,66 +198,54 @@
   box-shadow: 0 0 20px rgba(255, 215, 0, 0.2);
   cursor: pointer;
   transition: background-color 0.3s ease;
+}
+
+main header a {
+  width: 100%;
+  display: inline-block;
 }
 
 #map-icon {
-  font-size: 28px;
+  width: 15%;
+  float: right;
   cursor: pointer;
+  padding: 0%;
+  margin: 0%;
   background-color: rgba(255, 255, 255, 0.8);
-  padding: 8px 12px;
-  border-radius: 8px;
+  border-radius: 10px;
 }
 
-/* Capa borrosa detrás del mapa */
-#blur-overlay {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  backdrop-filter: blur(8px);
-  background: rgba(0, 0, 0, 0.2);
-  z-index: 998;
-}
-
-/* Capa del mapa */
 #map-overlay {
   display: none;
   position: fixed;
+  z-index: 2000;
   top: 0;
   left: 0;
-  width: 50%;
-  height: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  pointer-events: none;
-  /* se activa con toggle */
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 #map-content {
-  background: #fff;
-  padding: 20px;
-  border-radius: 12px;
-  max-width: 80%;
-  max-height: 80%;
-  overflow: auto;
+  background-color: #f5f0e6;
+  margin: 5% auto;
+  padding: 40px 30px;
+  border: 5px solid #b48a58;
+  width: 80%;
+  max-width: 600px;
+  border-radius: 15px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  font-family: "Georgia", serif;
   position: relative;
-  pointer-events: auto;
+  color: #3b2e1a;
+  background-image: url("/img/pergamino-textura.png");
+  background-size: cover;
 }
 
 #map-content img {
   width: 100%;
   height: auto;
-}
-
-#close-map {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  font-size: 20px;
-  cursor: pointer;
+  margin: 0%;
 }
 
 .salaDeEstar {
@@ -214,7 +335,6 @@ header img {
   position: relative;
   color: #3b2e1a;
   background-image: url("/img/pergamino-textura.png");
-  /* opcional, si tenés una textura */
   background-size: cover;
 }
 
@@ -225,7 +345,8 @@ header img {
   margin: 0;
 }
 
-#cerrarModal {
+#cerrarModal,
+#close-map {
   position: absolute;
   top: 10px;
   right: 20px;
@@ -413,8 +534,78 @@ button[type="submit"]:hover {
 /*FUENTESS*/
 @font-face {
   font-family: 'Titulo';
-  src: url('~/fonts/RigorMortisRegular.woff2') format('woff2'),
-    url('~/fonts/RigorMortisRegular.woff') format('woff');
+  src: url('/fonts/RigorMortisRegular.woff2') format('woff2'),
+    url('/fonts/RigorMortisRegular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+}
+
+@font-face {
+  font-family: 'Crimson Text';
+  src: url('/fonts/crimsontext-regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Crimson Text';
+  src: url('/fonts/crimsontext-bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Crimson Text';
+  src: url('/fonts/crimsontext-italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Crimson Text';
+  src: url('/fonts/crimsontext-bolditalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Crimson Text';
+  src: url('/fonts/crimsontext-semibolditalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Cormorant SC';
+  src: url('/fonts/cormorantsc-regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cormorant SC';
+  src: url('/fonts/cormorantsc-light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cormorant SC';
+  src: url('/fonts/cormorantsc-medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cormorant SC';
+  src: url('/fonts/cormorantsc-semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cormorant SC';
+  src: url('/fonts/cormorantsc-bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: bold;
 }

@@ -2,9 +2,16 @@
 <head>
 <link rel="stylesheet" href="~/css/style.css" />
 </head>
- <header>
-        <a href="@Url.Action("salaDeEstar")">Volver a la sala de estar</a>
-    </header>
+<header>
+    <a href="#" id="map-icon"><img src="/img/mapaicon.png" alt="mapa"> </a>
+</header>
+<div id="map-overlay" style="display:none;">
+    <div id="map-content">
+        <span id="close-map">&times;</span>
+        <img src="/img/Mapa.png" alt="Mapa del juego">
+    </div>
+</div>
+        <a href="@Url.Action("estanteria")">Volver a la sala de estar</a>
     <body class="cocina">
         <div>
         @{ if(ViewBag.estaDesbloqueada==false){
@@ -59,6 +66,5 @@
         }); 
 
         </script>
-        <a href='@Url.Action("estanteria")'><img src="/img/frasco1.png"></a>
         }}
 </body>
