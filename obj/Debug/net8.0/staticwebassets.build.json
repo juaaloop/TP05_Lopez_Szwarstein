@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "nwsCw6SLWJ5c7QEf2PSQt97puZMeoxHQxQAvsFtF/T0=",
+  "Hash": "hHEcOcRGFyNrvEWI+zdGNQDFaPyKmG3Dlvf9dMzVebU=",
   "Source": "SalaDeEscape",
   "BasePath": "_content/SalaDeEscape",
   "Mode": "Default",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "quyvav9uuy",
-      "Integrity": "Mvh5m/xtnIwHRQaZoAhVhiJc7Qt1QSi8GBuiRCkal1s=",
+      "Fingerprint": "bcks74oxhh",
+      "Integrity": "BfP4qaz9L8S4TZRZmwfXDwg+VxjTswlWg6IpXjIGtIA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -52,8 +52,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "h8a3lhozwh",
-      "Integrity": "ka8Ru0WPXlhuwRPItXLCtDYsHCM6tvo3aY626qKEpgE=",
+      "Fingerprint": "9urgo0uevz",
+      "Integrity": "D5f2m6/9ghvH4QF2CDlS+YEweK58bgZneaUVXmJXr70=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\style.css"
@@ -351,6 +351,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\fonts\\RigorMortisRegular.woff2"
+    },
+    {
+      "Identity": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\abuelo.png",
+      "SourceId": "SalaDeEscape",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\",
+      "BasePath": "_content/SalaDeEscape",
+      "RelativePath": "img/abuelo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "45rgd5yzj2",
+      "Integrity": "aC58BXhZruUBSEU/D4e2lQbajN3HTeqMMszgQ45RIsI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\abuelo.png"
     },
     {
       "Identity": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\baño.png",
@@ -710,6 +731,27 @@
       "OriginalItemSpec": "wwwroot\\img\\hermana.png"
     },
     {
+      "Identity": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\hermano.png",
+      "SourceId": "SalaDeEscape",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\",
+      "BasePath": "_content/SalaDeEscape",
+      "RelativePath": "img/hermano#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "j8yh6lfzoi",
+      "Integrity": "k7EKDFpq6D5rgBOj0brdmfvDiryw3tKKSEIMgHJSu1A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\hermano.png"
+    },
+    {
       "Identity": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\jardinero.png",
       "SourceId": "SalaDeEscape",
       "SourceType": "Discovered",
@@ -920,6 +962,27 @@
       "OriginalItemSpec": "wwwroot\\img\\pergamino.png"
     },
     {
+      "Identity": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\primo.png",
+      "SourceId": "SalaDeEscape",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\",
+      "BasePath": "_content/SalaDeEscape",
+      "RelativePath": "img/primo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "iyyelxmzvb",
+      "Integrity": "ht6SUd2JXtGVezgHffoApwc6fhgLFNqEtnJWz0VvBdQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\primo.png"
+    },
+    {
       "Identity": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\retrato1.png",
       "SourceId": "SalaDeEscape",
       "SourceType": "Discovered",
@@ -1002,6 +1065,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\sotano.png"
+    },
+    {
+      "Identity": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\tio.png",
+      "SourceId": "SalaDeEscape",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\",
+      "BasePath": "_content/SalaDeEscape",
+      "RelativePath": "img/tio#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "shf04b1fc2",
+      "Integrity": "cK6UBQ1s+80OyH+3in5q/X+HSMOOarhM/5bm7Tl0q30=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\tio.png"
     },
     {
       "Identity": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\titulo.png",
@@ -1342,6 +1426,51 @@
   ],
   "Endpoints": [
     {
+      "Route": "css/site.bcks74oxhh.css",
+      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "192"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BfP4qaz9L8S4TZRZmwfXDwg+VxjTswlWg6IpXjIGtIA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 20:21:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bcks74oxhh"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BfP4qaz9L8S4TZRZmwfXDwg+VxjTswlWg6IpXjIGtIA="
+        }
+      ]
+    },
+    {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -1352,7 +1481,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "293"
+          "Value": "192"
         },
         {
           "Name": "Content-Type",
@@ -1360,11 +1489,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Mvh5m/xtnIwHRQaZoAhVhiJc7Qt1QSi8GBuiRCkal1s=\""
+          "Value": "\"BfP4qaz9L8S4TZRZmwfXDwg+VxjTswlWg6IpXjIGtIA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 27 Jun 2025 17:42:16 GMT"
+          "Value": "Fri, 27 Jun 2025 20:21:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1374,13 +1503,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Mvh5m/xtnIwHRQaZoAhVhiJc7Qt1QSi8GBuiRCkal1s="
+          "Value": "sha256-BfP4qaz9L8S4TZRZmwfXDwg+VxjTswlWg6IpXjIGtIA="
         }
       ]
     },
     {
-      "Route": "css/site.quyvav9uuy.css",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\css\\site.css",
+      "Route": "css/style.9urgo0uevz.css",
+      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\css\\style.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1389,7 +1518,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "293"
+          "Value": "13677"
         },
         {
           "Name": "Content-Type",
@@ -1397,11 +1526,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Mvh5m/xtnIwHRQaZoAhVhiJc7Qt1QSi8GBuiRCkal1s=\""
+          "Value": "\"D5f2m6/9ghvH4QF2CDlS+YEweK58bgZneaUVXmJXr70=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 27 Jun 2025 17:42:16 GMT"
+          "Value": "Fri, 27 Jun 2025 22:04:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1411,15 +1540,15 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "quyvav9uuy"
+          "Value": "9urgo0uevz"
         },
         {
           "Name": "label",
-          "Value": "css/site.css"
+          "Value": "css/style.css"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Mvh5m/xtnIwHRQaZoAhVhiJc7Qt1QSi8GBuiRCkal1s="
+          "Value": "sha256-D5f2m6/9ghvH4QF2CDlS+YEweK58bgZneaUVXmJXr70="
         }
       ]
     },
@@ -1434,7 +1563,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12868"
+          "Value": "13677"
         },
         {
           "Name": "Content-Type",
@@ -1442,11 +1571,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ka8Ru0WPXlhuwRPItXLCtDYsHCM6tvo3aY626qKEpgE=\""
+          "Value": "\"D5f2m6/9ghvH4QF2CDlS+YEweK58bgZneaUVXmJXr70=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 27 Jun 2025 20:17:44 GMT"
+          "Value": "Fri, 27 Jun 2025 22:04:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1456,52 +1585,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ka8Ru0WPXlhuwRPItXLCtDYsHCM6tvo3aY626qKEpgE="
-        }
-      ]
-    },
-    {
-      "Route": "css/style.h8a3lhozwh.css",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\css\\style.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "12868"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ka8Ru0WPXlhuwRPItXLCtDYsHCM6tvo3aY626qKEpgE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 27 Jun 2025 20:17:44 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "h8a3lhozwh"
-        },
-        {
-          "Name": "label",
-          "Value": "css/style.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ka8Ru0WPXlhuwRPItXLCtDYsHCM6tvo3aY626qKEpgE="
+          "Value": "sha256-D5f2m6/9ghvH4QF2CDlS+YEweK58bgZneaUVXmJXr70="
         }
       ]
     },
@@ -2650,6 +2734,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-8sNpYEImCFkphSPeZPKy8/NVHlZAqyYLNbKp+IfKLKg="
+        }
+      ]
+    },
+    {
+      "Route": "img/abuelo.45rgd5yzj2.png",
+      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\abuelo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2574237"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aC58BXhZruUBSEU/D4e2lQbajN3HTeqMMszgQ45RIsI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 21:21:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "45rgd5yzj2"
+        },
+        {
+          "Name": "label",
+          "Value": "img/abuelo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aC58BXhZruUBSEU/D4e2lQbajN3HTeqMMszgQ45RIsI="
+        }
+      ]
+    },
+    {
+      "Route": "img/abuelo.png",
+      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\abuelo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2574237"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aC58BXhZruUBSEU/D4e2lQbajN3HTeqMMszgQ45RIsI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 21:21:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aC58BXhZruUBSEU/D4e2lQbajN3HTeqMMszgQ45RIsI="
         }
       ]
     },
@@ -4048,6 +4214,88 @@
       ]
     },
     {
+      "Route": "img/hermano.j8yh6lfzoi.png",
+      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\hermano.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2450110"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k7EKDFpq6D5rgBOj0brdmfvDiryw3tKKSEIMgHJSu1A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 21:21:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j8yh6lfzoi"
+        },
+        {
+          "Name": "label",
+          "Value": "img/hermano.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-k7EKDFpq6D5rgBOj0brdmfvDiryw3tKKSEIMgHJSu1A="
+        }
+      ]
+    },
+    {
+      "Route": "img/hermano.png",
+      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\hermano.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2450110"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k7EKDFpq6D5rgBOj0brdmfvDiryw3tKKSEIMgHJSu1A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 21:21:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-k7EKDFpq6D5rgBOj0brdmfvDiryw3tKKSEIMgHJSu1A="
+        }
+      ]
+    },
+    {
       "Route": "img/jardinero.9b5d96biuh.png",
       "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\jardinero.png",
       "Selectors": [],
@@ -4868,6 +5116,88 @@
       ]
     },
     {
+      "Route": "img/primo.iyyelxmzvb.png",
+      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\primo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2355707"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ht6SUd2JXtGVezgHffoApwc6fhgLFNqEtnJWz0VvBdQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 21:21:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iyyelxmzvb"
+        },
+        {
+          "Name": "label",
+          "Value": "img/primo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ht6SUd2JXtGVezgHffoApwc6fhgLFNqEtnJWz0VvBdQ="
+        }
+      ]
+    },
+    {
+      "Route": "img/primo.png",
+      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\primo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2355707"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ht6SUd2JXtGVezgHffoApwc6fhgLFNqEtnJWz0VvBdQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 21:21:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ht6SUd2JXtGVezgHffoApwc6fhgLFNqEtnJWz0VvBdQ="
+        }
+      ]
+    },
+    {
       "Route": "img/retrato1.kk8xllmr7m.png",
       "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\retrato1.png",
       "Selectors": [],
@@ -5192,6 +5522,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-4JiRSjbiRyQdiwxrRmf3GtSW1FFOM2xQ9HaI0HeyMtk="
+        }
+      ]
+    },
+    {
+      "Route": "img/tio.png",
+      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\tio.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2372420"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cK6UBQ1s+80OyH+3in5q/X+HSMOOarhM/5bm7Tl0q30=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 21:18:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cK6UBQ1s+80OyH+3in5q/X+HSMOOarhM/5bm7Tl0q30="
+        }
+      ]
+    },
+    {
+      "Route": "img/tio.shf04b1fc2.png",
+      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\tio.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2372420"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cK6UBQ1s+80OyH+3in5q/X+HSMOOarhM/5bm7Tl0q30=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 21:18:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "shf04b1fc2"
+        },
+        {
+          "Name": "label",
+          "Value": "img/tio.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cK6UBQ1s+80OyH+3in5q/X+HSMOOarhM/5bm7Tl0q30="
         }
       ]
     },

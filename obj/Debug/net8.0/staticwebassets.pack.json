@@ -69,6 +69,10 @@
       "PackagePath": "staticwebassets\\img\\Mapa.png"
     },
     {
+      "Id": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\abuelo.png",
+      "PackagePath": "staticwebassets\\img\\abuelo.png"
+    },
+    {
       "Id": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\baño.png",
       "PackagePath": "staticwebassets\\img\\baño.png"
     },
@@ -137,6 +141,10 @@
       "PackagePath": "staticwebassets\\img\\hermana.png"
     },
     {
+      "Id": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\hermano.png",
+      "PackagePath": "staticwebassets\\img\\hermano.png"
+    },
+    {
       "Id": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\jardinero.png",
       "PackagePath": "staticwebassets\\img\\jardinero.png"
     },
@@ -173,6 +181,10 @@
       "PackagePath": "staticwebassets\\img\\pergamino.png"
     },
     {
+      "Id": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\primo.png",
+      "PackagePath": "staticwebassets\\img\\primo.png"
+    },
+    {
       "Id": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\retrato1.png",
       "PackagePath": "staticwebassets\\img\\retrato1.png"
     },
@@ -187,6 +199,10 @@
     {
       "Id": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\sotano.png",
       "PackagePath": "staticwebassets\\img\\sotano.png"
+    },
+    {
+      "Id": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\tio.png",
+      "PackagePath": "staticwebassets\\img\\tio.png"
     },
     {
       "Id": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\titulo.png",

@@ -1,53 +1,57 @@
 @{
     ViewData["Title"] = "Inicio";
 }
-<body class= "inicio">
-<head>
-<link rel="stylesheet" href="~/css/style.css" />
-</head>
-<div class="contenedorDialogo" id="contenedorInicio" tabindex="0">
-    <p id="textoDialogo">Haz clic para comenzar</p>
-</div>
 
-<script>
-    const dialogos = [
-       "La mansión Karamázov. Ni piedra. Ni madera. Era un sepulcro opulento, denso con los secretos de una estirpe forjada en los grandes inviernos siberianos.",
-       "La neblina, un velo melancólico, la envolvía. Dentro, solo ecos de grandezas olvidadas y susurros que nunca debieron ser escuchados.",
-       "El patriarca, Iván Ilich, regresó de su ausencia. Un silencio anormal. Todo en su sitio, inmutable... excepto lo más sagrado.",
-        "La caja fuerte. Abierta. Su inmensa fortuna, amasada en los salones de San Petersburgo, desvanecida como un fantasma.",
-        "No hubo violencia. Solo la huella de una llave, esgrimida con una precisión tanto conocida como traidora. Una que, por derecho, nadie debía poseer.",
-        "La servidumbre y los parientes juraban inocencia. Pero las miradas... ah, esas miradas, acusaban sin voz.",
-        "La sombra del viejo patriarca se alzó, imponente. Una decisión implacable se forjaba en el aire denso de la mansión.",
-        "Si el culpable no emerge antes del anochecer, la vergüenza de los Karamázov será tuya. Tu juicio está por comenzar.",
-        "form"
-    ];
+    <head>
+        <link rel="stylesheet" href="~/css/style.css" />
+    </head>
+<body class="inicio">
 
-    let dialogoId = 0;
-    function avanzarDialogo(){
-        if (dialogoId < dialogos.length) {
-            const contenedor = document.getElementById("contenedorInicio");
+        <div class="fondo-blur"><img src="/img/fonto-inicio.png" alt=""></div>
+    <div class="contenido">
+        <div class="contenedorDialogo" id="contenedorInicio" tabindex="0">
+            <p id="textoDialogo">Haz clic para comenzar</p>
+        </div>
 
-            if (dialogos[dialogoId] === "form") {
-                contenedor.innerHTML = `
+        <script>
+            const dialogos = [
+                "La mansión Karamázov. Ni piedra. Ni madera. Era un sepulcro opulento, denso con los secretos de una estirpe forjada en los grandes inviernos siberianos.",
+                "La neblina, un velo melancólico, la envolvía. Dentro, solo ecos de grandezas olvidadas y susurros que nunca debieron ser escuchados.",
+                "El patriarca, Iván Ilich, regresó de su ausencia. Un silencio anormal. Todo en su sitio, inmutable... excepto lo más sagrado.",
+                "La caja fuerte. Abierta. Su inmensa fortuna, amasada en los salones de San Petersburgo, desvanecida como un fantasma.",
+                "No hubo violencia. Solo la huella de una llave, esgrimida con una precisión tanto conocida como traidora. Una que, por derecho, nadie debía poseer.",
+                "La servidumbre y los parientes juraban inocencia. Pero las miradas... ah, esas miradas, acusaban sin voz.",
+                "La sombra del viejo patriarca se alzó, imponente. Una decisión implacable se forjaba en el aire denso de la mansión.",
+                "Si el culpable no emerge antes del anochecer, la vergüenza de los Karamázov será tuya. Tu juicio está por comenzar.",
+                "form"
+            ];
+
+            let dialogoId = 0;
+            function avanzarDialogo() {
+                if (dialogoId < dialogos.length) {
+                    const contenedor = document.getElementById("contenedorInicio");
+
+                    if (dialogos[dialogoId] === "form") {
+                        contenedor.innerHTML = `
                 <p>Ingresá tu nombre</p>
                     <form action='@Url.Action("ingresarNombre")' method="POST">
                         <input type="text" name="nombre" placeholder="Tu nombre" required />
                         <input type="submit" value="Entrar" />
                     </form>
                 `;
-            } else {
-                document.getElementById("textoDialogo").textContent = dialogos[dialogoId];
+                    } else {
+                        document.getElementById("textoDialogo").textContent = dialogos[dialogoId];
+                    }
+
+                    dialogoId++;
+                }
             }
-
-            dialogoId++;
-                 }
-    }
-    document.getElementById("contenedorInicio").addEventListener("click", avanzarDialogo);
-     document.getElementById("contenedorInicio").addEventListener("keydown", function (event) {
-        if(event.key=="Enter" || event.key==" "){
-             avanzarDialogo();
-        }
-        });
-</script>
-
-    </body>
+            document.getElementById("contenedorInicio").addEventListener("click", avanzarDialogo);
+            document.getElementById("contenedorInicio").addEventListener("keydown", function (event) {
+                if (event.key == "Enter" || event.key == " ") {
+                    avanzarDialogo();
+                }
+            });
+        </script>
+    </div>
+</body>
