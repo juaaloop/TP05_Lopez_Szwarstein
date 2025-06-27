@@ -22,13 +22,13 @@ public class HomeController : Controller
     {
         return View();
     }
+
     [HttpPost]
-    public IActionResult ingresarNombre(string nombre)
-    {
+    public IActionResult ingresarNombre(string nombre){
         Partida partidaNueva = new Partida(nombre);
         HttpContext.Session.SetString("partida", Objeto.ObjectToString(partidaNueva));
 
-        return View("salaDeEstar");
+        return RedirectToAction("salaDeEstar");
     }
 
     public IActionResult salaDeEstar()
@@ -90,9 +90,10 @@ public class HomeController : Controller
 
         return View();
     }
-    public IActionResult estudio()
+    public IActionResult estudio(bool EstanLasPistas)
     {
         Partida partidaNueva = Objeto.StringToObject<Partida>(HttpContext.Session.GetString("partida"));
+        ViewBag.estanLasPistas=EstanLasPistas;
         ViewBag.ListaSospechosos = partidaNueva.listaSospechosos;
         return View();
     }
@@ -165,28 +166,18 @@ public class HomeController : Controller
             return View();
         }
     }
+    public IActionResult comprobarPistas(){
+        Partida partidaNueva = Objeto.StringToObject<Partida>(HttpContext.Session.GetString("partida"));
+        bool estanTodas=partidaNueva.estanTodasPistas();
+        return RedirectToAction("estudio",estanTodas);
 
-    public IActionResult comprobarVictoria(Sospechoso acusado, List<int> pistasElegidas)
+    }
+    public IActionResult comprobarSospechoso(Sospechoso acusado)
     {
         Partida partidaNueva = Objeto.StringToObject<Partida>(HttpContext.Session.GetString("partida"));
-        pistasElegidas.Sort();
-        bool perdio = false;
         if (partidaNueva.culpable == acusado)
         {
-            if (pistasElegidas.Count == partidaNueva.idPistas.Count)
-            {
-                for (int num = 0; num < pistasElegidas.Count; num++)
-                {
-                    if (pistasElegidas[num] != partidaNueva.idPistas[num])
-                    {
-                        perdio = true;
-                    }
-                }
-                if (!perdio)
-                {
-                    partidaNueva.partidaGanada = true;
-                }
-            }
+            partidaNueva.partidaGanada = true;
         }
         HttpContext.Session.SetString("partida", Objeto.ObjectToString(partidaNueva));
         return RedirectToAction("final");

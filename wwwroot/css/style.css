@@ -37,6 +37,7 @@
 }
 
 .contenedorDialogo {
+  display:block;
   background-color: rgba(0, 0, 0, 0.85);
   color: white;
   padding: 30px;
@@ -50,7 +51,21 @@
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
-
+.contenedorDialogoPersonaje {
+  display:none;
+  background-color: rgba(0, 0, 0, 0.85);
+  color: white;
+  padding: 30px;
+  border: 2px solid #8b0000;
+  border-radius: 12px;
+  width: 70%;
+  margin: 10% auto;
+  text-align: center;
+  font-size: 1.3rem;
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.2);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
 
 #map-icon {
   font-size: 28px;
@@ -79,9 +94,8 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
-  height: 100vh;
-  z-index: 999;
+  width: 50%;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;

@@ -1,200 +1,208 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\css\\style.css",
+      "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\css\\style.css",
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
-      "Id": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\fonts\\RigorMortisRegular.woff",
+      "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\fonts\\RigorMortisRegular.woff",
       "PackagePath": "staticwebassets\\fonts\\RigorMortisRegular.woff"
     },
     {
-      "Id": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\fonts\\RigorMortisRegular.woff2",
+      "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\fonts\\RigorMortisRegular.woff2",
       "PackagePath": "staticwebassets\\fonts\\RigorMortisRegular.woff2"
     },
     {
-      "Id": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\Mapa.png",
+      "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\Mapa.png",
       "PackagePath": "staticwebassets\\img\\Mapa.png"
     },
     {
-      "Id": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\baño.png",
+      "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\baño.png",
       "PackagePath": "staticwebassets\\img\\baño.png"
     },
     {
-      "Id": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\biblioteca.png",
+      "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\biblioteca.png",
       "PackagePath": "staticwebassets\\img\\biblioteca.png"
     },
     {
-      "Id": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\caja.png",
+      "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\caja.png",
       "PackagePath": "staticwebassets\\img\\caja.png"
     },
     {
-      "Id": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\cajon.png",
+      "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\cajon.png",
       "PackagePath": "staticwebassets\\img\\cajon.png"
     },
     {
-      "Id": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\cocina.png",
+      "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\cocina.png",
       "PackagePath": "staticwebassets\\img\\cocina.png"
     },
     {
-      "Id": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\cruz.png",
+      "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\cruz.png",
       "PackagePath": "staticwebassets\\img\\cruz.png"
     },
     {
-      "Id": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\diamante.png",
+      "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\diamante.png",
       "PackagePath": "staticwebassets\\img\\diamante.png"
     },
     {
-      "Id": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\estanteria.png",
+      "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\estanteria.png",
       "PackagePath": "staticwebassets\\img\\estanteria.png"
     },
     {
-      "Id": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\estrella.png",
+      "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\estrella.png",
       "PackagePath": "staticwebassets\\img\\estrella.png"
     },
     {
-      "Id": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\estudio.png",
+      "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\estudio.png",
       "PackagePath": "staticwebassets\\img\\estudio.png"
     },
     {
-      "Id": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\fondoinicio.png",
+      "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\fondoinicio.png",
       "PackagePath": "staticwebassets\\img\\fondoinicio.png"
     },
     {
-      "Id": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\frasco1.png",
+      "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\frasco1.png",
       "PackagePath": "staticwebassets\\img\\frasco1.png"
     },
     {
-      "Id": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\frasco2.png",
+      "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\frasco2.png",
       "PackagePath": "staticwebassets\\img\\frasco2.png"
     },
     {
-      "Id": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\frasco3.png",
+      "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\frasco3.png",
       "PackagePath": "staticwebassets\\img\\frasco3.png"
     },
     {
-      "Id": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\frasco4.png",
+      "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\frasco4.png",
       "PackagePath": "staticwebassets\\img\\frasco4.png"
     },
     {
-      "Id": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\frasco5.png",
+      "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\frasco5.png",
       "PackagePath": "staticwebassets\\img\\frasco5.png"
     },
     {
-      "Id": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\libro1.png",
+      "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\hermana.png",
+      "PackagePath": "staticwebassets\\img\\hermana.png"
+    },
+    {
+      "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\jardinero.png",
+      "PackagePath": "staticwebassets\\img\\jardinero.png"
+    },
+    {
+      "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\libro1.png",
       "PackagePath": "staticwebassets\\img\\libro1.png"
     },
     {
-      "Id": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\luna.png",
+      "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\luna.png",
       "PackagePath": "staticwebassets\\img\\luna.png"
     },
     {
-      "Id": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\manijas.png",
+      "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\manijas.png",
       "PackagePath": "staticwebassets\\img\\manijas.png"
     },
     {
-      "Id": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\olga.png",
+      "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\mayordomo.png",
+      "PackagePath": "staticwebassets\\img\\mayordomo.png"
+    },
+    {
+      "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\olga.png",
       "PackagePath": "staticwebassets\\img\\olga.png"
     },
     {
-      "Id": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\patio.png",
+      "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\patio.png",
       "PackagePath": "staticwebassets\\img\\patio.png"
     },
     {
-      "Id": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\pergamino.png",
+      "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\pergamino.png",
       "PackagePath": "staticwebassets\\img\\pergamino.png"
     },
     {
-      "Id": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\retrato1.png",
+      "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\retrato1.png",
       "PackagePath": "staticwebassets\\img\\retrato1.png"
     },
     {
-      "Id": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\salaDeRetratos.png",
+      "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\salaDeRetratos.png",
       "PackagePath": "staticwebassets\\img\\salaDeRetratos.png"
     },
     {
-      "Id": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\saladeestar.png",
+      "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\saladeestar.png",
       "PackagePath": "staticwebassets\\img\\saladeestar.png"
     },
     {
-      "Id": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\sotano.png",
+      "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\sotano.png",
       "PackagePath": "staticwebassets\\img\\sotano.png"
     },
     {
-      "Id": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\titulo.png",
+      "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\titulo.png",
       "PackagePath": "staticwebassets\\img\\titulo.png"
     },
     {
-      "Id": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\triangulo.png",
+      "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\triangulo.png",
       "PackagePath": "staticwebassets\\img\\triangulo.png"
     },
     {
-      "Id": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\img\\viktor.png",
+      "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\img\\viktor.png",
       "PackagePath": "staticwebassets\\img\\viktor.png"
     },
     {
-      "Id": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\49193480\\Downloads\\TP05\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
-    },
-    {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SalaDeEscape.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
-      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SalaDeEscape.Microsoft.AspNetCore.StaticWebAssets.props",

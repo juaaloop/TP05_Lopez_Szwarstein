@@ -8,11 +8,12 @@
         <a href="@Url.Action("salaDeEstar")">Volver a la sala de estar</a>
     </header>
 <body class="patio">
+@{if(!ViewBag.estaDesbloqueada){
 <div id="zona-drop"></div>
-<div class="contenedor-dialogo" id="contenedorPatio">
+<div class="contenedorDialogo" id="contenedorPatio">
     <p id="textoDialogo">Haz clic para comenzar</p>
 </div>
-<img src="/img/viktor.png" id= "viktor">
+<img src="/img/viktor.png" id="viktor">
 <div id="zonaorigen">
 <img src="/img/luna.png" id="luna" draggable="true" class="arbusto">
 <img src="/img/cruz.png" id="cruz" draggable="true" class="arbusto">
@@ -33,16 +34,17 @@
         <span id="cerrarModal">&times;</span>
         <p> Primero, el destello brillante que perfora el velo del crepúsculo.<br>
         Después, una plateada curva silenciosa que vela los sueños.<br>
-Luego, el cazador poderoso, joya del cielo nocturno, íntegro en su forma.<br>
-Sigue la vela austral, que guía navíos perdidos.<br>
-Y al final, la cruz solemne donde los caminos se unen.<br>
-...solo en su verdadero orden, lo oculto se revelará.
+        Luego, el cazador poderoso, joya del cielo nocturno, íntegro en su forma.<br>
+        Sigue la vela austral, que guía navíos perdidos.<br>
+        Y al final, la cruz solemne donde los caminos se unen.<br>
+        ...solo en su verdadero orden, lo oculto se revelará.
 </p>
     </div>
     }
 </div>
 <script>
-    const dialogos = [
+
+        const dialogos = [
         "Buenos días, joven @ViewBag.nombre. No suelo ver mucha gente por el jardín... no desde que el señor partió. La quietud, al menos, parecía inalterable.",
         "Mis ojos están acostumbrados a la quietud de la tierra, a la paciente espera de las estaciones. Pero estos arbustos... sus formas celestiales han sido trastocadas. Solían seguir una disposición… mas hoy, su armonía se ha roto.", "Alguien ha estado aquí durante la noche...",
       "Espero que no busques algo que no debas encontrar."]
@@ -50,8 +52,9 @@ Y al final, la cruz solemne donde los caminos se unen.<br>
     let dialogoId = 0;
     let terminoDialogo = false;
 
-    document.getElementById("contenedorPatio").addEventListener("click", function () {
+    document.getElementById("viktor").addEventListener("click", function () {
         if (dialogoId < dialogos.length) {
+             document.getElementById("contenedorDialogo").style.display = "block";
             document.getElementById("textoDialogo").textContent = dialogos[dialogoId];
             dialogoId++;
         } else {

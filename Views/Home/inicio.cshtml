@@ -3,7 +3,7 @@
 }
 <body class= "inicio">
 <head>
-<link rel="stylesheet" href="/css/style.css" />
+<link rel="stylesheet" href="~/css/style.css" />
 </head>
 <div class="contenedorDialogo" id="contenedorInicio" tabindex="0">
     <p id="textoDialogo">Haz clic para comenzar</p>
@@ -30,7 +30,7 @@
             if (dialogos[dialogoId] === "form") {
                 contenedor.innerHTML = `
                 <p>Ingresá tu nombre</p>
-                    <form action='@Url.Action("ingresarNombre", "Home")' method="POST">
+                    <form action='@Url.Action("ingresarNombre")' method="POST">
                         <input type="text" name="nombre" placeholder="Tu nombre" required />
                         <input type="submit" value="Entrar" />
                     </form>

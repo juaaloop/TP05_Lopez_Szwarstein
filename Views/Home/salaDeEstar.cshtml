@@ -7,7 +7,7 @@
 </head>
 
 <header>
-    <a href="#" id="map-icon"><img src="/img/mapa.jpg" alt="elemento"> </a>
+    <a href="#" id="map-icon"><img src="/img/Mapa.png" alt="mapa"> </a>
 </header>
 
 <!-- Capa borrosa -->
@@ -17,7 +17,7 @@
 <div id="map-overlay" style="display:none;">
     <div id="map-content">
         <span id="close-map">&times;</span>
-        <img src="ruta-del-mapa.png" alt="Mapa del juego">
+        <img src="/img/Mapa.png" alt="Mapa del juego">
     </div>
 </div>
 
@@ -30,14 +30,6 @@
             <input type="hidden" name="sala" value=1 placeholder="Arriesgar">
             <input type="hidden" name="salaOriginal" value="salaDeEstar">
         </form>
-
-        <form action='@Url.Action("irASala")' method="POST">
-            <input type="hidden" name="sala" value="estudio">
-            <input type="hidden" name="numSala" value=7>
-            <input type="hidden" name="salaActual" value="salaDeEstar">
-            <input type="submit" name="Ir al estudio">
-        </form>
-
     </div>
     <script>
         document.getElementById("map-icon").addEventListener("click", function (e) {

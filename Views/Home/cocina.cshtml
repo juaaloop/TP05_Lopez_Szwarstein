@@ -1,38 +1,40 @@
 @{ ViewData["Title"] = "cocina"; }
 <head>
-<link rel="stylesheet" href="/css/style.css" />
+<link rel="stylesheet" href="~/css/style.css" />
 </head>
  <header>
         <a href="@Url.Action("salaDeEstar")">Volver a la sala de estar</a>
-</header>
-<body class="cocina">
+    </header>
+    <body class="cocina">
         <div>
+        @{ if(ViewBag.estaDesbloqueada==false){
             
 
         <img src='/img/olga.png' id="olga"  style="cursor:pointer;">
-        <div id="contenedorDialogo" class="contenedorDialogo">
+        <div id="contenedorDialogo" class="contenedorDialogoPersonaje">
           <p id="textoDialogo"></p>
         </div>
         <script> 
         window.onload = function () {
-        
+
          const dialogos = [
         "¡Ah, joven! Buenos días. Ah, ¿quiere abrir el cajón ese?",
         "Creo que yo tenía la llave pero no la puedo ir a buscar, tengo que preparar el té ahora para el señor. Si me ayudas a preparar el te puedo conseguir la llave… ",
         "El té del señor es muy específico, si no está hecho correctamente él lo va a rechazar, la receta es fácil pero los frascos de ingredientes están mezclados y no los puedo descifrar. Usted seguro que si le sale, avísame cuando termine y le abriré el cajón"
-    
+
     ];
 
         const dialogosNuevos = [
         "¡Ah, joven! ¿Todavia no preparo el te?",
         "Ayudaria pero tengo que buscar la llave, tiene un pequeño papel con una ayuda en el estante si lo necesita",
         "Confio en usted"
-    
+
     ];
     let dialogoYaRecorrido=false;
     let dialogoId = 0;        
             document.getElementById("olga").addEventListener("click", function () {      
             if (dialogoId < dialogos.length && !dialogoYaRecorrido) {
+                 document.getElementById("contenedorDialogo").style.display = "block";
                      document.getElementById("textoDialogo").textContent = dialogos[dialogoId];
                      dialogoId++;
             }else if(dialogoId < dialogosNuevos.length && dialogoYaRecorrido){
@@ -48,14 +50,14 @@
                 dialogoYaRecorrido=true;
             }
         });
-    
+    }
         const pista = document.querySelector('.pistaFrascos');
 
         pista.addEventListener('click', () => {
          pista.classList.toggle('active');
 
         }); 
-   
+
         </script>
         <a href='@Url.Action("estanteria")'><img src="/img/frasco1.png"></a>
         }}
