@@ -1,29 +1,60 @@
 @{
     ViewData["Title"] = "Index";
 }
+
 <head>
     <link rel="stylesheet" href="~/css/style.css" />
 </head>
 
-<body class="salaDeEstar">
 <header>
-    <a href='@Url.Action("mapa")'> <img src="/img/mapa.png" alt="mapa"></a>
+    <a href="#" id="map-icon"><img src="/img/mapa.jpg" alt="elemento"> </a>
 </header>
-<div>
-    <p>Bienvenidos al sitio web de NombreProyecto</p>
-    <h1>esto es una prueba 2 </h1>
-    <form action ='@Url.Action("desbloquearSala")' method="POST" >
-    <input type="text" name="clave" placeholder="Clave">
-    <input type="hidden" name="sala" value=1 placeholder="Arriesgar" >
-    <input type="hidden" name="salaOriginal" value="salaDeEstar" >
-    </form>
 
-   <form action ='@Url.Action("irASala")' method="POST" >
-    <input type="hidden" name="sala" value="estudio">
-    <input type="hidden" name="numSala" value=7 >
-    <input type="hidden" name="salaActual" value="salaDeEstar" >
-    <input type="submit" name="Ir al estudio">
-    </form>
+<!-- Capa borrosa -->
+<div id="blur-overlay"></div>
 
+<!-- Capa del mapa -->
+<div id="map-overlay" style="display:none;">
+    <div id="map-content">
+        <span id="close-map">&times;</span>
+        <img src="ruta-del-mapa.png" alt="Mapa del juego">
+    </div>
 </div>
+
+<body class="salaDeEstar">
+    <div>
+        <p>Bienvenidos al sitio web de NombreProyecto</p>
+        <h1>esto es una prueba 2 </h1>
+        <form action='@Url.Action("desbloquearSala")' method="POST">
+            <input type="text" name="clave" placeholder="Clave">
+            <input type="hidden" name="sala" value=1 placeholder="Arriesgar">
+            <input type="hidden" name="salaOriginal" value="salaDeEstar">
+        </form>
+
+        <form action='@Url.Action("irASala")' method="POST">
+            <input type="hidden" name="sala" value="estudio">
+            <input type="hidden" name="numSala" value=7>
+            <input type="hidden" name="salaActual" value="salaDeEstar">
+            <input type="submit" name="Ir al estudio">
+        </form>
+
+    </div>
+    <script>
+        document.getElementById("map-icon").addEventListener("click", function (e) {
+            e.preventDefault();
+            document.getElementById("map-overlay").style.display = "block";
+        });
+
+
+        document.getElementById("close-map").addEventListener("click", function () {
+            document.getElementById("map-overlay").style.display = "none";
+        });
+
+
+        window.addEventListener("click", function (e) {
+            if (e.target === document.getElementById("map-overlay")) {
+                document.getElementById("map-overlay").style.display = "none";
+            }
+        });
+    </script>
 </body>

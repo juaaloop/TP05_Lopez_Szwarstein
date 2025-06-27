@@ -23,24 +23,24 @@ class Partida{
         this.nombreJugador = NombreJugador;
     
         salas.Add(1, (new Sala("Empezar",true,null)));
-        salas.Add(2, (new Sala("desbloquear",false,null)));
-        salas.Add(3, (new Sala("JKCNM",false,null)));
+        salas.Add(2, (new Sala("desbloquear",true,null)));
+        salas.Add(3, (new Sala("JKCNM",true,null)));
         List<int> listaDependencias0 = new List<int>();
         listaDependencias0.Add(3);
-        salas.Add(4, (new Sala("Karamázov1900",false, listaDependencias0)));
+        salas.Add(4, (new Sala("Karamázov1900",true, listaDependencias0)));
         List<int> listaDependencias = new List<int>();
         listaDependencias.Add(2);
         listaDependencias.Add(4);
-        salas.Add(5, (new Sala("53",false, listaDependencias)));
+        salas.Add(5, (new Sala("53",true, listaDependencias)));
         List<int> listaDependencias2 = new List<int>();
         listaDependencias2.Add(5);
-        salas.Add(6, (new Sala("Empezar",false,listaDependencias2)));
+        salas.Add(6, (new Sala("Empezar",true,listaDependencias2)));
         List<int> listaDependencias3 = new List<int>();
         listaDependencias3.Add(6);
-        salas.Add(7, (new Sala("Empezar",false,listaDependencias3)));
+        salas.Add(7, (new Sala("Empezar",true,listaDependencias3)));
         List<int> listaDependencias4 = new List<int>();
         listaDependencias4.Add(7);
-        salas.Add(8, (new Sala("Empezar",false,listaDependencias4)));
+        salas.Add(8, (new Sala("Empezar",true,listaDependencias4)));
 
 
         listaSospechosos.Add(new("Abuelo Iván","abuelo.png"));

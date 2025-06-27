@@ -51,6 +51,68 @@
   transition: background-color 0.3s ease;
 }
 
+
+#map-icon {
+  font-size: 28px;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+
+/* Capa borrosa detrás del mapa */
+#blur-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  backdrop-filter: blur(8px);
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 998;
+}
+
+/* Capa del mapa */
+#map-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+  /* se activa con toggle */
+}
+
+#map-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 80%;
+  max-height: 80%;
+  overflow: auto;
+  position: relative;
+  pointer-events: auto;
+}
+
+#map-content img {
+  width: 100%;
+  height: auto;
+}
+
+#close-map {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
 .salaDeEstar {
   background-image: url("/img/saladeestar.png");
   background-size: cover;
@@ -233,7 +295,7 @@ header img {
 .estanteria li .frasco {
   clear: both;
   height: auto;
-  width:90%;
+  width: 90%;
   transition: transform 0.3s ease;
 }
 
@@ -265,9 +327,9 @@ button[type="submit"]:hover {
 }
 
 
-  /* SALA DE RETRATOS*/
-  .salaDeRetratos{
-    background-image: url("/img/salaDeRetratos.png");
+/* SALA DE RETRATOS*/
+.salaDeRetratos {
+  background-image: url("/img/salaDeRetratos.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -275,19 +337,19 @@ button[type="submit"]:hover {
   list-style: none;
   padding: 0;
   margin: 0;
-  }
+}
 
-  .actions {
-    display: flex;
-    justify-content: center;
+.actions {
+  display: flex;
+  justify-content: center;
 }
 
 .actions button {
-    padding: 8px 16px;
-    font-size: 30px;
-    border-radius: 10px;
-    background-color: #27ae60;
-    color: white;
+  padding: 8px 16px;
+  font-size: 30px;
+  border-radius: 10px;
+  background-color: #27ae60;
+  color: white;
 }
 
 .grid-container {
@@ -307,6 +369,7 @@ button[type="submit"]:hover {
   transform-style: preserve-3d;
   transition: all 0.5s ease-in-out;
 }
+
 .front-image {
   width: 60px;
   height: 60px;
@@ -316,14 +379,15 @@ button[type="submit"]:hover {
   transform: rotateY(180deg);
 }
 
-.front, .back {
-    backface-visibility: hidden;
-    position: absolute;
-    border-radius: 10px;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
+.front,
+.back {
+  backface-visibility: hidden;
+  position: absolute;
+  border-radius: 10px;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
 }
 
 .libro .front {
@@ -336,7 +400,7 @@ button[type="submit"]:hover {
 @font-face {
   font-family: 'Titulo';
   src: url('~/fonts/RigorMortisRegular.woff2') format('woff2'),
-       url('~/fonts/RigorMortisRegular.woff') format('woff');
+    url('~/fonts/RigorMortisRegular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }

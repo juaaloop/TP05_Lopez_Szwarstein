@@ -14,7 +14,7 @@ class Sala{
 
     public bool puedeEntrar(Dictionary<int,Sala> salas) {
         bool puede = true;
-        int i = 0;
+       /* int i = 0;
         if (numSalaDependienteDe != null) {
 
             while (i < numSalaDependienteDe.Count && puede == true)
@@ -26,7 +26,7 @@ class Sala{
                 i++;
             }
              
-        }
+        } */
         return puede;
     }
 

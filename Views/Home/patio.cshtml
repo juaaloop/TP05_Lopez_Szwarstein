@@ -8,7 +8,6 @@
         <a href="@Url.Action("salaDeEstar")">Volver a la sala de estar</a>
     </header>
 <body class="patio">
-@{if(!ViewBag.estaDesbloqueada){ 
 <div id="zona-drop"></div>
 <div class="contenedor-dialogo" id="contenedorPatio">
     <p id="textoDialogo">Haz clic para comenzar</p>
@@ -40,6 +39,7 @@ Y al final, la cruz solemne donde los caminos se unen.<br>
 ...solo en su verdadero orden, lo oculto se revelará.
 </p>
     </div>
+    }
 </div>
 <script>
     const dialogos = [
