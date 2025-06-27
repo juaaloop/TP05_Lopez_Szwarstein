@@ -296,6 +296,7 @@ main header a {
 #map-icon img{
   width: 5%;
   float:right;
+  
 }
 #map-overlay {
   display: none;
@@ -343,7 +344,8 @@ main header a {
   display: flex;
   justify-content: center;
   margin: 0 auto;
-  margin-top: 20%;
+  margin-top: 0%;
+
 }
 
 .personajes img {
@@ -353,29 +355,29 @@ main header a {
 
 /* Posiciones semicírculo (de izquierda a derecha) */
 .personajes img:nth-child(1) {
-  transform: translate(45%, 90%);
+  transform: translate(45%, 80%);
 }
 
 .personajes img:nth-child(2) {
-  transform: translate(30%, 80%);
+  transform: translate(30%, 70%);
 }
 
 .personajes img:nth-child(3) {
   top: 20%;
   left: 50%;
-  transform: translate(0%, 75%);
+  transform: translate(0%, 65%);
 }
 
 .personajes img:nth-child(4) {
   top: 40%;
   left: 70%;
-  transform: translate(-30%, 80%);
+  transform: translate(-30%, 70%);
 }
 
 .personajes img:nth-child(5) {
   top: 70%;
   left: 90%;
-  transform: translate(-45%, 90%);
+  transform: translate(-45%, 80%);
 }
 
 header img {
