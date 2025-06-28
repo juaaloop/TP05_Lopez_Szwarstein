@@ -1,4 +1,5 @@
 * {
+  border: 1px solid white;
   margin: 0%;
   padding: 0%;
   font-family: 'Crimson Text', serif;
@@ -15,6 +16,30 @@
   background-position: center;
   filter: blur(2px);
   z-index: -1;
+}
+
+.inicio .fondo-blur {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/img/historia-fondo.png');
+  background-size: cover;
+  background-position: center;
+  filter: blur(3px);
+  z-index: -1;
+}
+
+.inicio .fondo-blur::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(44, 44, 44, 0.336);
+  pointer-events: none;
 }
 
 .contenido {
@@ -194,7 +219,8 @@ nav {
   margin-top: 5%;
 }
 
-nav a {
+.inicio nav a,
+.indice nav a {
   clear: both;
   width: 12%;
   display: inline-block;
@@ -249,7 +275,8 @@ nav a:focus {
 
 .inicio {}
 
-.contenedorDialogo {
+.contenedorDialogo,
+.contenedorDialogoPersonaje {
   display: block;
   background-color: rgba(0, 0, 0, 0.85);
   color: white;
@@ -265,39 +292,20 @@ nav a:focus {
   transition: background-color 0.3s ease;
 }
 
-.contenedorDialogoPersonaje {
-  display: none;
-  background-color: rgba(0, 0, 0, 0.85);
-  color: white;
-  padding: 30px;
-  border: 2px solid #8b0000;
-  border-radius: 12px;
-  width: 70%;
-  margin: 10% auto;
-  text-align: center;
-  font-size: 1.3rem;
-  box-shadow: 0 0 20px rgba(255, 215, 0, 0.2);
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-main header a {
-  width: 100%;
-  display: inline-block;
-}
 
 #map-icon {
+  width: 5%;
   float: right;
   cursor: pointer;
   padding: 0%;
   margin: 0%;
   border-radius: 10px;
 }
-#map-icon img{
-  width: 5%;
-  float:right;
-  
+
+#map-icon img {
+  width: 100%;
 }
+
 #map-overlay {
   display: none;
   position: fixed;
@@ -310,27 +318,71 @@ main header a {
 }
 
 #map-content {
-  background-color: #f5f0e6;
-  margin: 5% auto;
-  padding: 40px 30px;
-  border: 5px solid #b48a58;
-  width: 80%;
-  max-width: 600px;
-  border-radius: 15px;
+  margin-left: 30%;
+  border: 1px solid white;
+  width: 40%;
+  padding: 0.2%;
+  padding-bottom: 5%;
+  border-radius: 10px;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
   font-family: "Georgia", serif;
-  position: relative;
   color: #3b2e1a;
-  background-image: url("/img/pergamino-textura.png");
-  background-size: cover;
 }
 
 #map-content img {
+  z-index: -1;
+  position: relative;
+  clear: both;
   width: 100%;
-  height: auto;
-  margin: 0%;
+  margin-top: 0.5%;
+  border-radius: 20px;
 }
 
+#map-content a {
+  background-color: none;
+  margin: 0%;
+  position: absolute;
+
+}
+
+#botonPatio {
+  width: 0%;
+  padding: 4%;
+  transform: translate(57%, -345%);
+}
+
+#botonBiblioteca {
+  width: 0%;
+  padding: 4%;
+  transform: translate(57%, -235%);
+}
+
+#botonSala {
+  padding: 5.5%;
+  padding-top: 17%;
+  transform: translate(120%, -125%);
+}
+
+#botonRetratos {
+  padding: 4%;
+  padding-top: 2%;
+  transform: translate(57%, -165%);
+}
+#botonBaño{
+  padding: 5%;
+  padding-top: 1%;
+  transform: translate(250%, -450%);
+}
+#botonCocina{
+   padding: 5%;
+  padding-top: 3%;
+  transform: translate(250%, -260%);
+}
+#botonSotano{
+  padding: 5%;
+  padding-top: 3%;
+  transform: translate(250%, -150%);
+}
 .salaDeEstar {
   background-image: url("/img/saladeestar.png");
   background-size: cover;
@@ -382,18 +434,6 @@ main header a {
 
 header img {
   width: 10%;
-}
-
-#botonPatio {
-  position: absolute;
-  width: 2.5%;
-  height: 2.5%;
-  background-color: white 0.99;
-  padding: 4%;
-  margin-bottom: 20%;
-  margin-top: 16%;
-  margin-left: -18%;
-  /* hacer clickeo que haga qure aparezaca no que sea otra pestaña*/
 }
 
 /*PATIO*/
@@ -476,7 +516,7 @@ header img {
 
 #pergamino {
   position: fixed;
-  width:25%;
+  width: 25%;
   bottom: 20%;
   right: 20%;
   z-index: 1500;
@@ -491,8 +531,8 @@ header img {
   /* para arbustos, ARREGLAR!!!!! ESTOS VALORES SON DE PRUEBA atte:iara*/
 }
 
-#viktor{
-  width:35%;
+#viktor {
+  width: 18%;
 }
 
 /*COCINA*/
@@ -588,7 +628,7 @@ button[type="submit"]:hover {
 /* SALA DE RETRATOS*/
 .salaDeRetratos {
   background-image: url("/img/salaDeRetratos.png");
- background-size: cover;
+  background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -598,104 +638,112 @@ button[type="submit"]:hover {
 }
 
 /* BIBLIOTECA*/
-.biblioteca{
-  background-image: url(/img/biblioteca.png); 
+.biblioteca {
+  background-image: url(/img/biblioteca.png);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-.biblioteca #puertaSecreta{
-     width: 2%;
-    color: rgb(73, 25, 25);
-    margin-left: 95%;
-    padding-top: 7%;
-    margin-top: 13%;
-opacity:0.1;
-display:block;
+
+.biblioteca #puertaSecreta {
+  width: 2%;
+  color: rgb(73, 25, 25);
+  margin-left: 95%;
+  padding-top: 7%;
+  margin-top: 13%;
+  opacity: 0.1;
+  display: block;
 }
-.biblioteca #puertaSecreta:hover{
-     opacity:1;
-     border-radius: 10px;
-     box-shadow: 0 0 15px 6px rgba(255, 255, 150, 0.8);
+
+.biblioteca #puertaSecreta:hover {
+  opacity: 1;
+  border-radius: 10px;
+  box-shadow: 0 0 15px 6px rgba(255, 255, 150, 0.8);
 }
-.biblioteca #claveForm{
-  display:none;
+
+.biblioteca #claveForm {
+  display: none;
 }
 
 /*Sotano */
-.sotano{
-  background-image:url(/img/sotano.png);
-   background-size: cover;
+.sotano {
+  background-image: url(/img/sotano.png);
+  background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
-.caja{
-  background-image:url(/img/caja.png);
-   background-size: cover;
+.caja {
+  background-image: url(/img/caja.png);
+  background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
-.caja #puertaSecreta{
-    width: 35%;
-    margin-left: 28%;
-    padding-top: 40%;
-    margin-top: 4%;
-    opacity: 0.1;
-    display: block;
+.caja #puertaSecreta {
+  width: 35%;
+  margin-left: 28%;
+  padding-top: 40%;
+  margin-top: 4%;
+  opacity: 0.1;
+  display: block;
 
 }
+
 /*baño*/
-.baño{
-   background-image:url(/img/baño.png);
-   background-size: cover;
+.baño {
+  background-image: url(/img/baño.png);
+  background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
-.manijas{
-   background-image:url(/img/manijas.png);
-   background-size: cover;
+.manijas {
+  background-image: url(/img/manijas.png);
+  background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
-.baño #puertaSecreta{
-  opacity:0.1;
-  width:25%;
-  margin-left:4%;
-  margin-top:35%;
-  padding-top:25%;
-}
-#numeroTotal{
-  margin-top:25%;
-  color:white;
+.baño #puertaSecreta {
+  opacity: 0.1;
+  width: 25%;
+  margin-left: 4%;
+  margin-top: 35%;
+  padding-top: 25%;
 }
 
-#numeroManijaIzquierda{
+#numeroTotal {
+  margin-top: 25%;
+  color: white;
+}
+
+#numeroManijaIzquierda {
   font-size: medium;
-  margin-left:15%;
-  float:left;
+  margin-left: 15%;
+  float: left;
 }
-#numeroManijaIzquierda{
-   font-size: medium;
-  margin-right:15%;
-  float:right;
+
+#numeroManijaIzquierda {
+  font-size: medium;
+  margin-right: 15%;
+  float: right;
 }
+
 /*estudio */
-.estudio{
-   background-image:url(/img/estudio.png);
-   background-size: cover;
+.estudio {
+  background-image: url(/img/estudio.png);
+  background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
 /*FUENTESS*/
 @font-face {
   font-family: 'Titulo';
