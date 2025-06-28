@@ -292,6 +292,9 @@ nav a:focus {
   transition: background-color 0.3s ease;
 }
 
+.contenedorDialogoPersonaje{
+  display:none;
+}
 
 #map-icon {
   width: 5%;
@@ -719,22 +722,50 @@ button[type="submit"]:hover {
 }
 
 #numeroTotal {
+    position:absolute;
+
   margin-top: 25%;
   color: white;
 }
 
-#numeroManijaIzquierda {
+#numeromanijaIzquierda {
+    position:absolute;
+
   font-size: medium;
-  margin-left: 15%;
+  margin-left: 30%;
   float: left;
+   color: white;
 }
 
-#numeroManijaIzquierda {
+#numeromanijaDerecha {
+  position:absolute;
   font-size: medium;
-  margin-right: 15%;
+  margin-right: 30%;
   float: right;
+   color: white;
 }
+.baño div img{
+  display:flex;
+}
+#flecha1{
+  width:5%;
+margin-left:15%;
 
+}
+#flecha2{
+  width:5%;
+margin-left:35%;
+}
+#flecha3{
+  width:5%;
+margin-left:45%;
+
+}
+#flecha4{
+  width:5%;
+margin-left:5%;
+
+}
 /*estudio */
 .estudio {
   background-image: url(/img/estudio.png);

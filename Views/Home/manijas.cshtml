@@ -9,44 +9,46 @@
 @{ if(ViewBag.estaDesbloqueada){
     <h1>Desbloqueada</h1>
 }else{
-    <form action="@Url.Action("enviarValorManija")" method="post">
+    <div>
+    <form action="@Url.Action("enviarValorManija")" method="post" id="flecha1">
     <input type="hidden" name="valor" value="1">
     <input type="hidden" name="manija" value="1">
     <input type="hidden" name="numeroActual" value="@ViewBag.numeroActual">
     <input type="hidden" name="manija1" value="@ViewBag.manija1">
     <input type="hidden" name="manija2" value="@ViewBag.manija2">
-    <input type="image" src="/img/flechaMas.png"alt="enviar manija 1">
+    <input type="image" src="/img/flechaMas.png"alt="enviar manija 1" >
     
 </form>
     <form action="@Url.Action("enviarValorManija")" method="post">
     <input type="hidden" name="valor" value="-1">
     <input type="hidden" name="manija" value="1">
-    <input type="hidden" name="numeroActual" value="@ViewBag.numeroActual">
-    <input type="hidden" name="manija1" value="@ViewBag.manija1">
+    <input type="hidden" name="numeroActual" value="@ViewBag.numeroActual" id="flecha2">
+    <input type="hidden" name="manija1" value="@ViewBag.manija1" >
     <input type="hidden" name="manija2" value="@ViewBag.manija2">
-    <input type="image" src="/img/flechaMenos.png"alt="enviar manija 1 menos">
+    <input type="image" src="/img/flechaMenos.png"alt="enviar manija 1 menos" >
     
 </form>
 <form action="@Url.Action("enviarValorManija")" method="post">
     <input type="hidden" name="valor" value="3">
     <input type="hidden" name="manija" value="2">
-    <input type="hidden" name="numeroActual" value="@ViewBag.numeroActual">
+    <input type="hidden" name="numeroActual" value="@ViewBag.numeroActual"  id="flecha3">
     <input type="hidden" name="manija1" value="@ViewBag.manija1">
     <input type="hidden" name="manija2" value="@ViewBag.manija2">
-    <input type="image" src="/img/flechaMas.png" alt="enviar manija 2">
+    <input type="image" src="/img/flechaMas.png" alt="enviar manija 2" >
 
 </form>
 <form action="@Url.Action("enviarValorManija")" method="post">
     <input type="hidden" name="valor" value="-3">
     <input type="hidden" name="manija" value="2">
-    <input type="hidden" name="numeroActual" value="@ViewBag.numeroActual">
+    <input type="hidden" name="numeroActual" value="@ViewBag.numeroActual"   id="flecha4">
     <input type="hidden" name="manija1" value="@ViewBag.manija1">
     <input type="hidden" name="manija2" value="@ViewBag.manija2">
     <input type="image" src="/img/flechaMenos.png"alt="enviar manija 1 menos">
 </form>
+</div>
 <h2 id="numeroTotal">@ViewBag.numeroActual</h2>
 <h3 id="numeromanijaIzquierda">@ViewBag.manija1</h3>
-<h3 id="numeromanijaIzquierda">@ViewBag.manija2</h3>
+<h3 id="numeromanijaDerecha">@ViewBag.manija2</h3>
 <form action="@Url.Action("desbloquearSala")" method="post">
     <input type="hidden" name="clave" value="@(ViewBag.manija1.ToString() + ViewBag.manija2.ToString())">
     <input type="hidden" name="sala" value="5">

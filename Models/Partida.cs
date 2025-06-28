@@ -10,13 +10,13 @@ class Partida{
         salas = new Dictionary<int, Sala>();
         partidaGanada=false;
         pistasRecolectadas = new Dictionary<int, bool>();
-        pistasRecolectadas.Add(2, false);
-        pistasRecolectadas.Add(3, false);
-        pistasRecolectadas.Add(4, false);
-        pistasRecolectadas.Add(5, false);
-        pistasRecolectadas.Add(6, false);
-        pistasRecolectadas.Add(7, false);
-        pistasRecolectadas.Add(8, false);
+        pistasRecolectadas.Add(2, true);
+        pistasRecolectadas.Add(3, true);
+        pistasRecolectadas.Add(4, true);
+        pistasRecolectadas.Add(5, true);
+        pistasRecolectadas.Add(6, true);
+        pistasRecolectadas.Add(7, true);
+        pistasRecolectadas.Add(8, true);
 
         listaSospechosos =new List<Sospechoso>();
         this.nombreJugador = NombreJugador;
@@ -42,20 +42,43 @@ class Partida{
         salas.Add(8, (new Sala("Empezar",false,listaDependencias4)));
 
 
-        listaSospechosos.Add(new("Abuelo Iván","abuelo.png"));
-        listaSospechosos.Add(new("Dmitri","tio.png"));
-        listaSospechosos.Add(new("Elena","hermana.png"));
-        listaSospechosos.Add(new("Andrei","primo.png"));
-        listaSospechosos.Add(new("Nikolai","mayordomo.png"));
-        listaSospechosos.Add(new("Olga","cocinera.png"));
-        listaSospechosos.Add(new("Viktor","viktor.png"));
+      Sospechoso abuelo = new Sospechoso();
+abuelo.crearSospechoso("Abuelo Iván", "abuelo.png");
+listaSospechosos.Add(abuelo);
 
-        culpable=listaSospechosos[3];
+Sospechoso tio = new Sospechoso();
+tio.crearSospechoso("Dmitri", "tio.png");
+listaSospechosos.Add(tio);
+
+Sospechoso hermana = new Sospechoso();
+hermana.crearSospechoso("Elena", "hermana.png");
+listaSospechosos.Add(hermana);
+
+Sospechoso primo = new Sospechoso();
+primo.crearSospechoso("Andrei", "primo.png");
+listaSospechosos.Add(primo);
+
+Sospechoso mayordomo = new Sospechoso();
+mayordomo.crearSospechoso("Nikolai", "mayordomo.png");
+listaSospechosos.Add(mayordomo);
+
+Sospechoso olga = new Sospechoso();
+olga.crearSospechoso("Olga", "cocinera.png");
+listaSospechosos.Add(olga);
+
+Sospechoso viktor = new Sospechoso();
+viktor.crearSospechoso("Viktor", "viktor.png");
+listaSospechosos.Add(viktor);
+        culpable=listaSospechosos[2];
 
     }
 
-    public bool estanTodasPistas(){
-        bool estan=pistasRecolectadas[8];
-        return estan;
+    public bool estanTodasPistas() {
+        foreach (bool pista in pistasRecolectadas.Values) {
+            if (pista == false) {
+                return false;
+            }
+        }
+        return true;
     }
 }

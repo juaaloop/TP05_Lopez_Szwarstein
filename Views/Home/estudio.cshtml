@@ -6,28 +6,34 @@
   <a href="@Url.Action("salaDeEstar")">Volver a la sala de estar</a>
 </header>
 <img src=/img/abuelo.png id="abuelo">
+<h2>@ViewBag.acusado</h2>
  <div id="contenedorDialogo" class="contenedorDialogoPersonaje">
           <p id="textoDialogo"></p>
   </div>
 <script>
+    const estanLasPistas = @((ViewBag.estanLasPistas ?? false).ToString().ToLower());
+     window.onload = function () {
 
         const dialogos = [
         "Por fin me encuentras,",
         "¿Quien fue?",
-        "form"]
+        "form"];
 
         const dialogosSinPistas = [
         "Estuviste jugando al detective",
         "Pero todavia no podes probar nada, volve a mi cuando tengas todas las pistas necesarias",
-        "..."]
+        "..."];
     let dialogoId = 0;
     let terminoDialogo = false;
+      const contenedor = document.getElementById("contenedorDialogo");
 
     document.getElementById("abuelo").addEventListener("click", function () {
-        if (dialogoId < dialogos.length && ViewBag.estanLasPistas) {
+
+        if (dialogoId < dialogos.length && estanLasPistas) {
            if (dialogos[dialogoId] === "form") {
+             document.getElementById("contenedorDialogo").style.display = "block";
                 contenedor.innerHTML = `
-                <form method="post" action="@Url.Action("arriesgarSospechoso")">
+                <form method="post" action="@Url.Action("comprobarSospechoso")">
                  <section>
                   <div>
                    <input type="radio" name="sospechoso" value="Abuelo" class="cartaSospechoso" />
@@ -37,8 +43,8 @@
                    <input type="radio" name="sospechoso" value="Tio" class="cartaSospechoso" />
                    <label>Tio</label>
 
-                  <input type="radio" name="sospechoso" value="Hermana" class="cartaSospechoso" />
-                  <label>hermana</label>
+                  <input type="radio" name="sospechoso" value="Elena" class="cartaSospechoso" />
+                  <label>Elena</label>
 
                   <input type="radio" name="sospechoso" value="Primo" class="cartaSospechoso" />
                   <label>Primo</label>
@@ -58,16 +64,24 @@
   </section>
 </form>
                 `;
+                dialogoId++;
             } else {
+               document.getElementById("contenedorDialogo").style.display = "block";
                 document.getElementById("textoDialogo").textContent = dialogos[dialogoId];
+                 dialogoId++;
+
             }
-        } else if(!ViewBag.estanLasPistas){
+        } else if(!estanLasPistas){
+           document.getElementById("contenedorDialogo").style.display = "block";
               document.getElementById("textoDialogo").textContent = dialogosSinPistas[dialogoId];
+              dialogoId++;
+
         }else{ 
             terminoDialogo = true;
-            document.getElementById("contenedorPatio").style.display = "none";
+            document.getElementById("contenedorDialogo").style.display = "none";
         }
     });
+ }
 </script>
   
 </body>

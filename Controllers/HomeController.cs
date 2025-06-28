@@ -90,11 +90,13 @@ public class HomeController : Controller
 
         return View();
     }
-    public IActionResult estudio(bool EstanLasPistas)
+    public IActionResult estudio()
     {
         Partida partidaNueva = Objeto.StringToObject<Partida>(HttpContext.Session.GetString("partida"));
-        ViewBag.estanLasPistas=EstanLasPistas;
+        ViewBag.estanLasPistas=partidaNueva.estanTodasPistas();
         ViewBag.ListaSospechosos = partidaNueva.listaSospechosos;
+                ViewBag.acusado=partidaNueva.culpable.nombreSospechoso;
+
         return View();
     }
     public IActionResult manijas(int numeroActual1, int manija1, int manija2)
@@ -166,17 +168,12 @@ public class HomeController : Controller
             return View();
         }
     }
-    public IActionResult comprobarPistas(){
-        Partida partidaNueva = Objeto.StringToObject<Partida>(HttpContext.Session.GetString("partida"));
-        bool estanTodas=partidaNueva.estanTodasPistas();
-        return RedirectToAction("estudio",estanTodas);
-
-    }
-    public IActionResult comprobarSospechoso(Sospechoso acusado)
+    public IActionResult comprobarSospechoso(string sospechoso)
     {
         Partida partidaNueva = Objeto.StringToObject<Partida>(HttpContext.Session.GetString("partida"));
-        if (partidaNueva.culpable == acusado)
+        if (partidaNueva.culpable.nombreSospechoso == sospechoso)
         {
+            
             partidaNueva.partidaGanada = true;
         }
         HttpContext.Session.SetString("partida", Objeto.ObjectToString(partidaNueva));
