@@ -15,7 +15,7 @@
     <input type="hidden" name="numeroActual" value="@ViewBag.numeroActual">
     <input type="hidden" name="manija1" value="@ViewBag.manija1">
     <input type="hidden" name="manija2" value="@ViewBag.manija2">
-    <button type="submit" alt="enviar manija 1"><a href=""></a></button>
+    <input type="image" src="/img/flechaMas.png"alt="enviar manija 1">
     
 </form>
     <form action="@Url.Action("enviarValorManija")" method="post">
@@ -24,7 +24,7 @@
     <input type="hidden" name="numeroActual" value="@ViewBag.numeroActual">
     <input type="hidden" name="manija1" value="@ViewBag.manija1">
     <input type="hidden" name="manija2" value="@ViewBag.manija2">
-    <button type="submit" alt="enviar manija 1 menos"><a href=""></a></button>
+    <input type="image" src="/img/flechaMenos.png"alt="enviar manija 1 menos">
     
 </form>
 <form action="@Url.Action("enviarValorManija")" method="post">
@@ -33,7 +33,7 @@
     <input type="hidden" name="numeroActual" value="@ViewBag.numeroActual">
     <input type="hidden" name="manija1" value="@ViewBag.manija1">
     <input type="hidden" name="manija2" value="@ViewBag.manija2">
-    <button type="submit" alt="enviar manija 2"><a href=""></a></button>
+    <input type="image" src="/img/flechaMas.png" alt="enviar manija 2">
 
 </form>
 <form action="@Url.Action("enviarValorManija")" method="post">
@@ -42,8 +42,7 @@
     <input type="hidden" name="numeroActual" value="@ViewBag.numeroActual">
     <input type="hidden" name="manija1" value="@ViewBag.manija1">
     <input type="hidden" name="manija2" value="@ViewBag.manija2">
-    <button type="submit" alt="enviar manija 2 menos"><a href=""></a></button>
-
+    <input type="image" src="/img/flechaMenos.png"alt="enviar manija 1 menos">
 </form>
 <h2 id="numeroTotal">@ViewBag.numeroActual</h2>
 <h3 id="numeromanijaIzquierda">@ViewBag.manija1</h3>

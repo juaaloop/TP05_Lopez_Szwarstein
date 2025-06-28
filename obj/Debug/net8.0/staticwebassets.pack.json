@@ -113,6 +113,14 @@
       "PackagePath": "staticwebassets\\img\\estudio.png"
     },
     {
+      "Id": "C:\\Users\\iarit\\Downloads\\TP05\\TP05\\wwwroot\\img\\flechaMas.png",
+      "PackagePath": "staticwebassets\\img\\flechaMas.png"
+    },
+    {
+      "Id": "C:\\Users\\iarit\\Downloads\\TP05\\TP05\\wwwroot\\img\\flechaMenos.png",
+      "PackagePath": "staticwebassets\\img\\flechaMenos.png"
+    },
+    {
       "Id": "C:\\Users\\iarit\\Downloads\\TP05\\TP05\\wwwroot\\img\\fondoinicio.png",
       "PackagePath": "staticwebassets\\img\\fondoinicio.png"
     },

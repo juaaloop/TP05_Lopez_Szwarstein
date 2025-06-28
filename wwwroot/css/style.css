@@ -666,6 +666,13 @@ display:block;
   background-attachment: fixed;
 }
 
+.baño #puertaSecreta{
+  opacity:0.1;
+  width:25%;
+  margin-left:4%;
+  margin-top:35%;
+  padding-top:25%;
+}
 #numeroTotal{
   margin-top:25%;
   color:white;
