@@ -317,7 +317,18 @@ nav a:focus {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
+#close-map {
+  position: absolute;
+  margin-top: 0.2%;
+  margin-left: 38.5%;
+  font-size: 28px;
+  font-weight: bold;
+  color: #3b2e1a;
+  cursor: pointer;
+}
+
 #map-content {
+  margin-top: 5%;
   margin-left: 30%;
   border: 1px solid white;
   width: 40%;
@@ -345,7 +356,36 @@ nav a:focus {
 
 }
 
+#map-content h3 {
+  font-family: 'Cormorant SC', serif;
+  font-size: 24px;
+  width: 7.5%;
+  font-weight: 1000;
+  position: absolute;
+  text-align: center;
+}
+#nombreEstudio {
+  transform: translate(62%, -750%);
+}
+#nombreBiblioteca {
+  transform: translate(62%, -1200%);
+}
+#nombreRetrato {
+  transform: translate(62%, -225%);
+}
+#nombrePatio{
+    transform: translate(205%, -1500%);
+
+}
 #botonPatio {
+  padding: 8%;
+  padding-top: 0%;
+  padding-right: 15%;
+  padding-left: 15%;
+  transform: translate(16.5%, -450%);
+}
+
+#botonEstudio {
   width: 0%;
   padding: 4%;
   transform: translate(57%, -345%);
@@ -368,21 +408,25 @@ nav a:focus {
   padding-top: 2%;
   transform: translate(57%, -165%);
 }
-#botonBaño{
+
+#botonBaño {
   padding: 5%;
   padding-top: 1%;
   transform: translate(250%, -450%);
 }
-#botonCocina{
-   padding: 5%;
+
+#botonCocina {
+  padding: 5%;
   padding-top: 3%;
   transform: translate(250%, -260%);
 }
-#botonSotano{
+
+#botonSotano {
   padding: 5%;
   padding-top: 3%;
   transform: translate(250%, -150%);
 }
+
 .salaDeEstar {
   background-image: url("/img/saladeestar.png");
   background-size: cover;
@@ -503,8 +547,7 @@ header img {
   margin: 0;
 }
 
-#cerrarModal,
-#close-map {
+#cerrarModal {
   position: absolute;
   top: 10px;
   right: 20px;
