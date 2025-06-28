@@ -1,8 +1,11 @@
 @{ ViewData["Title"] = "estanteria"; }
     <link rel="stylesheet" href="~/css/style.css" />
+<body class="manijas">
  <header>
         <a href="@Url.Action("salaDeEstar")">Volver a la sala de estar</a>
     </header>
+    
+
 @{ if(ViewBag.estaDesbloqueada){
     <h1>Desbloqueada</h1>
 }else{
@@ -53,3 +56,5 @@
     
 </form>
 }}
+        
+    </body>

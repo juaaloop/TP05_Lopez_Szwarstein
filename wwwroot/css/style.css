@@ -583,7 +583,7 @@ button[type="submit"]:hover {
 /* SALA DE RETRATOS*/
 .salaDeRetratos {
   background-image: url("/img/salaDeRetratos.png");
-  background-size: cover;
+ background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -592,61 +592,73 @@ button[type="submit"]:hover {
   margin: 0;
 }
 
-.actions {
-  display: flex;
-  justify-content: center;
+/* BIBLIOTECA*/
+.biblioteca{
+  background-image: url(/img/biblioteca.png); 
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.biblioteca #puertaSecreta{
+     width: 2%;
+    color: rgb(73, 25, 25);
+    margin-left: 95%;
+    padding-top: 7%;
+    margin-top: 13%;
+opacity:0.1;
+display:block;
+}
+.biblioteca #puertaSecreta:hover{
+     opacity:1;
+     border-radius: 10px;
+     box-shadow: 0 0 15px 6px rgba(255, 255, 150, 0.8);
+}
+.biblioteca #claveForm{
+  display:none;
 }
 
-.actions button {
-  padding: 8px 16px;
-  font-size: 30px;
-  border-radius: 10px;
-  background-color: #27ae60;
-  color: white;
+/*Sotano */
+.sotano{
+  background-image:url(/img/sotano.png);
+   background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-.grid-container {
-  display: grid;
-  justify-content: center;
-  grid-gap: 16px;
-  grid-template-columns: repeat(6, 140px);
-  grid-template-rows: repeat(2, calc(140px / 2 * 3));
+.caja{
+  background-image:url(/img/caja.png);
+   background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-.libro {
-  height: calc(140px / 2 * 3);
-  width: 140px;
-  border-radius: 10px;
-  background-color: white;
-  position: relative;
-  transform-style: preserve-3d;
-  transition: all 0.5s ease-in-out;
+.caja #puertaSecreta{
+    width: 35%;
+    margin-left: 28%;
+    padding-top: 40%;
+    margin-top: 4%;
+    opacity: 0.1;
+    display: block;
+
+}
+/*baño*/
+.baño{
+   background-image:url(/img/baño.png);
+   background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-.front-image {
-  width: 60px;
-  height: 60px;
-}
-
-.libro.flipped {
-  transform: rotateY(180deg);
-}
-
-.front,
-.back {
-  backface-visibility: hidden;
-  position: absolute;
-  border-radius: 10px;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-}
-
-.libro .front {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.manija{
+   background-image:url(/img/manijas.png);
+   background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 /*FUENTESS*/

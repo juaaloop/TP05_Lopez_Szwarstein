@@ -4,6 +4,8 @@
 <head>
     <link rel="stylesheet" href="~/css/style.css" />
 </head>
+<body class="patio">
+
 <header>
     <a href="#" id="map-icon"><img src="/img/mapaicon.png" alt="mapa"> </a>
 </header>
@@ -13,10 +15,9 @@
         <img src="/img/Mapa.png" alt="Mapa del juego">
     </div>
 </div>
-<body class="patio">
-@{if(!ViewBag.estaDesbloqueada){
+@if(!ViewBag.estaDesbloqueada){
 <div id="zona-drop"></div>
-<div class="contenedorDialogo" id="contenedorPatio">
+<div class="contenedorDialogopersonaje" id="contenedorPatio">
     <p id="textoDialogo">Haz clic para comenzar</p>
 </div>
 <img src="/img/viktor.png" id="viktor">
@@ -44,10 +45,14 @@
         Sigue la vela austral, que guía navíos perdidos.<br>
         Y al final, la cruz solemne donde los caminos se unen.<br>
         ...solo en su verdadero orden, lo oculto se revelará.
-</p>
+    </p>
     </div>
-    }
 </div>
+}else{
+    <h5>Al acomodr los arbustos escuchas un misterioso ruido proveniente desde detras de una de las plantas. Al acercarte notas que hay una nota pegada discrtamente ahi</h5>
+    <img src="/img/pista1.png" alt=pista1>
+  }
+
 <script>
 
         const dialogos = [
@@ -131,9 +136,4 @@ window.addEventListener("click", function(e) {
     }
 });
 </script>
-}else{
-    <h5>Al acomodr los arbustos escuchas un misterioso ruido proveniente desde detras de una de las plantas. Al acercarte notas que hay una nota pegada discrtamente ahi</h5>
-    <img src="/img/pista1.png" alt=pista1>
-  }
-}
 </body>

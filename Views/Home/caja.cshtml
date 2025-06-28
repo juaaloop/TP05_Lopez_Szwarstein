@@ -1,9 +1,19 @@
  @{ ViewData["Title"] = "caja"; }
     <link rel="stylesheet" href="~/css/style.css" />
- 
- <form  method="post" action="@Url.Action("desbloquearSala")">
+ <body class="caja">
+
+<a href="#" id="puertaSecreta"></a>
+ <form id="claveForm" method="post" action="@Url.Action("desbloquearSala")">
         <input type="text" name="clave" class="contenedorDialogo"/>
         <input type="hidden" name="sala" value="4" />
         <input type="hidden" name="salaOriginal" value="sotano" />
         <button type="submit">Desbloquear</button>
     </form>
+</body>
+<script>
+ document.getElementById("puertaSecreta").addEventListener("click", function (e) {
+    e.preventDefault();
+document.getElementById("claveForm").style.display = "block";
+document.getElementById("puertaSecreta").style.display = "none";
+});
+</script>
