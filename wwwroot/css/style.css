@@ -360,22 +360,32 @@ nav a:focus {
   font-family: 'Cormorant SC', serif;
   font-size: 24px;
   width: 7.5%;
-  font-weight: 1000;
+  font-weight: 800;
   position: absolute;
   text-align: center;
+  background-color: #ffe7c87a;
+  color:#441313da;
 }
 #nombreEstudio {
-  transform: translate(62%, -750%);
+  transform: translate(65%, -750%);
 }
 #nombreBiblioteca {
-  transform: translate(62%, -1200%);
+  transform: translate(65%, -1200%);
 }
 #nombreRetrato {
-  transform: translate(62%, -225%);
+  transform: translate(65%, -225%);
 }
 #nombrePatio{
-    transform: translate(205%, -1500%);
-
+    transform: translate(205%, -1600%);
+}
+#nombreBaño{
+      transform: translate(350%, -1250%);
+}
+#nombreCocina{
+      transform: translate(350%, -800%);
+}
+#nombreSotano{
+      transform: translate(350%, -450%);
 }
 #botonPatio {
   padding: 8%;
@@ -862,6 +872,6 @@ button[type="submit"]:hover {
 @font-face {
   font-family: 'Cormorant SC';
   src: url('/fonts/cormorantsc-bold.ttf') format('truetype');
-  font-weight: 700;
+  font-weight: 800;
   font-style: bold;
 }
