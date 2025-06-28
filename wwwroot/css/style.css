@@ -476,8 +476,9 @@ header img {
 
 #pergamino {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  width:25%;
+  bottom: 20%;
+  right: 20%;
   z-index: 1500;
   cursor: pointer;
 }
@@ -488,6 +489,10 @@ header img {
   min-height: 100px;
   margin: 20px;
   /* para arbustos, ARREGLAR!!!!! ESTOS VALORES SON DE PRUEBA atte:iara*/
+}
+
+#viktor{
+  width:35%;
 }
 
 /*COCINA*/
@@ -661,6 +666,29 @@ display:block;
   background-attachment: fixed;
 }
 
+#numeroTotal{
+  margin-top:25%;
+  color:white;
+}
+
+#numeroManijaIzquierda{
+  font-size: medium;
+  margin-left:15%;
+  float:left;
+}
+#numeroManijaIzquierda{
+   font-size: medium;
+  margin-right:15%;
+  float:right;
+}
+/*estudio */
+.estudio{
+   background-image:url(/img/estudio.png);
+   background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 /*FUENTESS*/
 @font-face {
   font-family: 'Titulo';

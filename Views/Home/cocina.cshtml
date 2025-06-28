@@ -1,7 +1,8 @@
 @{ ViewData["Title"] = "cocina"; }
 <head>
 <link rel="stylesheet" href="~/css/style.css" />
-</head>
+</head> 
+<body class="cocina">
 <header>
     <a href="#" id="map-icon"><img src="/img/mapaicon.png" alt="mapa"> </a>
 </header>
@@ -11,8 +12,8 @@
         <img src="/img/Mapa.png" alt="Mapa del juego">
     </div>
 </div>
-        <a href="@Url.Action("estanteria")">Volver a la sala de estar</a>
-    <body class="cocina">
+        <a href="@Url.Action("estanteria")"></a>
+   
         <div>
         @{ if(ViewBag.estaDesbloqueada==false){
             

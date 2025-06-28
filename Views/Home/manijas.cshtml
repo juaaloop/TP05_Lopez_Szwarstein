@@ -1,5 +1,5 @@
 @{ ViewData["Title"] = "estanteria"; }
-    <link rel="stylesheet" href="~/css/style.css" />
+    <link rel="stylesheet" href="/css/style.css" />
 <body class="manijas">
  <header>
         <a href="@Url.Action("salaDeEstar")">Volver a la sala de estar</a>
@@ -45,9 +45,9 @@
     <button type="submit" alt="enviar manija 2 menos"><a href=""></a></button>
 
 </form>
-<h2>@ViewBag.numeroActual</h2>
-<h3>@ViewBag.manija1</h3>
-<h3>@ViewBag.manija2</h3>
+<h2 id="numeroTotal">@ViewBag.numeroActual</h2>
+<h3 id="numeromanijaIzquierda">@ViewBag.manija1</h3>
+<h3 id="numeromanijaIzquierda">@ViewBag.manija2</h3>
 <form action="@Url.Action("desbloquearSala")" method="post">
     <input type="hidden" name="clave" value="@(ViewBag.manija1.ToString() + ViewBag.manija2.ToString())">
     <input type="hidden" name="sala" value="5">
