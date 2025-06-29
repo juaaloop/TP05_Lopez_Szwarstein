@@ -1059,9 +1059,43 @@ button[type="submit"]:hover {
   display: flex;
 }
 
-.retratos {
-  width: 10%;
+.retrato {
+  position: absolute;
+
+  width: 20%;
 }
+
+.retrato:nth-child(1) {
+margin-top: 7.5%;
+margin-left: 26%;
+width: 14%;
+}
+
+.retrato:nth-child(2) {
+margin-top: 5%;
+margin-left: 4%;
+}
+.retrato:nth-child(3) {
+margin-top: 10%;
+margin-left: 40%;
+width: 18%;
+
+}
+.retrato:nth-child(4) {
+margin-top: 5%;
+margin-left: 75%;
+}
+.retrato:nth-child(5) {
+margin-top: 18%;
+margin-left: 60%;
+width: 13%;
+}
+.retrato:nth-child(6) {
+margin-top: 4%;
+margin-left: 57%;
+width: 18%;
+}
+
 
 #desbloquearRetratos {
   opacity: 0.1;
