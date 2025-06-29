@@ -10,15 +10,7 @@
     <h1>Desbloqueada</h1>
 }else{
     <div class="puzzleManijas">
-    <form action="@Url.Action("enviarValorManija")" method="post" id="flecha1">
-    <input type="hidden" name="valor" value="1">
-    <input type="hidden" name="manija" value="1">
-    <input type="hidden" name="numeroActual" value="@ViewBag.numeroActual">
-    <input type="hidden" name="manija1" value="@ViewBag.manija1">
-    <input type="hidden" name="manija2" value="@ViewBag.manija2">
-    <input type="image" src="/img/flechaMas.png"alt="enviar manija 1" >
-    
-</form>
+   
     <form action="@Url.Action("enviarValorManija")" method="post">
     <input type="hidden" name="valor" value="-1">
     <input type="hidden" name="manija" value="1">
@@ -28,14 +20,14 @@
     <input type="image" src="/img/flechaMenos.png"alt="enviar manija 1 menos" >
     
 </form>
-<form action="@Url.Action("enviarValorManija")" method="post">
-    <input type="hidden" name="valor" value="3">
-    <input type="hidden" name="manija" value="2">
-    <input type="hidden" name="numeroActual" value="@ViewBag.numeroActual"  id="flecha3">
+ <form action="@Url.Action("enviarValorManija")" method="post" id="flecha1">
+    <input type="hidden" name="valor" value="1">
+    <input type="hidden" name="manija" value="1">
+    <input type="hidden" name="numeroActual" value="@ViewBag.numeroActual">
     <input type="hidden" name="manija1" value="@ViewBag.manija1">
     <input type="hidden" name="manija2" value="@ViewBag.manija2">
-    <input type="image" src="/img/flechaMas.png" alt="enviar manija 2" >
-
+    <input type="image" src="/img/flechaMas.png"alt="enviar manija 1" >
+    
 </form>
 <form action="@Url.Action("enviarValorManija")" method="post">
     <input type="hidden" name="valor" value="-3">
@@ -44,6 +36,14 @@
     <input type="hidden" name="manija1" value="@ViewBag.manija1">
     <input type="hidden" name="manija2" value="@ViewBag.manija2">
     <input type="image" src="/img/flechaMenos.png"alt="enviar manija 1 menos">
+</form>
+<form action="@Url.Action("enviarValorManija")" method="post">
+    <input type="hidden" name="valor" value="3">
+    <input type="hidden" name="manija" value="2">
+    <input type="hidden" name="numeroActual" value="@ViewBag.numeroActual"  id="flecha3">
+    <input type="hidden" name="manija1" value="@ViewBag.manija1">
+    <input type="hidden" name="manija2" value="@ViewBag.manija2">
+    <input type="image" src="/img/flechaMas.png" alt="enviar manija 2" >
 </form>
 </div>
 <h2 id="numeroTotal">@ViewBag.numeroActual</h2>
@@ -56,6 +56,5 @@
     <input type="submit">
     
 </form>
-}}
-        
+}}     
     </body>
