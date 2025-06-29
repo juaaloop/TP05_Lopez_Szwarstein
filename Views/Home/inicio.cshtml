@@ -25,33 +25,71 @@
                 "Si el culpable no emerge antes del anochecer, la vergüenza de los Karamázov será tuya. Tu juicio está por comenzar.",
                 "form"
             ];
+      
+    let dialogoId = 0;
+    let escribiendo = false;
+    let intervalo;
+    let i = 0;
+    const textoElemento = document.getElementById("textoDialogo");
+    const contenedor = document.getElementById("contenedorInicio");
 
-            let dialogoId = 0;
-            function avanzarDialogo() {
-                if (dialogoId < dialogos.length) {
-                    const contenedor = document.getElementById("contenedorInicio");
+    function escribirTexto(texto) {
+        clearInterval(intervalo);
+        textoElemento.textContent = "";
+        i = 0;
+        escribiendo = true;
 
-                    if (dialogos[dialogoId] === "form") {
-                        contenedor.innerHTML = `
-                <p>Ingresá tu nombre</p>
-                    <form action='@Url.Action("ingresarNombre")' method="POST">
-                        <input type="text" name="nombre" placeholder="Tu nombre" required />
-                        <input type="submit" value="Entrar" />
-                    </form>
-                `;
-                    } else {
-                        document.getElementById("textoDialogo").textContent = dialogos[dialogoId];
-                    }
-
-                    dialogoId++;
-                }
+        intervalo = setInterval(() => {
+            if (i < texto.length) {
+                textoElemento.textContent += texto.charAt(i);
+                i++;
+            } else {
+                clearInterval(intervalo);
+                escribiendo = false;
             }
-            document.getElementById("contenedorInicio").addEventListener("click", avanzarDialogo);
-            document.getElementById("contenedorInicio").addEventListener("keydown", function (event) {
-                if (event.key == "Enter" || event.key == " ") {
-                    avanzarDialogo();
-                }
-            });
+        }, 35);
+    }
+
+    function completarTexto(texto) {
+        clearInterval(intervalo);
+        textoElemento.textContent = texto;
+        escribiendo = false;
+    }
+
+   function avanzarDialogo() {
+    if (dialogoId >= dialogos.length) return;
+
+    const textoActual = dialogos[dialogoId];
+
+    if (textoActual === "form") {
+
+        contenedor.innerHTML = `
+            <p>Ingresá tu nombre</p>
+            <form action='@Url.Action("ingresarNombre")' method="POST">
+                <input type="text" name="nombre" placeholder="Tu nombre" required />
+                <input type="submit" value="Entrar" />
+            </form>
+        `;
+                contenedor.removeEventListener("click", avanzarDialogo);
+        contenedor.removeEventListener("keydown", handleKeyDown);
+    } else {
+        if (escribiendo) {
+            completarTexto(textoActual);
+        } else {
+            dialogoId++; // adelantar antes
+            escribirTexto(dialogos[dialogoId]);
+        }
+    }
+}
+
+    contenedor.addEventListener("click", avanzarDialogo);
+
+    contenedor.addEventListener("keydown", function (event) {
+        if (event.key === "Enter" || event.key === " ") {
+            event.preventDefault();
+            avanzarDialogo();
+        }
+    });
         </script>
     </div>
 </body>

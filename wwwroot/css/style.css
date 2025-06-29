@@ -41,6 +41,7 @@
   pointer-events: none;
 }
 
+
 .contenido {
   position: relative;
   z-index: 1;
@@ -60,6 +61,7 @@
 .inicio #textoDialogo {
   position: relative;
   width: 100%;
+  letter-spacing: 2px;
 }
 .indice h1 {
   margin-top: 7.5%;
