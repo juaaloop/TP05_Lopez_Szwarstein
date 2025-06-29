@@ -1,7 +1,12 @@
 @{
     ViewData["Title"] = "patio";
+    var nombreJugador = ViewBag.nombre ?? "visitante";
 }
+<!DOCTYPE html>
+<html>
 <head>
+    <meta charset="utf-8" />
+    <title>Patio</title>
     <link rel="stylesheet" href="~/css/style.css" />
 </head>
 <body class="patio">
@@ -9,6 +14,7 @@
 <header>
     <a href="#" id="map-icon"><img src="/img/mapaicon.png" alt="mapa"> </a>
 </header>
+
 <div id="map-overlay" style="display:none;">
     <div id="map-content">
         <span id="close-map">&times;</span>
@@ -31,169 +37,174 @@
         <h3 id="nombreEstudio">Estudio</h3>
     </div>
 </div>
-@if(!ViewBag.estaDesbloqueada){
-<div id="zona-drop"></div>
 
-<div id="overlayDialogo" class="overlay oculto">
-  <div class="contenedorDialogoPersonaje" id="contenedorPatio">
-<img src="/img/viktor.png" id="personajeDialogo">
-      <h2 id="nombrePersonaje">Viktor (Jardinero)</h2>
-    <p id="textoDialogo"></p>
-</div>
-</div>
-<img src="/img/viktor.png" id="viktor"  style="cursor:pointer;">
-<div id="zonaorigen">
-<img src="/img/luna.png" id="luna" draggable="true" class="arbusto">
-<img src="/img/cruz.png" id="cruz" draggable="true" class="arbusto">
-<img src="/img/estrella.png" id="estrella" draggable="true" class="arbusto">
-<img src="/img/diamante.png" id="diamante" draggable="true" class="arbusto">
-<img src="/img/triangulo.png" id="triangulo" draggable="true" class="arbusto">
-</div>
+@if (!ViewBag.estaDesbloqueada)
+{
+    <div id="zona-drop"></div>
 
-<form id="claveForm" method="post" action='@Url.Action("desbloquearSala")'>
-    <input type="hidden" name="clave" value="desbloquear" />
-    <input type="hidden" name="sala" value=2 />
-    <input type="hidden" name="salaOriginal" value="patio" />
-</form>
-
-<a href="#" id="pergamino"><img src="/img/pergamino.png" alt="elemento"> </a>
-<div id="modalPergamino" style="display:none;">
-    <div id="modalContenido">
-        <span id="cerrarModal">&times;</span>
-        <p> Primero, el destello brillante que perfora el velo del crepúsculo.<br>
-        Después, una plateada curva silenciosa que vela los sueños.<br>
-        Luego, el cazador poderoso, joya del cielo nocturno, íntegro en su forma.<br>
-        Sigue la vela austral, que guía navíos perdidos.<br>
-        Y al final, la cruz solemne donde los caminos se unen.<br>
-        ...solo en su verdadero orden, lo oculto se revelará.
-    </p>
+    <div id="overlayDialogo" class="overlay oculto">
+        <div class="contenedorDialogoPersonaje" id="contenedorPatio">
+            <img src="/img/viktor.png" id="personajeDialogo" />
+            <h2 id="nombrePersonaje">Viktor (Jardinero)</h2>
+            <p id="textoDialogo"></p>
+        </div>
     </div>
-</div>
-}else{
-    <h5>Al acomodr los arbustos escuchas un misterioso ruido proveniente desde detras de una de las plantas. Al acercarte notas que hay una nota pegada discrtamente ahi</h5>
-    <img src="/img/pista1.png" alt=pista1>
-  }
 
-<script> 
-        window.onload = function () {
-    const dialogos = [
-        "Buenos días, joven @ViewBag.nombre. No suelo ver mucha gente por el jardín... no desde que el señor partió. La quietud, al menos, parecía inalterable.",
-        "Mis ojos están acostumbrados a la quietud de la tierra, a la paciente espera de las estaciones. Pero estos arbustos... sus formas celestiales han sido trastocadas. Solían seguir una disposición… mas hoy, su armonía se ha roto.",
-        "Alguien ha estado aquí durante la noche...",
-        "Espero que no busques algo que no debas encontrar."
-    ];
-    
-    let dialogoId = 0;
-    const overlay = document.getElementById("overlayDialogo");
-    const contenedor = document.getElementById("contenedorPatio");
-    const texto = document.getElementById("textoDialogo");
+    <img src="/img/viktor.png" id="viktor" style="cursor:pointer;" />
 
-    function mostrarDialogo() {
-        if (dialogoId < dialogos.length) {
-            texto.textContent = dialogos[dialogoId];
-            dialogoId++;
-        } else {
-            overlay.classList.add("oculto");
-            dialogoId = 0;
-        }
-    }
+    <div id="zonaorigen">
+        <img src="/img/luna.png" id="luna" draggable="true" class="arbusto" />
+        <img src="/img/cruz.png" id="cruz" draggable="true" class="arbusto" />
+        <img src="/img/estrella.png" id="estrella" draggable="true" class="arbusto" />
+        <img src="/img/diamante.png" id="diamante" draggable="true" class="arbusto" />
+        <img src="/img/triangulo.png" id="triangulo" draggable="true" class="arbusto" />
+    </div>
 
-    document.querySelectorAll("#viktor").forEach(viktor => {
-        viktor.addEventListener("click", () => {
+    <form id="claveForm" method="post" action='@Url.Action("desbloquearSala")'>
+        <input type="hidden" name="clave" value="desbloquear" />
+        <input type="hidden" name="sala" value="2" />
+        <input type="hidden" name="salaOriginal" value="patio" />
+    </form>
+
+    <a href="#" id="pergamino"><img src="/img/pergamino.png" alt="elemento" /></a>
+    <div id="modalPergamino" style="display:none;">
+        <div id="modalContenido">
+            <span id="cerrarPergamino">&times;</span>
+            <p>
+                Primero, el destello brillante que perfora el velo del crepúsculo.<br>
+                Después, una plateada curva silenciosa que vela los sueños.<br>
+                Luego, el cazador poderoso, joya del cielo nocturno, íntegro en su forma.<br>
+                Sigue la vela austral, que guía navíos perdidos.<br>
+                Y al final, la cruz solemne donde los caminos se unen.<br>
+                ...solo en su verdadero orden, lo oculto se revelará.
+            </p>
+        </div>
+    </div>
+}
+else
+{
+    <h5>Al acomodar los arbustos escuchás un misterioso ruido proveniente de detrás de una planta...</h5>
+    <img src="/img/pista1.png" alt="pista1" />
+}
+
+<script defer>
+    document.addEventListener("DOMContentLoaded", function () {
+        const nombreJugador = "@nombreJugador";
+        const dialogos = [
+            `Buenos días, joven ${nombreJugador}. No suelo ver mucha gente por el jardín...`,
+            "Mis ojos están acostumbrados a la quietud de la tierra...",
+            "Alguien ha estado aquí durante la noche...",
+            "Espero que no busques algo que no debas encontrar."
+        ];
+
+        let dialogoId = 0;
+        const overlay = document.getElementById("overlayDialogo");
+        const contenedor = document.getElementById("contenedorPatio");
+        const texto = document.getElementById("textoDialogo");
+
+        document.getElementById("viktor")?.addEventListener("click", () => {
             overlay.classList.remove("oculto");
             mostrarDialogo();
         });
-    });
 
-    contenedor.addEventListener("click", () => {
-        mostrarDialogo();
-    });
+        contenedor?.addEventListener("click", mostrarDialogo);
 
-    document.addEventListener("keydown", (e) => {
-        if (!overlay.classList.contains("oculto") && e.code === "Space") {
-            e.preventDefault();
-            mostrarDialogo();
+        document.addEventListener("keydown", (e) => {
+            if (!overlay.classList.contains("oculto") && e.code === "Space") {
+                e.preventDefault();
+                mostrarDialogo();
+            }
+        });
+
+        function mostrarDialogo() {
+            if (dialogoId < dialogos.length) {
+                texto.textContent = dialogos[dialogoId];
+                dialogoId++;
+            } else {
+                overlay.classList.add("oculto");
+                dialogoId = 0;
+            }
         }
-    });
-};
 
+        // Drag & Drop
+        const zonaDrop = document.getElementById("zona-drop");
+        const ordenActual = [];
 
-    const zonaDrop = document.getElementById("zona-drop");
-    const ordenActual = [];
+        document.querySelectorAll(".arbusto").forEach(el => {
+            el.addEventListener("dragstart", (e) => {
+                e.dataTransfer.setData("text/plain", e.target.id);
+            });
+        });
 
-    document.querySelectorAll(".arbusto").forEach(el => {
-        el.addEventListener("dragstart", (e) => {
-            e.dataTransfer.setData("text/plain", e.target.id);
+        zonaDrop.addEventListener("dragover", (e) => {
+            e.preventDefault();
+            zonaDrop.style.backgroundColor = "#eef";
+        });
+
+        zonaDrop.addEventListener("dragleave", () => {
+            zonaDrop.style.backgroundColor = "";
+        });
+
+        zonaDrop.addEventListener("drop", (e) => {
+            e.preventDefault();
+            zonaDrop.style.backgroundColor = "";
+            const id = e.dataTransfer.getData("text/plain");
+
+            if (!ordenActual.includes(id)) {
+                const img = document.getElementById(id).cloneNode(true);
+                img.style.width = "15%";
+                img.draggable = false;
+
+                img.addEventListener("click", () => {
+                    zonaDrop.removeChild(img);
+                    const index = ordenActual.indexOf(id);
+                    if (index !== -1) ordenActual.splice(index, 1);
+                });
+
+                zonaDrop.appendChild(img);
+                ordenActual.push(id);
+            }
+
+            const ordenCorrecto = ["estrella", "luna", "diamante", "triangulo", "cruz"];
+            if (ordenActual.length === ordenCorrecto.length &&
+                ordenActual.every((val, idx) => val === ordenCorrecto[idx])) {
+                document.getElementById("claveForm").submit();
+                document.getElementById("zonaorigen").style.display = "none";
+            }
+        });
+
+        // Modal pergamino
+        document.getElementById("pergamino").addEventListener("click", function (e) {
+            e.preventDefault();
+            document.getElementById("modalPergamino").style.display = "block";
+        });
+
+        document.getElementById("cerrarPergamino").addEventListener("click", function () {
+            document.getElementById("modalPergamino").style.display = "none";
+        });
+
+        window.addEventListener("click", function (e) {
+            if (e.target === document.getElementById("modalPergamino")) {
+                document.getElementById("modalPergamino").style.display = "none";
+            }
+        });
+
+        // Mapa
+        document.getElementById("map-icon").addEventListener("click", function (e) {
+            e.preventDefault();
+            document.getElementById("map-overlay").style.display = "block";
+        });
+
+        document.getElementById("close-map").addEventListener("click", function () {
+            document.getElementById("map-overlay").style.display = "none";
+        });
+
+        window.addEventListener("click", function (e) {
+            if (e.target === document.getElementById("map-overlay")) {
+                document.getElementById("map-overlay").style.display = "none";
+            }
         });
     });
-
-    zonaDrop.addEventListener("dragover", (e) => {
-        e.preventDefault();
-        zonaDrop.style.backgroundColor = "#eef";
-    });
-
-    zonaDrop.addEventListener("dragleave", (e) => {
-        zonaDrop.style.backgroundColor = "";
-    });
-
-    zonaDrop.addEventListener("drop", (e) => {
-        e.preventDefault();
-        zonaDrop.style.backgroundColor = "";
-        const id = e.dataTransfer.getData("text/plain");
-      if (!ordenActual.includes(id)) {
-            const img = document.getElementById(id).cloneNode(true);
-            img.style.width = "15%";
-            img.draggable = false;
-
- 
-            img.addEventListener("click", () => {
-                zonaDrop.removeChild(img);
-                const index = ordenActual.indexOf(id);
-                if (index !== -1) ordenActual.splice(index, 1);
-            });
-             zonaDrop.appendChild(img);
-            ordenActual.push(id);
-      }
-
-        const ordenCorrecto = ["estrella", "luna","diamante", "triangulo", "cruz"];
-        if (ordenActual.length === ordenCorrecto.length &&
-            ordenActual.every((val, idx) => val === ordenCorrecto[idx])) {
-            document.getElementById("claveForm").submit();
-            document.getElementById("zonaorigen").style.display = "none";
-        }
-    });
-
-document.getElementById("pergamino").addEventListener("click", function(e) {
-    e.preventDefault();
-    document.getElementById("modalPergamino").style.display = "block";
-});
-
-
-document.getElementById("cerrarModal").addEventListener("click", function() {
-    document.getElementById("modalPergamino").style.display = "none";
-});
-
-
-window.addEventListener("click", function(e) {
-    if (e.target === document.getElementById("modalPergamino")) {
-        document.getElementById("modalPergamino").style.display = "none";
-    }
-});
-
-            document.getElementById("map-icon").addEventListener("click", function (e) {
-                e.preventDefault();
-                document.getElementById("map-overlay").style.display = "block";
-            });
-
-            document.getElementById("close-map").addEventListener("click", function () {
-                document.getElementById("map-overlay").style.display = "none";
-            });
-
-            window.addEventListener("click", function (e) {
-                if (e.target === document.getElementById("map-overlay")) {
-                    document.getElementById("map-overlay").style.display = "none";
-                }
-            });
-        };
 </script>
 </body>
+</html>
