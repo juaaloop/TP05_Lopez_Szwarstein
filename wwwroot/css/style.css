@@ -390,9 +390,12 @@ nav a:focus {
 }
 #nombreBiblioteca {
   transform: translate(65%, -1200%);
+  font-size: 20px;
 }
 #nombreRetrato {
   transform: translate(65%, -225%);
+    font-size: 20px;
+
 }
 #nombrePatio {
   transform: translate(205%, -1600%);

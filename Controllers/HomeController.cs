@@ -33,7 +33,8 @@ public class HomeController : Controller
 
     public IActionResult salaDeEstar()
     {
-
+        Partida partidaNueva = Objeto.StringToObject<Partida>(HttpContext.Session.GetString("partida"));
+        ViewBag.nombre = partidaNueva.nombreJugador;
         return View();
     }
 
