@@ -9,160 +9,155 @@
 <header>
     <a href="#" id="map-icon"><img src="/img/mapaicon.png" alt="mapa"> </a>
 
-<div id="map-overlay" style="display:none;">
-    <div id="map-content">
-        <span id="close-map">&times;</span>
-        <img src="/img/mapa.png" alt="">
-        <a href='@Url.Action("irASala", new { sala = "salaDeEstar", numSala = 1 })' id="botonSala"></a>
-        <a href='@Url.Action("irASala", new { sala = "patio", numSala = 2 })' id="botonPatio"></a>
-        <a href='@Url.Action("irASala", new { sala = "cocina", numSala = 3 })' id="botonCocina"></a>
-        <a href='@Url.Action("irASala", new { sala = "sotano", numSala = 4 })' id="botonSotano"></a>
-        <a href='@Url.Action("irASala", new { sala = "baño", numSala = 5 })' id="botonBaño"></a>
-        <a href='@Url.Action("irASala", new { sala = "salaDeRetratos", numSala = 6 })' id="botonRetratos"></a>
-        <a href='@Url.Action("irASala", new { sala = "biblioteca", numSala = 7 })' id="botonBiblioteca"></a>
-        <a href='@Url.Action("irASala", new { sala = "estudio", numSala = 8 })' id="botonEstudio"></a>
-        <h3 id="nombreSala">Sala de Estar</h3>
-        <h3 id="nombrePatio">Patio</h3>
-        <h3 id="nombreCocina">Cocina</h3>
-        <h3 id="nombreSotano">Sótano</h3>
-        <h3 id="nombreBaño">Baño</h3>
-        <h3 id="nombreRetrato">Sala de Retrato</h3>
-        <h3 id="nombreBiblioteca">Biblioteca</h3>
-        <h3 id="nombreEstudio">Estudio</h3>
+    <div id="map-overlay" style="display:none;">
+        <div id="map-content">
+            <span id="close-map">&times;</span>
+            <img src="/img/mapa.png" alt="">
+            <a href='@Url.Action("irASala", new { sala = "salaDeEstar", numSala = 1 })' id="botonSala"></a>
+            <a href='@Url.Action("irASala", new { sala = "patio", numSala = 2 })' id="botonPatio"></a>
+            <a href='@Url.Action("irASala", new { sala = "cocina", numSala = 3 })' id="botonCocina"></a>
+            <a href='@Url.Action("irASala", new { sala = "sotano", numSala = 4 })' id="botonSotano"></a>
+            <a href='@Url.Action("irASala", new { sala = "baño", numSala = 5 })' id="botonBaño"></a>
+            <a href='@Url.Action("irASala", new { sala = "salaDeRetratos", numSala = 6 })' id="botonRetratos"></a>
+            <a href='@Url.Action("irASala", new { sala = "biblioteca", numSala = 7 })' id="botonBiblioteca"></a>
+            <a href='@Url.Action("irASala", new { sala = "estudio", numSala = 8 })' id="botonEstudio"></a>
+            <h3 id="nombreSala">Sala de Estar</h3>
+            <h3 id="nombrePatio">Patio</h3>
+            <h3 id="nombreCocina">Cocina</h3>
+            <h3 id="nombreSotano">Sótano</h3>
+            <h3 id="nombreBaño">Baño</h3>
+            <h3 id="nombreRetrato">Sala de Retrato</h3>
+            <h3 id="nombreBiblioteca">Biblioteca</h3>
+            <h3 id="nombreEstudio">Estudio</h3>
+        </div>
     </div>
-</div>
 </header>
+
 <body class="salaDeEstar">
-<div class="personajes">
-  <img src="/img/tio.png" alt="Tío" id="tio" class="personaje">
-  <img src="/img/hermana.png" alt="Hermana" id="hermana" class="personaje">
-  <img src="/img/primo.png" alt="Primo" id="primo" class="personaje">
-  <img src="/img/abuelo.png" alt="Abuelo" id="abuelo" class="personaje">
-  <img src="/img/hermano.png" alt="Hermano" id="hermano" class="personaje">
-</div>
+    <div class="personajes">
+        <img src="/img/tio.png" alt="Tío" id="tio" class="personaje">
+        <img src="/img/hermana.png" alt="Hermana" id="hermana" class="personaje">
+        <img src="/img/primo.png" alt="Primo" id="primo" class="personaje">
+        <img src="/img/abuelo.png" alt="Abuelo" id="abuelo" class="personaje">
+        <img src="/img/hermano.png" alt="Hermano" id="hermano" class="personaje">
+    </div>
 
-<div id="overlayDialogo" class="overlay oculto">
-  <div class="contenedorDialogoPersonaje" id="contenedorSalaDeEstar">
-    <img src="" id="personajeDialogo" alt="Personaje">
-    <h2 id="nombrePersonaje"></h2>
-    <p id="textoDialogo"></p>
-  </div>
-</div>
+    <div id="overlayDialogo" class="overlay oculto">
+        <div class="contenedorDialogoPersonaje" id="contenedorSalaDeEstar">
+            <img src="" id="personajeDialogo" alt="Personaje">
+            <h2 id="nombrePersonaje"></h2>
+            <p id="textoDialogo"></p>
+        </div>
+    </div>
 
-<script>
-window.onload = function () {
-  const personajes = {
-    tio: {
-  nombre: "Tío",
-  imagen: "/img/tio.png",
-  dialogos: [
-    "¿Confianza? En esta familia, eso se pierde más rápido que una copa de coñac en invierno.",
-    "Justo cuando planeaba partir hacia la costa para descansar del peso de este apellido... cierran las puertas.",
-    "Pff... siempre supe que este lugar iba a volverse una trampa.",
-    "*suspira* Lo sabía. Estábamos destinados a este escándalo. La traición es una enfermedad hereditaria entre nosotros. No desconfío de ti, pero tampoco me entregues tu espalda a ciegas, sobrino."
-  ]
-}
+    <script>
+        window.onload = function () {
+            const personajes = {
+                tio: {
+                    nombre: "Tío",
+                    imagen: "/img/tio.png",
+                    dialogos: [
+                        "¿Confianza? En esta familia, eso se pierde más rápido que una copa de coñac en invierno.",
+                        "Justo cuando planeaba partir hacia la costa para descansar del peso de este apellido... cierran las puertas.",
+                        "Pff... siempre supe que este lugar iba a volverse una trampa.",
+                        "*suspira* Lo sabía. Estábamos destinados a este escándalo. La traición es una enfermedad hereditaria entre nosotros. No desconfío de ti, pero tampoco me entregues tu espalda a ciegas, sobrino."
+                    ]
+                },
+                hermana: {
+                    nombre: "Hermana",
+                    imagen: "/img/hermana.png",
+                    dialogos: [
+                        "¿De verdad estamos cuestionando esto? Es ridículo.",
+                        "Fue uno de los criados. No lo dudes.",
+                        "Las clases inferiores… siempre al acecho, esperando cualquier descuido para servirse de lo que no les pertenece.",
+                        "Lo he visto antes. Mueven la cabeza, bajan la mirada... y apenas giramos, hunden la mano en lo nuestro."
+                    ]
+                },
+                primo: {
+                    nombre: "Primo",
+                    imagen: "/img/primo.png",
+                    dialogos: [
+                        "Esto es un desastre. Pobres todos nosotros.",
+                        "No quiero levantar falsos juicios, pero no creo que esto haya sido obra de uno de nosotros.",
+                        "Fue alguien externo. Alguien que conocía la casa… y sus secretos.",
+                        "Tal vez alguien que supo cuándo entrar… y cómo no dejar huella alguna."
+                    ]
+                },
+                abuelo: {
+                    nombre: "Abuelo",
+                    imagen: "/img/abuelo.png",
+                    dialogos: ["..."]
+                },
+                hermano: {
+                    nombre: "Hermano",
+                    imagen: "/img/hermano.png",
+                    dialogos: [
+                        "Sabía que algo torcido aguardaba esta reunión. Por eso no quería venir.",
+                        "Siempre que la familia se reúne, la desgracia se sienta a la mesa.",
+                        "¿Y ahora qué? ¿Jugaremos a los inocentes hasta que alguno se derrumbe?",
+                        "Entre nosotros, @ViewBag.nombre... creo que fue el tío. Siempre fue rencoroso, siempre ambicionó lo que no era suyo."
+                    ]
+                }
+            };
 
-    },
-    hermana: {
-        nombre: "Hermana",
-  imagen: "/img/hermana.png",
-  dialogos: [
-    "¿De verdad estamos cuestionando esto? Es ridículo.",
-    "Fue uno de los criados. No lo dudes.",
-    "Las clases inferiores… siempre al acecho, esperando cualquier descuido para servirse de lo que no les pertenece.",
-    "Lo he visto antes. Mueven la cabeza, bajan la mirada... y apenas giramos, hunden la mano en lo nuestro."
-  ]
-},
-    primo: {
-      nombre: "Primo",
-      imagen: "/img/primo.png",
-      dialogos: [
-        "Esto es un desastre. Pobres todos nosotros.",
-    "No quiero levantar falsos juicios, pero no creo que esto haya sido obra de uno de nosotros.",
-    "Fue alguien externo. Alguien que conocía la casa… y sus secretos.",
-    "Tal vez alguien que supo cuándo entrar… y cómo no dejar huella alguna."
-      ]
-    },
-    abuelo: {
-      nombre: "Abuelo",
-      imagen: "/img/abuelo.png",
-      dialogos: [
-        "..." 
-      ]
-    },
-    hermano: {
-      nombre: "Hermano",
-      imagen: "/img/hermano.png",
-        imagen: "/img/hermano.png",
-  dialogos: [
-    "Sabía que algo torcido aguardaba esta reunión. Por eso no quería venir.",
-    "Siempre que la familia se reúne, la desgracia se sienta a la mesa.",
-    "¿Y ahora qué? ¿Jugaremos a los inocentes hasta que alguno se derrumbe?",
-    "Entre nosotros, @ViewBag.nombre... creo que fue el tío. Siempre fue rencoroso, siempre ambicionó lo que no era suyo."
-  ]
-    }
-  };
+            let dialogoIndex = 0;
+            let personajeActivo = null;
 
-  let dialogoIndex = 0;
-  let personajeActivo = null;
+            const overlay = document.getElementById("overlayDialogo");
+            const contenedor = document.getElementById("contenedorSalaDeEstar");
+            const imgElem = document.getElementById("personajeDialogo");
+            const nombreElem = document.getElementById("nombrePersonaje");
+            const textoElem = document.getElementById("textoDialogo");
 
-  const overlay = document.getElementById("overlayDialogo");
-  const contenedor = document.getElementById("contenedorSalaDeEstar");
-  const imgElem = document.getElementById("personajeDialogo");
-  const nombreElem = document.getElementById("nombrePersonaje");
-  const textoElem = document.getElementById("textoDialogo");
+            function mostrarDialogo() {
+                if (!personajeActivo) return;
 
-  function mostrarDialogo() {
-    if (!personajeActivo) return;
-
-    const dialogos = personajeActivo.dialogos;
-    if (dialogoIndex < dialogos.length) {
-      textoElem.textContent = dialogos[dialogoIndex];
-      dialogoIndex++;
-    } else {
-      overlay.classList.add("oculto");
-      dialogoIndex = 0;
-      personajeActivo = null;
-    }
-  }
-
-  Object.keys(personajes).forEach(id => {
-    const img = document.getElementById(id);
-    img.addEventListener("click", () => {
-      personajeActivo = personajes[id];
-      dialogoIndex = 0;
-      imgElem.src = personajeActivo.imagen;
-      nombreElem.textContent = personajeActivo.nombre;
-      overlay.classList.remove("oculto");
-      mostrarDialogo();
-    });
-  });
-
-  contenedor.addEventListener("click", mostrarDialogo);
-
-  document.addEventListener("keydown", function (e) {
-    if (!overlay.classList.contains("oculto") && (e.key === " " || e.key === "Enter")) {
-      e.preventDefault();
-      mostrarDialogo();
-    }
-  });
-};
-        document.getElementById("map-icon").addEventListener("click", function (e) {
-            e.preventDefault();
-            document.getElementById("map-overlay").style.display = "block";
-        });
-
-
-        document.getElementById("close-map").addEventListener("click", function () {
-            document.getElementById("map-overlay").style.display = "none";
-        });
-
-
-        window.addEventListener("click", function (e) {
-            if (e.target === document.getElementById("map-overlay")) {
-                document.getElementById("map-overlay").style.display = "none";
+                const dialogos = personajeActivo.dialogos;
+                if (dialogoIndex < dialogos.length) {
+                    textoElem.textContent = dialogos[dialogoIndex];
+                    dialogoIndex++;
+                } else {
+                    overlay.classList.add("oculto");
+                    dialogoIndex = 0;
+                    personajeActivo = null;
+                }
             }
-        });
+
+            Object.keys(personajes).forEach(id => {
+                const img = document.getElementById(id);
+                img.addEventListener("click", () => {
+                    personajeActivo = personajes[id];
+                    dialogoIndex = 0;
+                    imgElem.src = personajeActivo.imagen;
+                    nombreElem.textContent = personajeActivo.nombre;
+                    overlay.classList.remove("oculto");
+                    mostrarDialogo();
+                });
+            });
+
+            contenedor.addEventListener("click", mostrarDialogo);
+
+            document.addEventListener("keydown", function (e) {
+                if (!overlay.classList.contains("oculto") && (e.key === " " || e.key === "Enter")) {
+                    e.preventDefault();
+                    mostrarDialogo();
+                }
+            });
+
+            document.getElementById("map-icon").addEventListener("click", function (e) {
+                e.preventDefault();
+                document.getElementById("map-overlay").style.display = "block";
+            });
+
+            document.getElementById("close-map").addEventListener("click", function () {
+                document.getElementById("map-overlay").style.display = "none";
+            });
+
+            window.addEventListener("click", function (e) {
+                if (e.target === document.getElementById("map-overlay")) {
+                    document.getElementById("map-overlay").style.display = "none";
+                }
+            });
+        };
     </script>
 </body>

@@ -180,21 +180,20 @@ window.addEventListener("click", function(e) {
     }
 });
 
-document.getElementById("map-icon").addEventListener("click", function (e) {
-            e.preventDefault();
-            document.getElementById("map-overlay").style.display = "block";
-        });
+            document.getElementById("map-icon").addEventListener("click", function (e) {
+                e.preventDefault();
+                document.getElementById("map-overlay").style.display = "block";
+            });
 
-
-        document.getElementById("close-map").addEventListener("click", function () {
-            document.getElementById("map-overlay").style.display = "none";
-        });
-
-
-        window.addEventListener("click", function (e) {
-            if (e.target === document.getElementById("map-overlay")) {
+            document.getElementById("close-map").addEventListener("click", function () {
                 document.getElementById("map-overlay").style.display = "none";
-            }
-        });
+            });
+
+            window.addEventListener("click", function (e) {
+                if (e.target === document.getElementById("map-overlay")) {
+                    document.getElementById("map-overlay").style.display = "none";
+                }
+            });
+        };
 </script>
 </body>

@@ -1,10 +1,6 @@
 @{ ViewData["Title"] = "estudio"; }
 <link rel="stylesheet" href="~/css/style.css" />
 
-@{
-    ViewData["Title"] = "Inicio";
-}
-
     <head>
         <link rel="stylesheet" href="~/css/style.css" />
     </head>
@@ -13,12 +9,13 @@
         <div class="fondo-blur"><img src="/img/fonto-inicio.png" alt=""></div>
     <div class="contenido">
         <div class="contenedorDialogo" id="contenedorInicio" tabindex="0">
-            <p id="textoDialogo">Haz clic para comenzar</p>
+            <p id="textoDialogo">...</p>
         </div>
 
-        <script>
+    <button class="contenedorDialogo" action="@Url.Action("index")" style="display:none;" id="volver"></button>
+    <script>
             const dialogos = [
-            "Felicitaciones"
+            "Felicitaciones, escapaste de tu terrible destino",
             "La mansión Kazaramtov vuelve a recuperar la paz. O quizas es que nunca hubo paz y lo que hay ahora es simplemente quietitud",
             "Se lo que sea, el sol volvera a salir, asi como la familia de la vieja mansión"
              ];
@@ -27,6 +24,7 @@
     let escribiendo = false;
     let intervalo;
     let i = 0;
+    let termino=false;
     const textoElemento = document.getElementById("textoDialogo");
     const contenedor = document.getElementById("contenedorInicio");
 
@@ -54,8 +52,10 @@
     }
 
    function avanzarDialogo() {
-    if (dialogoId >= dialogos.length) return;
-
+    if (dialogoId >= dialogos.length) {
+    document.getElementById("volver").style.display="block";
+    return;
+    }
     const textoActual = dialogos[dialogoId];
         if (escribiendo) {
             completarTexto(textoActual);
@@ -64,13 +64,14 @@
             escribirTexto(dialogos[dialogoId]);
         }
     }
-}
+
 contenedor.addEventListener("click", function(event) {
     if (event.target.closest("form")) {
         return;
     }
     avanzarDialogo();
 });
+
         </script>
     </div>
 </body>

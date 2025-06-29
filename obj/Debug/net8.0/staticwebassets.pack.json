@@ -65,6 +65,10 @@
       "PackagePath": "staticwebassets\\fonts\\RigorMortisRegular.woff2"
     },
     {
+      "Id": "C:\\Users\\iarit\\Downloads\\TP05\\TP05\\wwwroot\\img\\Flecha Ornada de Estilo Barroco.png",
+      "PackagePath": "staticwebassets\\img\\Flecha Ornada de Estilo Barroco.png"
+    },
+    {
       "Id": "C:\\Users\\iarit\\Downloads\\TP05\\TP05\\wwwroot\\img\\Mapa.png",
       "PackagePath": "staticwebassets\\img\\Mapa.png"
     },

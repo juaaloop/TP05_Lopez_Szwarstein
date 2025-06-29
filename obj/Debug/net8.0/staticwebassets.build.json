@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "AkWwDlOxdjglrsUinEroyTj11owIaqslp6yRKz4tfdM=",
+  "Hash": "OBF43cfH+QBS2cVD1S3RW2pRl/v4wSj2i3wGo9czpoM=",
   "Source": "SalaDeEscape",
   "BasePath": "_content/SalaDeEscape",
   "Mode": "Default",
@@ -528,6 +528,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\estudio.png"
+    },
+    {
+      "Identity": "C:\\Users\\iarit\\Downloads\\TP05\\TP05\\wwwroot\\img\\Flecha Ornada de Estilo Barroco.png",
+      "SourceId": "SalaDeEscape",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\iarit\\Downloads\\TP05\\TP05\\wwwroot\\",
+      "BasePath": "_content/SalaDeEscape",
+      "RelativePath": "img/Flecha Ornada de Estilo Barroco.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Flecha Ornada de Estilo Barroco.png"
     },
     {
       "Identity": "C:\\Users\\iarit\\Downloads\\TP05\\TP05\\wwwroot\\img\\flechaMas.png",
