@@ -1,14 +1,19 @@
  @{ ViewData["Title"] = "caja"; }
     <link rel="stylesheet" href="~/css/style.css" />
  <body class="caja">
-
+@{ if(ViewBag.estaDesbloqueada){
+<h2 class="contenedorDialogo">Las luces se encienden en el sotano y ves una pequeña carta con la incripción: "Hora de encontrar ese barco y llenar de agua su piscina infinita"</h2>
+}else{
 <a href="#" id="puertaSecreta"></a>
  <form id="claveForm" method="post" action="@Url.Action("desbloquearSala")">
+    <h2 class="contenedorDialogo">Un bote perdido navega hacia la luz. ¿Sera este el comienzo de su naufragio?</h2>
         <input type="text" name="clave" class="contenedorDialogo"/>
         <input type="hidden" name="sala" value="4" />
-        <input type="hidden" name="salaOriginal" value="sotano" />
+        <input type="hidden" name="salaOriginal" value="caja" />
         <button type="submit">Desbloquear</button>
     </form>
+}
+}
 </body>
 <script>
  document.getElementById("puertaSecreta").addEventListener("click", function (e) {

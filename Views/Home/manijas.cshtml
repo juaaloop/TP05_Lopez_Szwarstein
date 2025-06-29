@@ -7,7 +7,7 @@
     
 
 @{ if(ViewBag.estaDesbloqueada){
-    <h1>Desbloqueada</h1>
+    <h2 class="contenedorDialogo">Justo cuando giras la ultima canilla escuchas un ruido desde abajo de la bañera... Solo hay un libro rojo ahi...¿De donde proviene?</h2>
 }else{
     <div class="puzzleManijas">
    
@@ -52,7 +52,7 @@
 <form action="@Url.Action("desbloquearSala")" method="post">
     <input type="hidden" name="clave" value="@(ViewBag.manija1.ToString() + ViewBag.manija2.ToString())">
     <input type="hidden" name="sala" value="5">
-    <input type="hidden" name="salaOriginal" value="baño">
+    <input type="hidden" name="salaOriginal" value="manijas">
     <input type="submit">
     
 </form>

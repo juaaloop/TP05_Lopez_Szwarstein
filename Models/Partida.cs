@@ -22,7 +22,7 @@ class Partida{
         this.nombreJugador = NombreJugador;
 
         salas.Add(1, (new Sala("Empezar",true,null)));
-        salas.Add(2, (new Sala("desbloquear",true,null)));
+        salas.Add(2, (new Sala("desbloquear",false,null)));
         salas.Add(3, (new Sala("JKCNM",false,null)));
         List<int> listaDependencias0 = new List<int>();
         listaDependencias0.Add(3);

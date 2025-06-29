@@ -26,8 +26,8 @@
 }
 else
 {
-    <h3>¡Has ordenado correctamente los frascos!</h3>
-    <img src="/img/cajon_abierto.png" alt="Cajón abierto" />
+    <h2 class="contenedorDialogo">“HMF AU ATNRUREE” (Olga te esta esperando en la cocina)</h2>
+
 }
 
 <script>
@@ -61,16 +61,15 @@ else
             estanteria.insertBefore(nodo1, nodo2Sig);
             estanteria.insertBefore(nodo2, nodo1Sig);
 
-            seleccionado = null;
-        }
+                       seleccionado = null;
+            }
+        });
     });
-});
 
-  document.getElementById('ordenForm').addEventListener('submit', function (e) {
-    const items = estanteria.querySelectorAll('li');
-    const orden = Array.from(items).map(item => item.getAttribute('value')); 
-    document.querySelector('input[name="clave"]').value = orden.join('');
-});
+    document.getElementById('ordenForm').addEventListener('submit', function (e) {
+        const items = estanteria.querySelectorAll('li');
+        const orden = Array.from(items).map(item => item.getAttribute('value'));
+        document.querySelector('input[name="clave"]').value = orden.join('');
+    });
 </script>
-
 </body>

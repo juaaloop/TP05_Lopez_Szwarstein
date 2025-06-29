@@ -30,8 +30,21 @@
         <h3 id="nombreEstudio">Estudio</h3>
     </div>
 </div>
+<div id="overlayDialogo" class="overlay oculto">
+  <div class="contenedorDialogoPersonaje" id="contenedorCocina" >
+<img src="/img/olga.png" id="personajeDialogo">
+      <h2 id="nombrePersonaje">Olga (Cocinera)</h2>
+    <p id="textoDialogo"></p>
+</div>
+</div>
+        
+        <img src='/img/olga.png' id="olga"  style="cursor:pointer;">
 
-        <script>document.getElementById("map-icon").addEventListener("click", function (e) {
+        <script>
+             window.onload = function () {
+              const estaDesbloqueada = @(ViewBag.estaDesbloqueada.ToString().ToLower());
+
+            document.getElementById("map-icon").addEventListener("click", function (e) {
             e.preventDefault();
             document.getElementById("map-overlay").style.display = "block";
         });
@@ -48,7 +61,7 @@
             }
         });
        
-        window.onload = function () {
+ 
     const dialogos = [
   "Ah, joven Karamázov... no esperaba visitas en medio de los vapores del samovar.",
   "¿Busca algo en ese cajón? Justamente ahí guardé las últimas velas... pero, ay, no puedo abrirlo ahora. Estoy con las manos ocupadas preparando el té del señor.",
@@ -63,6 +76,12 @@
         "El señor es exigente, sí…  pero tómese su tiempo. Confío en usted."
     ];
 
+     const cajaAbierta = [
+     "Muy bien! Estan perfectos los frascos, ahora si puedo prepara el té. Ahora le abro el cajón.",
+  "Mmm, que raro, logré abrir el cajón, pero parece que faltan algunas velas...",
+  "Intenta ir al sotano, ayer se corto la luz, quizas haya una pista ahi."
+    ];
+
     let dialogoId = 0;
     let dialogoYaRecorrido = false;
 
@@ -71,7 +90,8 @@
     const texto = document.getElementById("textoDialogo");
 
     function mostrarDialogoOlga() {
-        if (!dialogoYaRecorrido && dialogoId < dialogos.length) {
+        if(!estaDesbloqueada) {
+             if (!dialogoYaRecorrido && dialogoId < dialogos.length) {
             texto.textContent = dialogos[dialogoId];
             dialogoId++;
         } else if (dialogoYaRecorrido && dialogoId < dialogosRepetido.length) {
@@ -82,6 +102,16 @@
             dialogoId = 0;
             dialogoYaRecorrido = true;
         }
+        }else{
+              if (dialogoId < dialogos.length) {
+            texto.textContent = cajaAbierta[dialogoId];
+            dialogoId++;
+            } else {
+                overlay.classList.add("oculto");
+            dialogoId = 0;
+            }
+        }
+       
     }
     // Click en Olga para iniciar diálogo
     document.getElementById("olga").addEventListener("click", function () {
@@ -102,19 +132,6 @@
         }
     });
 };
-        </script>
-            
-<div id="overlayDialogo" class="overlay oculto">
-  <div class="contenedorDialogoPersonaje" id="contenedorCocina" >
-<img src="/img/olga.png" id="personajeDialogo">
-      <h2 id="nombrePersonaje">Olga (Cocinera)</h2>
-    <p id="textoDialogo"></p>
-</div>
-</div>
-        
-        <img src='/img/olga.png' id="olga"  style="cursor:pointer;">
-
-            <script>
         const pista = document.querySelector('.pistaFrascos');
 
         pista.addEventListener('click', () => {
