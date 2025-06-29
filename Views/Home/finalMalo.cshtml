@@ -1,0 +1,80 @@
+@{ ViewData["Title"] = "finalMalo"; }
+<link rel="stylesheet" href="~/css/style.css" />
+
+    <head>
+        <link rel="stylesheet" href="~/css/style.css" />
+    </head>
+<body class="inicio">
+
+        <div class="fondo-blur"><img src="/img/fonto-inicio.png" alt=""></div>
+    <div class="contenido">
+        <div class="contenedorDialogo" id="contenedorInicio" tabindex="0">
+            <p id="textoDialogo">...</p>
+        </div>
+
+    <a class="contenedorDialogoPersonaje" href="@Url.Action("estudio")" style="display:none;" id="volver">Terminar</a>
+    <script>
+            const dialogos = [
+            "El acusado no es culpable",
+            "Sin pruebas suficientes para respaldar tu teoria notas que no todo es como pensabas.",
+            "Todos los ojos ahora estan puestos en ti, quien señala mas, algo tiene para ocultar",
+            "Toda la casa te da la espalda, el abuelo llama a la policia y poco tiempo despues comienza tu juicio",
+            "Quizas en otra vida una acusación mas correcta puedas hacer...",
+            "Vuelve a intentarlo"
+             ];
+      
+    let dialogoId = 0;
+    let escribiendo = false;
+    let intervalo;
+    let i = 0;
+    let termino=false;
+    const textoElemento = document.getElementById("textoDialogo");
+    const contenedor = document.getElementById("contenedorInicio");
+
+    function escribirTexto(texto) {
+        clearInterval(intervalo);
+        textoElemento.textContent = "";
+        i = 0;
+        escribiendo = true;
+
+        intervalo = setInterval(() => {
+            if (i < texto.length) {
+                textoElemento.textContent += texto.charAt(i);
+                i++;
+            } else {
+                clearInterval(intervalo);
+                escribiendo = false;
+            }
+        }, 35);
+    }
+
+    function completarTexto(texto) {
+        clearInterval(intervalo);
+        textoElemento.textContent = texto;
+        escribiendo = false;
+    }
+
+   function avanzarDialogo() {
+    if (dialogoId >= dialogos.length) {
+    document.getElementById("volver").style.display="block";
+    return;
+    }
+    const textoActual = dialogos[dialogoId];
+        if (escribiendo) {
+            completarTexto(textoActual);
+        } else {
+            dialogoId++;
+            escribirTexto(dialogos[dialogoId]);
+        }
+    }
+
+contenedor.addEventListener("click", function(event) {
+    if (event.target.closest("form")) {
+        return;
+    }
+    avanzarDialogo();
+});
+
+        </script>
+    </div>
+</body>

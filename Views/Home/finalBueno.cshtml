@@ -1,4 +1,4 @@
-@{ ViewData["Title"] = "estudio"; }
+@{ ViewData["Title"] = "finalBueno"; }
 <link rel="stylesheet" href="~/css/style.css" />
 
     <head>
@@ -12,7 +12,7 @@
             <p id="textoDialogo">...</p>
         </div>
 
-    <button class="contenedorDialogo" action="@Url.Action("index")" style="display:none;" id="volver"></button>
+    <a class="contenedorDialogoPersonaje" href="@Url.Action("index")" style="display:none;" id="volver">Terminar</a>
     <script>
             const dialogos = [
             "Felicitaciones, escapaste de tu terrible destino",
