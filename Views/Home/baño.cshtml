@@ -28,7 +28,7 @@
 </div>
 <body class="baño">
         
-<a href="@Url.Action("manijas")" id="puertaSecreta"></a>
+<a href="@Url.Action("manijas")" id="botonManijas"></a>
 
 
 </body>
@@ -42,7 +42,6 @@ document.getElementById("map-icon").addEventListener("click", function (e) {
         document.getElementById("close-map").addEventListener("click", function () {
             document.getElementById("map-overlay").style.display = "none";
         });
-
 
         window.addEventListener("click", function (e) {
             if (e.target === document.getElementById("map-overlay")) {

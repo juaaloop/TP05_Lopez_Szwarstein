@@ -9,7 +9,7 @@
 @{ if(ViewBag.estaDesbloqueada){
     <h1>Desbloqueada</h1>
 }else{
-    <div>
+    <div class="puzzleManijas">
     <form action="@Url.Action("enviarValorManija")" method="post" id="flecha1">
     <input type="hidden" name="valor" value="1">
     <input type="hidden" name="manija" value="1">
