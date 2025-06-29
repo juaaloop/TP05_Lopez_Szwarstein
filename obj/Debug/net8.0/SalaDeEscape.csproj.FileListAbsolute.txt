@@ -285,8 +285,9 @@ C:\Users\crist\Downloads\TP05\obj\Debug\net8.0\refint\SalaDeEscape.dll
 C:\Users\crist\Downloads\TP05\obj\Debug\net8.0\SalaDeEscape.pdb
 C:\Users\crist\Downloads\TP05\obj\Debug\net8.0\SalaDeEscape.genruntimeconfig.cache
 C:\Users\crist\Downloads\TP05\obj\Debug\net8.0\ref\SalaDeEscape.dll
-C:\Users\juana\Downloads\TP05\obj\Debug\net8.0\rpswa.dswa.cache.json
-C:\Users\juana\Downloads\TP05\obj\Debug\net8.0\rjimswa.dswa.cache.json
-C:\Users\juana\Downloads\TP05\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
-C:\Users\juana\Downloads\TP05\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
-C:\Users\juana\Downloads\TP05\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\juana\Downloads\TP05\obj\Debug\net8.0\staticwebassets\msbuild.SalaDeEscape.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\juana\Downloads\TP05\obj\Debug\net8.0\staticwebassets\msbuild.SalaDeEscape.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\juana\Downloads\TP05\obj\Debug\net8.0\staticwebassets\msbuild.build.SalaDeEscape.props
+C:\Users\juana\Downloads\TP05\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.SalaDeEscape.props
+C:\Users\juana\Downloads\TP05\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.SalaDeEscape.props
+C:\Users\juana\Downloads\TP05\obj\Debug\net8.0\staticwebassets.pack.json
