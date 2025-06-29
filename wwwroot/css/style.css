@@ -3,7 +3,65 @@
   padding: 0%;
   font-family: "Crimson Text", serif;
 }
+.tutorial{      
+  display:none;
+  position: fixed;
+   top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: beige;
+  color: #520000;
+  padding: 2%;
+  border: 2px solid #520000;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(82, 0, 0, 0.5);
+    z-index: 9999;        
+}
 
+.creditos{      
+  display:none;
+  position: fixed;
+   top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: beige;
+  color: #520000;
+  padding: 2%;
+  border: 2px solid #520000;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(82, 0, 0, 0.5);
+    z-index: 9999;        
+}
+.contenido {
+  position: relative;
+  z-index: 2;
+}
+
+#cerrarTutorial {
+            display: inline-block;
+            margin-top: 1%;
+            padding: 2%;
+            background-color: #520000;;
+            color: rgb(255, 255, 255);
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: background-color 0.3s ease;
+}
+
+#cerrarCreditos {
+            display: inline-block;
+            margin-top: 1%;
+            padding: 2%;
+            background-color: #520000;;
+            color: rgb(255, 255, 255);
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: background-color 0.3s ease;
+}
 .fondo-blur {
   position: fixed;
   top: 0;
