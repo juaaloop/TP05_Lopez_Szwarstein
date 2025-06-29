@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "JZ/mku/R7H2qe5E8gsWOHYPpTN4d6QH56LFpoF6mjsk=",
+  "Hash": "LvcyXZqfjh46IKmLYvOlZLvfF91lXZLLakWes01hMMs=",
   "Source": "SalaDeEscape",
   "BasePath": "_content/SalaDeEscape",
   "Mode": "Default",
@@ -908,6 +908,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\pergamino.png"
+    },
+    {
+      "Identity": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\img\\pista.png",
+      "SourceId": "SalaDeEscape",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\",
+      "BasePath": "_content/SalaDeEscape",
+      "RelativePath": "img/pista.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\pista.png"
     },
     {
       "Identity": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\img\\primo.png",

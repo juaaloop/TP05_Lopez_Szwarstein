@@ -66,7 +66,8 @@ public class HomeController : Controller
     }
     public IActionResult caja()
     {
-
+ Partida partidaNueva = Objeto.StringToObject<Partida>(HttpContext.Session.GetString("partida"));
+        ViewBag.estaDesbloqueada = partidaNueva.salas[2].estaDesbloqueada;
         return View();
     }
     public IActionResult luz()
@@ -76,13 +77,13 @@ public class HomeController : Controller
     }
     public IActionResult baño()
     {
-
         return View();
     }
 
     public IActionResult salaDeRetratos()
     {
-
+ Partida partidaNueva = Objeto.StringToObject<Partida>(HttpContext.Session.GetString("partida"));
+        ViewBag.estaDesbloqueada = partidaNueva.salas[2].estaDesbloqueada;
         return View();
     }
 

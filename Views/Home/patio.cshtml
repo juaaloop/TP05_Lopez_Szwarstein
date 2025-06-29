@@ -24,8 +24,9 @@
         <a href='@Url.Action("irASala", new { sala = "cocina", numSala = 3 })' id="botonCocina"></a>
         <a href='@Url.Action("irASala", new { sala = "sotano", numSala = 4 })' id="botonSotano"></a>
         <a href='@Url.Action("irASala", new { sala = "baño", numSala = 5 })' id="botonBaño"></a>
-        <a href='@Url.Action("irASala", new { sala = "salaDeRetratos", numSala = 6 })' id="botonRetratos"></a>
-        <a href='@Url.Action("irASala", new { sala = "biblioteca", numSala = 7 })' id="botonBiblioteca"></a>
+    using System.Security.Cryptography;
+#line default
+    <a href='@Url.Action("irASala", new { sala = "biblioteca", numSala = 7 })' id="botonBiblioteca"></a>
         <a href='@Url.Action("irASala", new { sala = "estudio", numSala = 8 })' id="botonEstudio"></a>
         <h3 id="nombreSala">Sala de Estar</h3>
         <h3 id="nombrePatio">Patio</h3>
@@ -83,8 +84,7 @@
 }
 else
 {
-    <h5>Al acomodar los arbustos escuchás un misterioso ruido proveniente de detrás de una planta...</h5>
-    <img src="/img/pista1.png" alt="pista1" />
+    <h2 class="contenedorDialogo">Has desbloqueado el patio, sigue recorriendo la casa para descubrir sus secretos</h2>
 }
 
 <script defer>
@@ -125,8 +125,6 @@ else
                 dialogoId = 0;
             }
         }
-
-        // Drag & Drop
         const zonaDrop = document.getElementById("zona-drop");
         const ordenActual = [];
 
@@ -173,7 +171,6 @@ else
             }
         });
 
-        // Modal pergamino
         document.getElementById("pergamino").addEventListener("click", function (e) {
             e.preventDefault();
             document.getElementById("modalPergamino").style.display = "block";
@@ -188,16 +185,16 @@ else
                 document.getElementById("modalPergamino").style.display = "none";
             }
         });
-
-        // Mapa
         document.getElementById("map-icon").addEventListener("click", function (e) {
             e.preventDefault();
             document.getElementById("map-overlay").style.display = "block";
         });
 
+
         document.getElementById("close-map").addEventListener("click", function () {
             document.getElementById("map-overlay").style.display = "none";
         });
+
 
         window.addEventListener("click", function (e) {
             if (e.target === document.getElementById("map-overlay")) {
