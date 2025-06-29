@@ -12,13 +12,34 @@
 <div id="map-overlay" style="display:none;">
     <div id="map-content">
         <span id="close-map">&times;</span>
-        <img src="/img/Mapa.png" alt="Mapa del juego">
+        <img src="/img/mapa.png" alt="">
+        <a href='@Url.Action("irASala", new { sala = "salaDeEstar", numSala = 1 })' id="botonSala"></a>
+        <a href='@Url.Action("irASala", new { sala = "patio", numSala = 2 })' id="botonPatio"></a>
+        <a href='@Url.Action("irASala", new { sala = "cocina", numSala = 3 })' id="botonCocina"></a>
+        <a href='@Url.Action("irASala", new { sala = "sotano", numSala = 4 })' id="botonSotano"></a>
+        <a href='@Url.Action("irASala", new { sala = "baño", numSala = 5 })' id="botonBaño"></a>
+        <a href='@Url.Action("irASala", new { sala = "salaDeRetratos", numSala = 6 })' id="botonRetratos"></a>
+        <a href='@Url.Action("irASala", new { sala = "biblioteca", numSala = 7 })' id="botonBiblioteca"></a>
+        <a href='@Url.Action("irASala", new { sala = "estudio", numSala = 8 })' id="botonEstudio"></a>
+          <h3 id="nombreSala">Sala de Estar</h3>
+        <h3 id="nombrePatio">Patio</h3>
+        <h3 id="nombreCocina">Cocina</h3>
+        <h3 id="nombreSotano">Sótano</h3>
+        <h3 id="nombreBaño">Baño</h3>
+        <h3 id="nombreRetrato">Sala de Retrato</h3>
+        <h3 id="nombreBiblioteca">Biblioteca</h3>
+        <h3 id="nombreEstudio">Estudio</h3>
     </div>
 </div>
 @if(!ViewBag.estaDesbloqueada){
 <div id="zona-drop"></div>
-<div class="contenedorDialogoPersonaje" id="contenedorPatio">
+
+<div id="overlayDialogo" class="overlay oculto">
+  <div class="contenedorDialogoPersonaje" id="contenedorPatio">
+<img src="/img/viktor.png" id="personajeDialogo">
+      <h2 id="nombrePersonaje">Viktor (Jardinero)</h2>
     <p id="textoDialogo"></p>
+</div>
 </div>
 <img src="/img/viktor.png" id="viktor"  style="cursor:pointer;">
 <div id="zonaorigen">
@@ -55,22 +76,48 @@
 
 <script> 
         window.onload = function () {
-       const dialogos = [
+    const dialogos = [
         "Buenos días, joven @ViewBag.nombre. No suelo ver mucha gente por el jardín... no desde que el señor partió. La quietud, al menos, parecía inalterable.",
-        "Mis ojos están acostumbrados a la quietud de la tierra, a la paciente espera de las estaciones. Pero estos arbustos... sus formas celestiales han sido trastocadas. Solían seguir una disposición… mas hoy, su armonía se ha roto.", "Alguien ha estado aquí durante la noche...",
-        "Espero que no busques algo que no debas encontrar."];
-    let dialogoId = 0;        
-            document.getElementById("viktor").addEventListener("click", function () {      
-            if (dialogoId < dialogos.length) {
-                 document.getElementById("contenedorPatio").style.display = "block";
-                     document.getElementById("textoDialogo").textContent = dialogos[dialogoId];
-                     dialogoId++;
-            }else{
-                document.getElementById("contenedorPatio").style.display = "none";
-                dialogoId = 0; 
-            }
-        });
+        "Mis ojos están acostumbrados a la quietud de la tierra, a la paciente espera de las estaciones. Pero estos arbustos... sus formas celestiales han sido trastocadas. Solían seguir una disposición… mas hoy, su armonía se ha roto.",
+        "Alguien ha estado aquí durante la noche...",
+        "Espero que no busques algo que no debas encontrar."
+    ];
+    
+    let dialogoId = 0;
+    const overlay = document.getElementById("overlayDialogo");
+    const contenedor = document.getElementById("contenedorPatio");
+    const texto = document.getElementById("textoDialogo");
+
+    function mostrarDialogo() {
+        if (dialogoId < dialogos.length) {
+            texto.textContent = dialogos[dialogoId];
+            dialogoId++;
+        } else {
+            overlay.classList.add("oculto");
+            dialogoId = 0;
+        }
     }
+
+    document.querySelectorAll("#viktor").forEach(viktor => {
+        viktor.addEventListener("click", () => {
+            overlay.classList.remove("oculto");
+            mostrarDialogo();
+        });
+    });
+
+    contenedor.addEventListener("click", () => {
+        mostrarDialogo();
+    });
+
+    document.addEventListener("keydown", (e) => {
+        if (!overlay.classList.contains("oculto") && e.code === "Space") {
+            e.preventDefault();
+            mostrarDialogo();
+        }
+    });
+};
+
+
     const zonaDrop = document.getElementById("zona-drop");
     const ordenActual = [];
 
@@ -132,5 +179,22 @@ window.addEventListener("click", function(e) {
         document.getElementById("modalPergamino").style.display = "none";
     }
 });
+
+document.getElementById("map-icon").addEventListener("click", function (e) {
+            e.preventDefault();
+            document.getElementById("map-overlay").style.display = "block";
+        });
+
+
+        document.getElementById("close-map").addEventListener("click", function () {
+            document.getElementById("map-overlay").style.display = "none";
+        });
+
+
+        window.addEventListener("click", function (e) {
+            if (e.target === document.getElementById("map-overlay")) {
+                document.getElementById("map-overlay").style.display = "none";
+            }
+        });
 </script>
 </body>

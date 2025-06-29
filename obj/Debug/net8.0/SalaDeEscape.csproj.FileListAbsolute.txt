@@ -51,11 +51,6 @@ C:\Users\juana\Downloads\TP05\obj\Debug\net8.0\SalaDeEscape.sourcelink.json
 C:\Users\juana\Downloads\TP05\obj\Debug\net8.0\scopedcss\bundle\SalaDeEscape.styles.css
 C:\Users\juana\Downloads\TP05\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\juana\Downloads\TP05\obj\Debug\net8.0\staticwebassets.development.json
-C:\Users\juana\Downloads\TP05\obj\Debug\net8.0\staticwebassets\msbuild.SalaDeEscape.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\juana\Downloads\TP05\obj\Debug\net8.0\staticwebassets\msbuild.build.SalaDeEscape.props
-C:\Users\juana\Downloads\TP05\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.SalaDeEscape.props
-C:\Users\juana\Downloads\TP05\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.SalaDeEscape.props
-C:\Users\juana\Downloads\TP05\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Users\juana\Downloads\TP05\obj\Debug\net8.0\SalaDeEs.A67F4D8C.Up2Date
 C:\Users\juana\Downloads\TP05\obj\Debug\net8.0\SalaDeEscape.dll
 C:\Users\juana\Downloads\TP05\obj\Debug\net8.0\refint\SalaDeEscape.dll
@@ -160,7 +155,6 @@ C:\Users\49002406\Downloads\TP05\obj\Debug\net8.0\SalaDeEscape.genruntimeconfig.
 C:\Users\49002406\Downloads\TP05\obj\Debug\net8.0\ref\SalaDeEscape.dll
 C:\Users\juana\Downloads\TP05\bin\Debug\net8.0\SalaDeEscape.staticwebassets.endpoints.json
 C:\Users\juana\Downloads\TP05\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\juana\Downloads\TP05\obj\Debug\net8.0\staticwebassets\msbuild.SalaDeEscape.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
 C:\Users\iarit\Downloads\TP05-2\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\iarit\Downloads\TP05-2\bin\Debug\net8.0\appsettings.json
 C:\Users\iarit\Downloads\TP05-2\bin\Debug\net8.0\SalaDeEscape.staticwebassets.runtime.json
@@ -291,3 +285,8 @@ C:\Users\crist\Downloads\TP05\obj\Debug\net8.0\refint\SalaDeEscape.dll
 C:\Users\crist\Downloads\TP05\obj\Debug\net8.0\SalaDeEscape.pdb
 C:\Users\crist\Downloads\TP05\obj\Debug\net8.0\SalaDeEscape.genruntimeconfig.cache
 C:\Users\crist\Downloads\TP05\obj\Debug\net8.0\ref\SalaDeEscape.dll
+C:\Users\juana\Downloads\TP05\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\juana\Downloads\TP05\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\juana\Downloads\TP05\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\juana\Downloads\TP05\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\juana\Downloads\TP05\obj\Debug\net8.0\staticwebassets.build.json.cache
