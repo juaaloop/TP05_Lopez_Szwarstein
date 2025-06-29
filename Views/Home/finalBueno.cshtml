@@ -1,0 +1,76 @@
+@{ ViewData["Title"] = "estudio"; }
+<link rel="stylesheet" href="~/css/style.css" />
+
+@{
+    ViewData["Title"] = "Inicio";
+}
+
+    <head>
+        <link rel="stylesheet" href="~/css/style.css" />
+    </head>
+<body class="inicio">
+
+        <div class="fondo-blur"><img src="/img/fonto-inicio.png" alt=""></div>
+    <div class="contenido">
+        <div class="contenedorDialogo" id="contenedorInicio" tabindex="0">
+            <p id="textoDialogo">Haz clic para comenzar</p>
+        </div>
+
+        <script>
+            const dialogos = [
+            "Felicitaciones"
+            "La mansión Kazaramtov vuelve a recuperar la paz. O quizas es que nunca hubo paz y lo que hay ahora es simplemente quietitud",
+            "Se lo que sea, el sol volvera a salir, asi como la familia de la vieja mansión"
+             ];
+      
+    let dialogoId = 0;
+    let escribiendo = false;
+    let intervalo;
+    let i = 0;
+    const textoElemento = document.getElementById("textoDialogo");
+    const contenedor = document.getElementById("contenedorInicio");
+
+    function escribirTexto(texto) {
+        clearInterval(intervalo);
+        textoElemento.textContent = "";
+        i = 0;
+        escribiendo = true;
+
+        intervalo = setInterval(() => {
+            if (i < texto.length) {
+                textoElemento.textContent += texto.charAt(i);
+                i++;
+            } else {
+                clearInterval(intervalo);
+                escribiendo = false;
+            }
+        }, 35);
+    }
+
+    function completarTexto(texto) {
+        clearInterval(intervalo);
+        textoElemento.textContent = texto;
+        escribiendo = false;
+    }
+
+   function avanzarDialogo() {
+    if (dialogoId >= dialogos.length) return;
+
+    const textoActual = dialogos[dialogoId];
+        if (escribiendo) {
+            completarTexto(textoActual);
+        } else {
+            dialogoId++;
+            escribirTexto(dialogos[dialogoId]);
+        }
+    }
+}
+contenedor.addEventListener("click", function(event) {
+    if (event.target.closest("form")) {
+        return;
+    }
+    avanzarDialogo();
+});
+        </script>
+    </div>
+</body>
