@@ -12,22 +12,10 @@ class Sala{
         numSalaDependienteDe = SalaDependienteDe;
     }
 
-    public bool puedeEntrar(Dictionary<int,Sala> salas) {
-        bool puede = true;
-       int i = 0;
-        if (numSalaDependienteDe != null) {
+public bool puedeEntrar(Dictionary<int, Sala> salas)
+{
 
-            while (i < numSalaDependienteDe.Count && puede == true)
-            {
-                if (salas[numSalaDependienteDe[i]].estaDesbloqueada == false)
-                {
-                    puede = false;
-                }
-                i++;
-            }
-             
-        } 
-        return puede;
-    }
+    return false; 
+}
 
 }

@@ -4,6 +4,7 @@
 <header>
     <a href="#" id="map-icon"><img src="/img/mapaicon.png" alt="mapa"> </a>
 </header>
+<body class="baño">
 <div id="map-overlay" style="display:none;">
     <div id="map-content">
         <span id="close-map">&times;</span>
@@ -26,13 +27,13 @@
         <h3 id="nombreEstudio">Estudio</h3>
     </div>
 </div>
-<body class="baño">
-<a href="@Url.Action("manijas")" id="botonManijas"></a>
 
+<a href="@Url.Action("manijas")" id="botonManijas"></a>
+<h2 class="contenedorDialogo">Arregla la canilla para que llegue a 14 en 8 giros positivos</h2>
 
 </body>
-<script>
-document.getElementById("map-icon").addEventListener("click", function (e) {
+<script>     
+       document.getElementById("map-icon").addEventListener("click", function (e) {
             e.preventDefault();
             document.getElementById("map-overlay").style.display = "block";
         });
@@ -41,6 +42,7 @@ document.getElementById("map-icon").addEventListener("click", function (e) {
         document.getElementById("close-map").addEventListener("click", function () {
             document.getElementById("map-overlay").style.display = "none";
         });
+
 
         window.addEventListener("click", function (e) {
             if (e.target === document.getElementById("map-overlay")) {

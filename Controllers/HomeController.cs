@@ -161,14 +161,20 @@ public class HomeController : Controller
     public IActionResult irASala(string sala, int numSala)
     {
         Partida partidaNueva = Objeto.StringToObject<Partida>(HttpContext.Session.GetString("partida"));
+        ViewBag.numSala= numSala;
+        ViewBag.sal = sala;
+        ViewBag.puede = partidaNueva.salas[numSala].puedeEntrar(partidaNueva.salas);
+        return View("irASala");
+        /*
         if (partidaNueva.salas[numSala].puedeEntrar(partidaNueva.salas))
         {
             return RedirectToAction(sala);
+
         }
         else
         {
-            return View();
-        }
+            return View("irASala");
+        }*/
     }
     public IActionResult comprobarSospechoso(string sospechoso)
     {

@@ -10,7 +10,8 @@
     <h2 class="contenedorDialogo">Justo cuando giras la ultima canilla escuchas un ruido desde abajo de la bañera... Solo hay un libro rojo ahi...¿De donde proviene?</h2>
 }else{
     <div class="puzzleManijas">
-   
+    
+   <div class="manijas1">
     <form action="@Url.Action("enviarValorManija")" method="post">
     <input type="hidden" name="valor" value="-1">
     <input type="hidden" name="manija" value="1">
@@ -29,6 +30,8 @@
     <input type="image" src="/img/flechaMas.png"alt="enviar manija 1" >
     
 </form>
+</div>
+<div class="manijas2">
 <form action="@Url.Action("enviarValorManija")" method="post">
     <input type="hidden" name="valor" value="-3">
     <input type="hidden" name="manija" value="2">
@@ -46,9 +49,12 @@
     <input type="image" src="/img/flechaMas.png" alt="enviar manija 2" >
 </form>
 </div>
+</div>
+<div class="numeros">
 <h2 id="numeroTotal">@ViewBag.numeroActual</h2>
 <h3 id="numeromanijaIzquierda">@ViewBag.manija1</h3>
 <h3 id="numeromanijaDerecha">@ViewBag.manija2</h3>
+</div>
 <form action="@Url.Action("desbloquearSala")" method="post">
     <input type="hidden" name="clave" value="@(ViewBag.manija1.ToString() + ViewBag.manija2.ToString())">
     <input type="hidden" name="sala" value="5">

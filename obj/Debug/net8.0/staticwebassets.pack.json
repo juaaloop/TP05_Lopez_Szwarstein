@@ -201,6 +201,18 @@
       "PackagePath": "staticwebassets\\img\\retrato1.png"
     },
     {
+      "Id": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\img\\retrato2.png",
+      "PackagePath": "staticwebassets\\img\\retrato2.png"
+    },
+    {
+      "Id": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\img\\retrato3.png",
+      "PackagePath": "staticwebassets\\img\\retrato3.png"
+    },
+    {
+      "Id": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\img\\retrato4.png",
+      "PackagePath": "staticwebassets\\img\\retrato4.png"
+    },
+    {
       "Id": "C:\\Users\\iarit\\Downloads\\TP05-2\\wwwroot\\img\\salaDeRetratos.png",
       "PackagePath": "staticwebassets\\img\\salaDeRetratos.png"
     },

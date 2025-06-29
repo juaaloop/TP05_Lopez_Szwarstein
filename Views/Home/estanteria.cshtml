@@ -38,26 +38,20 @@ else
         item.style.cursor = 'pointer';
        item.addEventListener('click', () => {
         if (!seleccionado) {
-            // Primer clic: selecciona el frasco
             seleccionado = item;
-            seleccionado.style.transform = 'scale(1.1)'; // agranda sutilmente
+            seleccionado.style.transform = 'scale(1.1)'; 
         } else if (seleccionado === item) {
-            // Clic en el mismo: deselecciona
-            seleccionado.style.transform = ''; // vuelve a tamaño normal
+            seleccionado.style.transform = ''; 
             seleccionado = null;
         } else {
-            // Segundo clic: intercambiar posiciones
-            seleccionado.style.transform = ''; // vuelve a tamaño normal
+            seleccionado.style.transform = ''; 
 
-            // Intercambiar nodos li dentro de ul
             const nodo1 = seleccionado;
             const nodo2 = item;
 
-            // Guardar referencia de nodo siguiente
             const nodo1Sig = nodo1.nextSibling;
             const nodo2Sig = nodo2.nextSibling;
 
-            // Intercambiar: insertamos nodo1 antes de nodo2Sig, y nodo2 antes de nodo1Sig
             estanteria.insertBefore(nodo1, nodo2Sig);
             estanteria.insertBefore(nodo2, nodo1Sig);
 

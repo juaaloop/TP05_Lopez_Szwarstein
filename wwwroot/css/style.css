@@ -682,7 +682,7 @@ header img {
   margin-right: 1%;
   width: 5%;
   cursor: pointer;
-  margin-top: %;
+  margin-top: 2%;
   transform: translate(0%, 150%);
 }
 #pergamino img {
@@ -955,7 +955,15 @@ button[type="submit"]:hover {
   margin-top: 25%;
   color: white;
 }
-
+.manijas1{
+  float:left;
+}
+.manijas2{
+  float:right;
+}
+.numeros{
+  clear:both
+}
 #numeromanijaIzquierda {
   position: absolute;
   font-size: medium;
@@ -975,6 +983,17 @@ button[type="submit"]:hover {
   display: flex;
 }
 
+/*retratos */
+.losRetratos{
+  display:flex;
+}
+.retratos{
+  width:10%;
+}
+#desbloquearRetratos{
+  opacity:0.1;
+  
+}
 /*estudio */
 .estudio {
   background-image: url(/img/estudio.png);
@@ -983,7 +1002,15 @@ button[type="submit"]:hover {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-
+#abueloEstudio{
+  width:35%;
+}
+#submitFinal{
+  margin-top:4%;
+}
+.estudio input{
+  margin-left:1%;
+}
 /*FUENTESS*/
 @font-face {
   font-family: "Titulo";

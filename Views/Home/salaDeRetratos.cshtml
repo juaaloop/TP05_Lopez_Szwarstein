@@ -1,7 +1,7 @@
 @{
     ViewData["Title"] = "Sala de Retratos";
 }
-<link rel="stylesheet" href="~/css/style.css" />
+<link rel="stylesheet" href="/css/style.css" />
  <header>
     <a href="#" id="map-icon"><img src="/img/mapaicon.png" alt="mapa"> </a>
 </header>
@@ -28,22 +28,21 @@
     </div>
 </div>
 <body class="salaDeRetratos">
-    <img src="/img/retrato1.png" alt="">
-    <img src="/img/retrato2.png" alt="">
-    <img src="/img/retrato3.png" alt="">
-    <img src="/img/retrato4.png" alt="">
-    <img src="/img/retrato5.png" alt="">
-    <img src="/img/retrato6.png" alt="">
-    <img src="/img/retrato7.png" alt="">
-    <img src="/img/retrato8.png" alt="">
+    <div class="losRetratos">
+    <img src="/img/retrato1.png" alt="" class="retrato">
+    <img src="/img/retrato2.png" alt="" class="retrato">
+    <img src="/img/retrato3.png" alt="" class="retrato">
+    <img src="/img/retrato4.png" alt="" class="retrato">
+    </div>
 
-</body>
- <form  method="post" action="@Url.Action("desbloquearSala")">
-        <input type="text" name="clave" class="contenedorDialogo"/>
+<form  method="post" action="@Url.Action("desbloquearSala")">
+        <input type="hidden" name="clave" value="desbloquear" class="contenedorDialogo"/>
         <input type="hidden" name="sala" value="6" />
         <input type="hidden" name="salaOriginal" value="salaDeRetratos" />
-        <button type="submit">Desbloquear</button>
+        <button type="submit" id="desbloquearRetratos"></button>
     </form>
+</body>
+ 
     <script>
         document.getElementById("map-icon").addEventListener("click", function (e) {
             e.preventDefault();

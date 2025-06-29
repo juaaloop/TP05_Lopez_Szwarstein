@@ -34,7 +34,7 @@
     <p id="textoDialogo"></p>
 </div>
 </div>
-<img src="/img/abuelo.png" id="abuelo" style="cursor:pointer;">
+<img src="/img/abuelo.png" id="abueloEstudio" style="cursor:pointer;">
 <script>
     const estanLasPistas = @((ViewBag.estanLasPistas ?? false).ToString().ToLower());
     window.onload = function () {
@@ -84,7 +84,7 @@
                                     <label>Mayordomo</label>
                                 </div>
                                 <div>
-                                    <button type="submit">Submit</button>
+                                    <button type="submit" id="submitFinal">Submit</button>
                                 </div>
                             </section>
                         </form>
@@ -104,7 +104,7 @@
             }
         }
 
-        document.getElementById("abuelo").addEventListener("click", () => {
+        document.getElementById("abueloEstudio").addEventListener("click", () => {
             overlay.classList.remove("oculto");
             mostrarDialogo();
         });
