@@ -155,7 +155,7 @@
             ordenActual.push(id);
       }
 
-        const ordenCorrecto = ["estrella", "diamante", "luna", "triangulo", "cruz"];
+        const ordenCorrecto = ["estrella", "luna","diamante", "triangulo", "cruz"];
         if (ordenActual.length === ordenCorrecto.length &&
             ordenActual.every((val, idx) => val === ordenCorrecto[idx])) {
             document.getElementById("claveForm").submit();
