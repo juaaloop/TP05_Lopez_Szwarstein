@@ -22,9 +22,7 @@
                 "No hubo violencia. Solo la huella de una llave, esgrimida con una precisión tanto conocida como traidora. Una que, por derecho, nadie debía poseer.",
                 "La servidumbre y los parientes juraban inocencia. Pero las miradas... ah, esas miradas, acusaban sin voz.",
                 "La sombra del viejo patriarca se alzó, imponente. Una decisión implacable se forjaba en el aire denso de la mansión.",
-                "Si el culpable no emerge antes del anochecer, la vergüenza de los Karamázov será tuya. Tu juicio está por comenzar.",
-                "form"
-            ];
+                "Si el culpable no emerge antes del anochecer, la vergüenza de los Karamázov será tuya. Tu juicio está por comenzar."            ];
       
     let dialogoId = 0;
     let escribiendo = false;
@@ -61,7 +59,7 @@
 
     const textoActual = dialogos[dialogoId];
 
-    if (textoActual === "form") {
+    if (textoActual === "Si el culpable no emerge antes del anochecer, la vergüenza de los Karamázov será tuya. Tu juicio está por comenzar.") {
 
         contenedor.innerHTML = `
             <p>Ingresá tu nombre</p>
@@ -70,13 +68,15 @@
                 <input type="submit" value="Entrar" />
             </form>
         `;
-                contenedor.removeEventListener("click", avanzarDialogo);
-        contenedor.removeEventListener("keydown", handleKeyDown);
+        setTimeout(() => {
+            const input = document.querySelector("input[name='nombre']");
+            if (input) input.focus();
+        }, 100);
     } else {
         if (escribiendo) {
             completarTexto(textoActual);
         } else {
-            dialogoId++; // adelantar antes
+            dialogoId++;
             escribirTexto(dialogos[dialogoId]);
         }
     }
