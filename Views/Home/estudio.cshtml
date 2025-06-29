@@ -4,7 +4,6 @@
 
 <header>
     <a href="#" id="map-icon"><img src="/img/mapaicon.png" alt="mapa"> </a>
-</header>
 <div id="map-overlay" style="display:none;">
     <div id="map-content">
         <span id="close-map">&times;</span>
@@ -17,7 +16,7 @@
         <a href='@Url.Action("irASala", new { sala = "salaDeRetratos", numSala = 6 })' id="botonRetratos"></a>
         <a href='@Url.Action("irASala", new { sala = "biblioteca", numSala = 7 })' id="botonBiblioteca"></a>
         <a href='@Url.Action("irASala", new { sala = "estudio", numSala = 8 })' id="botonEstudio"></a>
-          <h3 id="nombreSala">Sala de Estar</h3>
+        <h3 id="nombreSala">Sala de Estar</h3>
         <h3 id="nombrePatio">Patio</h3>
         <h3 id="nombreCocina">Cocina</h3>
         <h3 id="nombreSotano">Sótano</h3>
@@ -27,83 +26,114 @@
         <h3 id="nombreEstudio">Estudio</h3>
     </div>
 </div>
-<img src=/img/abuelo.png id="abuelo">
-<h2>@ViewBag.acusado</h2>
- <div id="contenedorDialogo" class="contenedorDialogoPersonaje">
-          <p id="textoDialogo"></p>
-  </div>
+</header>
+<div id="overlayDialogo" class="overlay oculto">
+  <div class="contenedorDialogoPersonaje" id="contenedorEstudio">
+<img src="/img/abuelo.png" id="personajeDialogo">
+      <h2 id="nombrePersonaje">Abuelo</h2>
+    <p id="textoDialogo"></p>
+</div>
+</div>
+<img src="/img/abuelo.png" id="abuelo" style="cursor:pointer;">
 <script>
     const estanLasPistas = @((ViewBag.estanLasPistas ?? false).ToString().ToLower());
-     window.onload = function () {
+    window.onload = function () {
 
         const dialogos = [
-        "Por fin me encuentras,",
-        "¿Quien fue?",
-        "form"];
+            "Por fin me encuentras,",
+            "¿Quien fue?",
+            "form"
+        ];
 
         const dialogosSinPistas = [
-        "Estuviste jugando al detective",
-        "Pero todavia no podes probar nada, volve a mi cuando tengas todas las pistas necesarias",
-        "..."];
-    let dialogoId = 0;
-    let terminoDialogo = false;
-      const contenedor = document.getElementById("contenedorDialogo");
+            "Estuviste jugando al detective",
+            "Pero todavia no podes probar nada, volve a mi cuando tengas todas las pistas necesarias",
+            "..."
+        ];
 
-    document.getElementById("abuelo").addEventListener("click", function () {
+        let dialogoId = 0;
+        const overlay = document.getElementById("overlayDialogo");
+        const texto = document.getElementById("textoDialogo");
 
-        if (dialogoId < dialogos.length && estanLasPistas) {
-           if (dialogos[dialogoId] === "form") {
-             document.getElementById("contenedorDialogo").style.display = "block";
-                contenedor.innerHTML = `
-                <form method="post" action="@Url.Action("comprobarSospechoso")">
-                 <section>
-                  <div>
-                   <input type="radio" name="sospechoso" value="Abuelo" class="cartaSospechoso" />
-                   <label>Abuelo</label>
-                   <label><img src="/img/abuelo.png"></label>
+        function mostrarDialogo() {
+            if (dialogoId < dialogos.length && estanLasPistas) {
+                if (dialogos[dialogoId] === "form") {
+                    document.getElementById("contenedorEstudio").style.display = "block";
+                    texto.innerHTML = `
+                        <form method="post" action="@Url.Action("comprobarSospechoso")">
+                            <section>
+                                <div>
+                                    <input type="radio" name="sospechoso" value="Abuelo" class="cartaSospechoso" />
+                                    <label>Abuelo</label>
+                                    <input type="radio" name="sospechoso" value="Tio" class="cartaSospechoso" />
+                                    <label>Tio</label>
 
-                   <input type="radio" name="sospechoso" value="Tio" class="cartaSospechoso" />
-                   <label>Tio</label>
+                                    <input type="radio" name="sospechoso" value="Elena" class="cartaSospechoso" />
+                                    <label>Elena</label>
 
-                  <input type="radio" name="sospechoso" value="Elena" class="cartaSospechoso" />
-                  <label>Elena</label>
+                                    <input type="radio" name="sospechoso" value="Primo" class="cartaSospechoso" />
+                                    <label>Primo</label>
 
-                  <input type="radio" name="sospechoso" value="Primo" class="cartaSospechoso" />
-                  <label>Primo</label>
+                                    <input type="radio" name="sospechoso" value="Jardinero" class="cartaSospechoso" />
+                                    <label>jardinero</label>
 
-                  <input type="radio" name="sospechoso" value="Jardinero" class="cartaSospechoso" />
-                  <label>jardinero</label>
+                                    <input type="radio" name="sospechoso" value="Olga" class="cartaSospechoso" />
+                                    <label>Olga</label>
 
-                  <input type="radio" name="sospechoso" value="Olga" class="cartaSospechoso" />
-                  <label>Olga</label>
-
-                  <input type="radio" name="sospechoso" value="Mayordomo" class="cartaSospechoso" />
-                  <label>Mayordomo</label>
-                 </div>
-               <div>
-                <button type="submit">Submit</button>
-               </div>
-  </section>
-</form>
-                `;
+                                    <input type="radio" name="sospechoso" value="Mayordomo" class="cartaSospechoso" />
+                                    <label>Mayordomo</label>
+                                </div>
+                                <div>
+                                    <button type="submit">Submit</button>
+                                </div>
+                            </section>
+                        </form>
+                    `;
+                    dialogoId++;
+                } else {
+                    document.getElementById("contenedorEstudio").style.display = "block";
+                    texto.textContent = dialogos[dialogoId];
+                    dialogoId++;
+                }
+            } else if (!estanLasPistas) {
+                document.getElementById("contenedorEstudio").style.display = "block";
+                texto.textContent = dialogosSinPistas[dialogoId];
                 dialogoId++;
             } else {
-               document.getElementById("contenedorDialogo").style.display = "block";
-                document.getElementById("textoDialogo").textContent = dialogos[dialogoId];
-                 dialogoId++;
-
+                document.getElementById("contenedorDialogoPersonaje").style.display = "none";
             }
-        } else if(!estanLasPistas){
-           document.getElementById("contenedorDialogo").style.display = "block";
-              document.getElementById("textoDialogo").textContent = dialogosSinPistas[dialogoId];
-              dialogoId++;
-
-        }else{ 
-            terminoDialogo = true;
-            document.getElementById("contenedorDialogo").style.display = "none";
         }
-    });
- }
+
+        document.getElementById("abuelo").addEventListener("click", () => {
+            overlay.classList.remove("oculto");
+            mostrarDialogo();
+        });
+
+        document.getElementById("contenedorEstudio").addEventListener("click", () => {
+            mostrarDialogo();
+        });
+
+        document.addEventListener("keydown", (e) => {
+            if (!overlay.classList.contains("oculto") && e.code === "Space") {
+                e.preventDefault();
+                mostrarDialogo();
+            }
+        });
+
+        document.getElementById("map-icon").addEventListener("click", function (e) {
+            e.preventDefault();
+            document.getElementById("map-overlay").style.display = "block";
+        });
+
+        document.getElementById("close-map").addEventListener("click", function () {
+            document.getElementById("map-overlay").style.display = "none";
+        });
+
+        window.addEventListener("click", function (e) {
+            if (e.target === document.getElementById("map-overlay")) {
+                document.getElementById("map-overlay").style.display = "none";
+            }
+        });
+    }
 </script>
-  
 </body>
