@@ -1,7 +1,10 @@
 * {
-   margin: 0%;
+  margin: 0%;
   padding: 0%;
   font-family: "Crimson Text", serif;
+}
+body {
+  overflow: hidden;
 }
 
 .fondo-blur {
@@ -40,7 +43,6 @@
   background-color: rgba(44, 44, 44, 0.336);
   pointer-events: none;
 }
-
 
 .contenido {
   position: relative;
@@ -221,7 +223,8 @@ nav {
 }
 
 .inicio nav a,
-.indice nav a {
+.indice nav a,
+button[type="submit"] {
   clear: both;
   width: 12%;
   display: inline-block;
@@ -243,7 +246,8 @@ nav {
 }
 
 nav a:hover,
-nav a:focus {
+nav a:focus,
+button[type="submit"]:hover {
   background-color: #f0d68a;
   color: #6a2a1f;
   border-color: #f0d68a;
@@ -394,8 +398,7 @@ nav a:focus {
 }
 #nombreRetrato {
   transform: translate(65%, -225%);
-    font-size: 20px;
-
+  font-size: 20px;
 }
 #nombrePatio {
   transform: translate(205%, -1600%);
@@ -533,7 +536,7 @@ header img {
 #zonaorigen {
   width: 60%;
   margin-left: 20%;
-  margin-top: 7%;
+  margin-top: 5%;
   justify-content: center;
   display: flex;
 }
@@ -563,12 +566,12 @@ header img {
   height: auto;
   cursor: grab;
   /*ARREGLAR!! QUEDAN FEOS, PONER QUE TODOS TENGAN EL MISMO TAMAÑO ESTOS SON VALORES DE PRUEBA*/
+  transition: all 0.4s ease;
 }
 
 .arbusto:hover {
   transform: scale(1.1);
   filter: drop-shadow(0 0 10px rgba(255, 238, 180, 0.6)) brightness(1.2);
-
   transition: all 0.4s ease;
 }
 
@@ -621,7 +624,8 @@ header img {
   margin-right: 1%;
   width: 5%;
   cursor: pointer;
-  transform: translate(0%, -100%);
+  margin-top: %;
+  transform: translate(0%, 150%);
 }
 #pergamino img {
   width: 100%;
@@ -630,7 +634,7 @@ header img {
 #viktor {
   position: absolute;
   width: 25%;
-  transform: translate(5%, 10%);
+  transform: translate(5%, 0%);
 }
 .oculto {
   display: none;
@@ -720,7 +724,9 @@ header img {
   justify-content: center;
   align-items: flex-end;
 }
-
+.estanteria ul {
+  margin-top: 0%;
+}
 .estanteria li {
   width: 15%;
   padding: 1%;
@@ -732,8 +738,46 @@ header img {
 
 .estanteria li:hover {
   transform: scale(1.05);
+  filter: drop-shadow(0 0 10px rgba(255, 238, 180, 0.6)) brightness(1.2);
+  transition: all 0.4s ease;
 }
-
+.estanteria header a {
+  position: absolute;
+  margin: 3%;
+  margin-left: 7.5%;
+  width: 12%;
+  float: left;
+  padding: 0.5%;
+  color: #d8b76a;
+  background-color: #252525b2;
+  border: 2px solid #d8b76a;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+}
+.estanteria h2 {
+  width: 50%;
+  margin-top: 2%;
+  margin-left: 23%;
+  padding: 1%;
+  color: #d8b76a;
+  background-color: #572020;
+  border: 3px solid #d8b76a;
+  outline: 5px solid #572020;
+  font-size: 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  text-align: center;
+  box-shadow: 0 0 0 0 transparent;
+}
+button[type="submit"] {
+  position: absolute;
+  transform: translate(365%, -250%);
+}
+button[type="submit"]:hover {
+  position: absolute;
+  transform: translate(365%, -250%);
+}
 .estanteria li .frasco {
   clear: both;
   height: auto;
@@ -742,26 +786,8 @@ header img {
 }
 
 .frasco.selected {
-  transform: scale(1.1);
+  transform: scale(1.25);
   /* 10% más grande */
-}
-
-button[type="submit"] {
-  background-color: #520000;
-  border: 2px solid #d4af37;
-  border-radius: 10px;
-  color: #d4af37;
-  font-size: 1.1rem;
-  padding: 10px 25px;
-  cursor: pointer;
-  transition: background-color 0.3s ease, color 0.3s ease;
-  box-shadow: 0 0 10px #b87333;
-}
-
-button[type="submit"]:hover {
-  background-color: #d4af37;
-  color: #520000;
-  box-shadow: 0 0 15px #ffd700;
 }
 
 #claveForm {
@@ -851,18 +877,18 @@ button[type="submit"]:hover {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-.puzzleManijas{
+.puzzleManijas {
   width: 80%;
   display: flex;
 }
-.puzzleManijas input[type=image]{
+.puzzleManijas input[type="image"] {
   width: 20%;
 }
 .baño #botonManijas {
   border: 0px solid white;
   padding: 4%;
   position: absolute;
-  transform: translate(230%,350%) ;
+  transform: translate(230%, 350%);
 }
 
 #numeroTotal {
