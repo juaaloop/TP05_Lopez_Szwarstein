@@ -902,7 +902,8 @@ header img {
 }
 
 .estanteria h2,
-.manijas h2 {
+.manijas h2,
+.caja h2 {
   width: 50%;
   margin-top: 2%;
   margin-left: 23%;
@@ -994,6 +995,14 @@ button[type="submit"]:hover {
   background-attachment: fixed;
 }
 
+.sotano #BotonSecreto {
+  padding: 4%;
+  padding-top: 8%;
+  border: 0px solid white;
+  position: absolute;
+  transform: translate(900%, 150%);
+}
+
 .caja {
   background-image: url(/img/caja.png);
   background-size: cover;
@@ -1009,6 +1018,41 @@ button[type="submit"]:hover {
   margin-top: 4%;
   opacity: 0.1;
   display: block;
+}
+
+.caja input[type="text"] {
+  width: 15%;
+  padding: 0.5%;
+  font-size: 20px;
+  border: 2px solid #a68c6c;
+  border-radius: 8px;
+  background-color: #20201f8e;
+  color: #f0e6d2;
+  box-shadow: 0 0 6px rgba(166, 140, 108, 0.5);
+  transform: translate(200%, 1520%);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.caja input[type="text"]:focus {
+  outline: none;
+  border-color: #e1d3a1;
+  box-shadow: 0 0 10px rgba(225, 211, 161, 0.8);
+  color: #fffce8;
+}
+
+.caja button[type="submit"] {
+  width: 8%;
+  transform: translate(450%, 1300%);
+}
+
+.caja button[type="submit"]::placeholder {
+  color: #b8a879;
+  font-style: italic;
+}
+
+.caja button[type="submit"]:hover {
+  transform: translate(450%, 1300%);
+
 }
 
 /*baño*/
@@ -1123,34 +1167,38 @@ button[type="submit"]:hover {
 }
 
 .retrato:nth-child(1) {
-margin-top: 7.5%;
-margin-left: 26%;
-width: 14%;
+  margin-top: 7.5%;
+  margin-left: 26%;
+  width: 14%;
 }
 
 .retrato:nth-child(2) {
-margin-top: 5%;
-margin-left: 4%;
+  margin-top: 5%;
+  margin-left: 4%;
 }
+
 .retrato:nth-child(3) {
-margin-top: 10%;
-margin-left: 40%;
-width: 18%;
+  margin-top: 10%;
+  margin-left: 40%;
+  width: 18%;
 
 }
+
 .retrato:nth-child(4) {
-margin-top: 5%;
-margin-left: 75%;
+  margin-top: 5%;
+  margin-left: 75%;
 }
+
 .retrato:nth-child(5) {
-margin-top: 18%;
-margin-left: 60%;
-width: 13%;
+  margin-top: 18%;
+  margin-left: 60%;
+  width: 13%;
 }
+
 .retrato:nth-child(6) {
-margin-top: 4%;
-margin-left: 57%;
-width: 18%;
+  margin-top: 4%;
+  margin-left: 57%;
+  width: 18%;
 }
 
 
@@ -1182,33 +1230,39 @@ width: 18%;
 .estudio input {
   margin-left: 1%;
 }
-.irASala{  background-color: #f9f5f0; /* un tono muy claro, tipo pergamino */
+
+.irASala {
+  background-color: #f9f5f0;
+  /* un tono muy claro, tipo pergamino */
   color: #1a1a1a;
   padding: 40px 20px;
   max-width: 700px;
   margin: 80px auto;
   border-radius: 12px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
   text-align: center;
-  font-synthesis: none;}
+  font-synthesis: none;
+}
 
-.irASala h3{
+.irASala h3 {
   font-family: "Cormorant SC";
- font-family: "Cormorant SC", serif;
+  font-family: "Cormorant SC", serif;
   font-weight: 600;
   font-size: 2.4rem;
   margin-bottom: 20px;
   color: #1a1a1a;
-  text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
 }
-.irASala p{
-    font-family: "Crimson Text";
+
+.irASala p {
+  font-family: "Crimson Text";
   font-size: 1.2rem;
   line-height: 1.6;
   margin-bottom: 30px;
   color: #3b3b3b;
   font-style: italic;
 }
+
 .irASala a {
   font-family: "Cormorant SC", serif;
   font-weight: 600;
@@ -1223,7 +1277,7 @@ width: 18%;
 .irASala a:hover {
   background-color: #4a2f27;
   color: #f9f5f0;
-  box-shadow: 0 4px 12px rgba(74,47,39,0.5);
+  box-shadow: 0 4px 12px rgba(74, 47, 39, 0.5);
 }
 
 /*FUENTESS*/
