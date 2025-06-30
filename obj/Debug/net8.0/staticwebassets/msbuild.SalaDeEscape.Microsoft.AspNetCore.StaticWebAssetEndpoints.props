@@ -12,17 +12,17 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"s37ndbtxi8"},{"Name":"integrity","Value":"sha256-uMyvs5sN9G4Jqh5tahBCz6g\u002BpBSSpKKrA5C9arkKShU="},{"Name":"label","Value":"_content/SalaDeEscape/css/site.css"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"171"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022uMyvs5sN9G4Jqh5tahBCz6g\u002BpBSSpKKrA5C9arkKShU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 30 Jun 2025 00:58:50 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/SalaDeEscape/css/style.aeotv056l7.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\style.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"aeotv056l7"},{"Name":"integrity","Value":"sha256-PpDuc0\u002B4Ed7NzUu4Fe1wVJ6DdcIvL9K/JYOUxjeXEN8="},{"Name":"label","Value":"_content/SalaDeEscape/css/style.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"25664"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022PpDuc0\u002B4Ed7NzUu4Fe1wVJ6DdcIvL9K/JYOUxjeXEN8=\u0022"},{"Name":"Last-Modified","Value":"Mon, 30 Jun 2025 01:40:42 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/SalaDeEscape/css/style.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\style.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-PpDuc0\u002B4Ed7NzUu4Fe1wVJ6DdcIvL9K/JYOUxjeXEN8="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"25664"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022PpDuc0\u002B4Ed7NzUu4Fe1wVJ6DdcIvL9K/JYOUxjeXEN8=\u0022"},{"Name":"Last-Modified","Value":"Mon, 30 Jun 2025 01:40:42 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-B9vV4YtpBGcEJfSbl4O48M/rM35DZJyePsyvNJfCg3E="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"25720"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022B9vV4YtpBGcEJfSbl4O48M/rM35DZJyePsyvNJfCg3E=\u0022"},{"Name":"Last-Modified","Value":"Mon, 30 Jun 2025 01:45:30 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SalaDeEscape/css/style.n8pdungqnv.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\style.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"n8pdungqnv"},{"Name":"integrity","Value":"sha256-B9vV4YtpBGcEJfSbl4O48M/rM35DZJyePsyvNJfCg3E="},{"Name":"label","Value":"_content/SalaDeEscape/css/style.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"25720"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022B9vV4YtpBGcEJfSbl4O48M/rM35DZJyePsyvNJfCg3E=\u0022"},{"Name":"Last-Modified","Value":"Mon, 30 Jun 2025 01:45:30 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/SalaDeEscape/favicon.61n19gt1b8.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>
