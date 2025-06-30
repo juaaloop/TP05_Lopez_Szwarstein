@@ -1056,11 +1056,7 @@ button[type="submit"]:hover {
   background-color: #20201f8e;
   color: #f0e6d2;
   box-shadow: 0 0 6px rgba(166, 140, 108, 0.5);
-<<<<<<< HEAD
   transform: translate(200%, 1650%);
-=======
-  transform: translate(50%, 1100%);
->>>>>>> 29e64acb07e9a89730d78ad1a5725611e6e7b0eb
   transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 

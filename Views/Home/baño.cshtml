@@ -8,47 +8,46 @@
 </header>
 
 <body class="baño">
-    <div id="map-overlay" style="display:none;">
+   <div id="map-overlay" style="display:none;">
         <div id="map-content">
             <span id="close-map">&times;</span>
             <img src="/img/mapa.png" alt="">
-            <a href='@Url.Action("irASala", new { sala = "salaDeEstar", numSala = 1 })' id="botonSala"></a>
-            <a href='@Url.Action("irASala", new { sala = "patio", numSala = 2 })' id="botonPatio"></a>
-            <a href='@Url.Action("irASala", new { sala = "cocina", numSala = 3 })' id="botonCocina"></a>
-            <a href='@Url.Action("irASala", new { sala = "sotano", numSala = 4 })' id="botonSotano"></a>
-            <a href='@Url.Action("irASala", new { sala = "baño", numSala = 5 })' id="botonBaño"></a>
-            <a href='@Url.Action("irASala", new { sala = "salaDeRetratos", numSala = 6 })' id="botonRetratos"></a>
-            <a href='@Url.Action("irASala", new { sala = "biblioteca", numSala = 7 })' id="botonBiblioteca"></a>
-            <a href='@Url.Action("irASala", new { sala = "estudio", numSala = 8 })' id="botonEstudio"></a>
+            <a href='@Url.Action("irASala", new {sala = "salaDeEstar", numSala = 1 })' id="botonSala"></a>
+            <a href='@Url.Action("irASala", new {sala = "patio", numSala = 2 })' id="botonPatio"></a>
+            <a href='@Url.Action("irASala", new {sala = "cocina", numSala = 3 })' id="botonCocina"></a>
+            <a href='@Url.Action("irASala", new {sala = "sotano", numSala = 4 })' id="botonSotano"></a>
+            <a href='@Url.Action("irASala", new {sala = "baño", numSala = 5 })' id="botonBaño"></a>
+            <a href='@Url.Action("irASala", new {sala = "salaDeRetratos", numSala = 6 })' id="botonRetratos"></a>
+            <a href='@Url.Action("irASala", new {sala = "biblioteca", numSala = 7 })' id="botonBiblioteca"></a>
+            <a href='@Url.Action("irASala", new {sala = "estudio", numSala = 8 })' id="botonEstudio"></a>
             <h3 id="nombreSala">Sala de Estar</h3>
             <h3 id="nombrePatio">Patio</h3>
             <h3 id="nombreCocina">Cocina</h3>
             <h3 id="nombreSotano">Sótano</h3>
             <h3 id="nombreBaño">Baño</h3>
-            <h3 id="nombreRetrato">Sala de Retrato</h3>
+            <h3 id="nombreRetrato">Sala de Retratos</h3>
             <h3 id="nombreBiblioteca">Biblioteca</h3>
             <h3 id="nombreEstudio">Estudio</h3>
         </div>
     </div>
-
     <a href="@Url.Action("manijas")" id="botonManijas"></a>
 
 </body>
 <script>
-    document.getElementById("map-icon").addEventListener("click", function (e) {
-        e.preventDefault();
-        document.getElementById("map-overlay").style.display = "block";
-    });
+     document.getElementById("map-icon").addEventListener("click", function (e) {
+            e.preventDefault();
+            document.getElementById("map-overlay").style.display = "block";
+        });
 
 
-    document.getElementById("close-map").addEventListener("click", function () {
-        document.getElementById("map-overlay").style.display = "none";
-    });
-
-
-    window.addEventListener("click", function (e) {
-        if (e.target === document.getElementById("map-overlay")) {
+        document.getElementById("close-map").addEventListener("click", function () {
             document.getElementById("map-overlay").style.display = "none";
-        }
-    });
+        });
+
+
+        window.addEventListener("click", function (e) {
+            if (e.target === document.getElementById("map-overlay")) {
+                document.getElementById("map-overlay").style.display = "none";
+            }
+        });
 </script>
