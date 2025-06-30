@@ -1,10 +1,14 @@
 {
   "Version": 1,
 <<<<<<< HEAD
+<<<<<<< HEAD
   "Hash": "nHGIOMbDUmma3oRMBjpgDmioTVs977UL1fibwqSMyy8=",
 =======
   "Hash": "/+/6ZxRlkeBEElxt3FXXTjkWwIonZf1C1iBe2qRXbF8=",
 >>>>>>> ab6c62672bfad4d21d75320bc2aacee00ddcb26b
+=======
+  "Hash": "gTGCgkekVELuPpAe96z0S3ks1dGaSRrDzB6BJZVXqi4=",
+>>>>>>> dadfa705d16d5bc74ece0659bdd673590cab9c00
   "Source": "SalaDeEscape",
   "BasePath": "_content/SalaDeEscape",
   "Mode": "Default",
@@ -55,10 +59,15 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
       "Fingerprint": "aeotv056l7",
       "Integrity": "PpDuc0+4Ed7NzUu4Fe1wVJ6DdcIvL9K/JYOUxjeXEN8=",
 >>>>>>> ab6c62672bfad4d21d75320bc2aacee00ddcb26b
+=======
+      "Fingerprint": "n8pdungqnv",
+      "Integrity": "B9vV4YtpBGcEJfSbl4O48M/rM35DZJyePsyvNJfCg3E=",
+>>>>>>> dadfa705d16d5bc74ece0659bdd673590cab9c00
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\style.css"
@@ -1542,51 +1551,6 @@
       ]
     },
     {
-      "Route": "css/style.aeotv056l7.css",
-      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\css\\style.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "25664"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"PpDuc0+4Ed7NzUu4Fe1wVJ6DdcIvL9K/JYOUxjeXEN8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 30 Jun 2025 01:40:42 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "aeotv056l7"
-        },
-        {
-          "Name": "label",
-          "Value": "css/style.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-PpDuc0+4Ed7NzUu4Fe1wVJ6DdcIvL9K/JYOUxjeXEN8="
-        }
-      ]
-    },
-    {
       "Route": "css/style.css",
       "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\css\\style.css",
       "Selectors": [],
@@ -1597,7 +1561,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "25664"
+          "Value": "25720"
         },
         {
           "Name": "Content-Type",
@@ -1605,11 +1569,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"PpDuc0+4Ed7NzUu4Fe1wVJ6DdcIvL9K/JYOUxjeXEN8=\""
+          "Value": "\"B9vV4YtpBGcEJfSbl4O48M/rM35DZJyePsyvNJfCg3E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 30 Jun 2025 01:40:42 GMT"
+          "Value": "Mon, 30 Jun 2025 01:45:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1619,7 +1583,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-PpDuc0+4Ed7NzUu4Fe1wVJ6DdcIvL9K/JYOUxjeXEN8="
+          "Value": "sha256-B9vV4YtpBGcEJfSbl4O48M/rM35DZJyePsyvNJfCg3E="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.n8pdungqnv.css",
+      "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25720"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"B9vV4YtpBGcEJfSbl4O48M/rM35DZJyePsyvNJfCg3E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Jun 2025 01:45:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "n8pdungqnv"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-B9vV4YtpBGcEJfSbl4O48M/rM35DZJyePsyvNJfCg3E="
         }
       ]
     },

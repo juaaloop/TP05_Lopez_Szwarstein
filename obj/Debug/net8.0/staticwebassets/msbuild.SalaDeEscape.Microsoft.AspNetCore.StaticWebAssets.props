@@ -29,10 +29,15 @@
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
       <Fingerprint>aeotv056l7</Fingerprint>
       <Integrity>PpDuc0+4Ed7NzUu4Fe1wVJ6DdcIvL9K/JYOUxjeXEN8=</Integrity>
 >>>>>>> ab6c62672bfad4d21d75320bc2aacee00ddcb26b
+=======
+      <Fingerprint>n8pdungqnv</Fingerprint>
+      <Integrity>B9vV4YtpBGcEJfSbl4O48M/rM35DZJyePsyvNJfCg3E=</Integrity>
+>>>>>>> dadfa705d16d5bc74ece0659bdd673590cab9c00
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\style.css))</OriginalItemSpec>
