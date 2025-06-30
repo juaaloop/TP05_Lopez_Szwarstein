@@ -929,7 +929,9 @@ header img {
   text-align: center;
   box-shadow: 0 0 0 0 transparent;
 }
-
+.caja h2 {
+ margin-bottom: -30%;
+}
 button[type="submit"] {
   position: absolute;
   transform: translate(365%, -250%);
@@ -978,13 +980,13 @@ button[type="submit"]:hover {
 }
 
 .biblioteca #puertaSecreta {
-  width: 2%;
-  color: rgb(73, 25, 25);
-  margin-left: 95%;
-  padding-top: 7%;
-  margin-top: 13%;
-  opacity: 0.1;
-  display: block;
+     width: 1%;
+    color: rgb(73, 25, 25);
+    margin-left: 3%;
+    padding-top: 5%;
+    margin-top: 3%;
+    opacity: 0.1;
+    display: block;
 }
 
 .biblioteca #puertaSecreta:hover {
@@ -1032,8 +1034,8 @@ button[type="submit"]:hover {
 }
 
 .caja input[type="text"] {
-  width: 15%;
-  padding: 0.5%;
+  width: 50%;
+  padding: 1%;
   font-size: 20px;
   border: 2px solid #a68c6c;
   border-radius: 8px;
@@ -1053,7 +1055,7 @@ button[type="submit"]:hover {
 
 .caja button[type="submit"] {
   width: 8%;
-  transform: translate(450%, 1100%);
+  transform: translate(450%, 1300%);
 }
 
 .caja button[type="submit"]::placeholder {
@@ -1151,7 +1153,7 @@ button[type="submit"]:hover {
 
 .manijas button {
   position: absolute;
-  transform: translate(320%, 1300%);
+  transform: translate(320%, 1200%);
 }
 
 .manijas button:hover {
