@@ -35,22 +35,6 @@ public class HomeController : Controller
     {
         Partida partidaNueva = Objeto.StringToObject<Partida>(HttpContext.Session.GetString("partida"));
         ViewBag.nombre = partidaNueva.nombreJugador;
-        ViewBag.sala1 = partidaNueva.salas[1].estaDesbloqueada;
-        ViewBag.sala1A = partidaNueva.puedeEntrar(1);
-        ViewBag.sala2 = partidaNueva.salas[2].estaDesbloqueada;
-        ViewBag.sala2A = partidaNueva.puedeEntrar(2);
-        ViewBag.sala3 = partidaNueva.salas[3].estaDesbloqueada;
-        ViewBag.sala3A = partidaNueva.puedeEntrar(3);
-        ViewBag.sala4 = partidaNueva.salas[4].estaDesbloqueada;
-        ViewBag.sala4A = partidaNueva.puedeEntrar(4);
-        ViewBag.sala5 = partidaNueva.salas[5].estaDesbloqueada;
-        ViewBag.sala5A = partidaNueva.puedeEntrar(5);
-        ViewBag.sala6 = partidaNueva.salas[6].estaDesbloqueada;
-        ViewBag.sala6A = partidaNueva.puedeEntrar(6);
-        ViewBag.sala7 = partidaNueva.salas[7].estaDesbloqueada;
-        ViewBag.sala7A = partidaNueva.puedeEntrar(7);
-        ViewBag.sala8 = partidaNueva.salas[8].estaDesbloqueada;
-        ViewBag.sala8A = partidaNueva.puedeEntrar(8);
         return View();
     }
 
@@ -83,7 +67,7 @@ public class HomeController : Controller
     public IActionResult caja()
     {
  Partida partidaNueva = Objeto.StringToObject<Partida>(HttpContext.Session.GetString("partida"));
-        ViewBag.estaDesbloqueada = partidaNueva.salas[2].estaDesbloqueada;
+        ViewBag.estaDesbloqueada = partidaNueva.salas[4].estaDesbloqueada;
         return View();
     }
     public IActionResult luz()
