@@ -593,7 +593,49 @@ button[type="submit"]:hover {
 header img {
   width: 10%;
 }
+.irASala{  background-color: #f9f5f0; /* un tono muy claro, tipo pergamino */
+  color: #1a1a1a;
+  padding: 40px 20px;
+  max-width: 700px;
+  margin: 80px auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  text-align: center;
+  font-synthesis: none;}
 
+.irASala h3{
+  font-family: "Cormorant SC";
+ font-family: "Cormorant SC", serif;
+  font-weight: 600;
+  font-size: 2.4rem;
+  margin-bottom: 20px;
+  color: #1a1a1a;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+.irASala p{
+    font-family: "Crimson Text";
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  color: #3b3b3b;
+  font-style: italic;
+}
+.irASala a {
+  font-family: "Cormorant SC", serif;
+  font-weight: 600;
+  text-decoration: none;
+  color: #4a2f27;
+  border: 2px solid #4a2f27;
+  padding: 10px 30px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.irASala a:hover {
+  background-color: #4a2f27;
+  color: #f9f5f0;
+  box-shadow: 0 4px 12px rgba(74,47,39,0.5);
+}
 /*PATIO*/
 
 .patio {
