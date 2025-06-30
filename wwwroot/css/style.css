@@ -932,6 +932,20 @@ header img {
 .caja h2 {
  margin-bottom: -30%;
 }
+.estanteria h2{
+  margin-top:2%;
+}
+#ordenForm{
+  margin-bottom:-10%;
+}
+#pergamino2{
+  margin-top:-50%;
+    float: right;
+  margin-right: 1%;
+  width: 5%;
+  cursor: pointer;
+  transform: translate(0%, 150%);
+}
 button[type="submit"] {
   position: absolute;
   transform: translate(365%, -250%);
@@ -1042,7 +1056,11 @@ button[type="submit"]:hover {
   background-color: #20201f8e;
   color: #f0e6d2;
   box-shadow: 0 0 6px rgba(166, 140, 108, 0.5);
+<<<<<<< HEAD
   transform: translate(200%, 1650%);
+=======
+  transform: translate(50%, 1100%);
+>>>>>>> 29e64acb07e9a89730d78ad1a5725611e6e7b0eb
   transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
