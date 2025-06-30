@@ -28,6 +28,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
+<<<<<<< HEAD
+=======
+      <Fingerprint>aeotv056l7</Fingerprint>
+      <Integrity>PpDuc0+4Ed7NzUu4Fe1wVJ6DdcIvL9K/JYOUxjeXEN8=</Integrity>
+>>>>>>> ab6c62672bfad4d21d75320bc2aacee00ddcb26b
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\style.css))</OriginalItemSpec>
@@ -732,6 +737,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
+<<<<<<< HEAD
+=======
+      <Fingerprint>t6vnndqpku</Fingerprint>
+      <Integrity>W1ePLph7FriuvKMraftD9rEKA7clxVmkcHAjia+fuWc=</Integrity>
+>>>>>>> ab6c62672bfad4d21d75320bc2aacee00ddcb26b
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\patio.png))</OriginalItemSpec>

@@ -468,7 +468,7 @@ button[type="submit"]:hover {
 }
 
 #nombrePatio {
-  transform: translate(205%, -1600%);
+  transform: translate(205%, -1750%);
 }
 
 #nombreBaño {
@@ -483,6 +483,9 @@ button[type="submit"]:hover {
   transform: translate(350%, -450%);
 }
 
+#nombreSala {
+  transform: translate(205%, -350%);
+}
 #botonPatio {
   padding: 8%;
   padding-top: 0%;
@@ -886,7 +889,7 @@ header img {
 }
 
 .estanteria header a,
-.manijas header a {
+.manijas header a, .patio #botonVolver {
   position: absolute;
   margin: 3%;
   margin-left: 7.5%;
@@ -900,7 +903,15 @@ header img {
   text-align: center;
   text-decoration: none;
 }
+.patio #botonVolver{
+  position: absolute;
+  transform: translate(0%,-700%);
 
+}
+.estanteria header a:hover, .manijas header a:hover, #botonVolver:hover{
+    filter: drop-shadow(0 0 10px rgba(255, 238, 180, 0.6)) brightness(1.4);
+  transition: all 0.4s ease;
+}
 .estanteria h2,
 .manijas h2,
 .caja h2 {
