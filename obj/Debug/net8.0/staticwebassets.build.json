@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "vt4ZxddFk+CHNCnMY62klVVXDDTEHkQEB1LlGiVoKts=",
+  "Hash": "I9b03tvs1S6+ZpLIzOhTjVnzjRo5qk/31VN/8RpUTnk=",
   "Source": "SalaDeEscape",
   "BasePath": "_content/SalaDeEscape",
   "Mode": "Default",
@@ -52,8 +52,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "zokwlaxr97",
-      "Integrity": "w52ibI1akyFtolwuW19Zpx7sSkn7AE9rl5PDeoY+Ikc=",
+      "Fingerprint": "qaldjfpu24",
+      "Integrity": "7rNZXvM6BKvGlS/pWb6LTTtWG+K01Sd9YatJm1PmhDM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\style.css"
@@ -1665,7 +1665,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "22081"
+          "Value": "22050"
         },
         {
           "Name": "Content-Type",
@@ -1673,11 +1673,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"w52ibI1akyFtolwuW19Zpx7sSkn7AE9rl5PDeoY+Ikc=\""
+          "Value": "\"7rNZXvM6BKvGlS/pWb6LTTtWG+K01Sd9YatJm1PmhDM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 29 Jun 2025 23:35:52 GMT"
+          "Value": "Sun, 29 Jun 2025 23:39:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1687,12 +1687,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-w52ibI1akyFtolwuW19Zpx7sSkn7AE9rl5PDeoY+Ikc="
+          "Value": "sha256-7rNZXvM6BKvGlS/pWb6LTTtWG+K01Sd9YatJm1PmhDM="
         }
       ]
     },
     {
-      "Route": "css/style.zokwlaxr97.css",
+      "Route": "css/style.qaldjfpu24.css",
       "AssetFile": "C:\\Users\\juana\\Downloads\\TP05\\wwwroot\\css\\style.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1702,7 +1702,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "22081"
+          "Value": "22050"
         },
         {
           "Name": "Content-Type",
@@ -1710,11 +1710,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"w52ibI1akyFtolwuW19Zpx7sSkn7AE9rl5PDeoY+Ikc=\""
+          "Value": "\"7rNZXvM6BKvGlS/pWb6LTTtWG+K01Sd9YatJm1PmhDM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 29 Jun 2025 23:35:52 GMT"
+          "Value": "Sun, 29 Jun 2025 23:39:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1724,7 +1724,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "zokwlaxr97"
+          "Value": "qaldjfpu24"
         },
         {
           "Name": "label",
@@ -1732,7 +1732,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-w52ibI1akyFtolwuW19Zpx7sSkn7AE9rl5PDeoY+Ikc="
+          "Value": "sha256-7rNZXvM6BKvGlS/pWb6LTTtWG+K01Sd9YatJm1PmhDM="
         }
       ]
     },
