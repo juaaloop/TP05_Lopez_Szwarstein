@@ -23,6 +23,19 @@
         <input type="hidden" name="salaOriginal" value="estanteria" />
         <button type="submit">Confirmar orden</button>
     </form>
+     <a href="#" id="pergamino"><img src="/img/pergamino.png" alt="elemento" /></a>
+    <div id="modalPergamino" style="display:none;">
+        <div id="modalContenido">
+            <span id="cerrarPergamino">&times;</span>
+            <p>
+           Ni el primero de estos recipientes sostiene la miel dorada ni el jengibre seco que impregna los inviernos; su contenido es otra incógnita. <br>
+El segundo frasco es el digno custodio de la dulce miel, cuyo néctar brilla con luz propia. <br>
+A su inmediata derecha se halla la mermelada, fragante y generosa, pero jamás en vecindad con el té negro, oscuro y reservado, que ni en el cuarto ni en el quinto frasco encuentra morada. <br>
+Más aún, el frasco que guarda el jengibre seco se encuentra situado a la izquierda del que contiene el té verde, aunque separados por un espacio que evita cualquier contacto directo entre ellos, como dos nobles distantes en un baile de silencios. <br>
+
+            </p>
+        </div>
+    </div>
 }
 else
 {
@@ -65,5 +78,20 @@ else
         const orden = Array.from(items).map(item => item.getAttribute('value'));
         document.querySelector('input[name="clave"]').value = orden.join('');
     });
+    
+        document.getElementById("pergamino").addEventListener("click", function (e) {
+            e.preventDefault();
+            document.getElementById("modalPergamino").style.display = "block";
+        });
+
+        document.getElementById("cerrarPergamino").addEventListener("click", function () {
+            document.getElementById("modalPergamino").style.display = "none";
+        });
+
+        window.addEventListener("click", function (e) {
+            if (e.target === document.getElementById("modalPergamino")) {
+                document.getElementById("modalPergamino").style.display = "none";
+            }
+        });
 </script>
 </body>

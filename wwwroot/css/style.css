@@ -932,6 +932,9 @@ header img {
 .caja h2 {
  margin-bottom: -30%;
 }
+.estanteria h2{
+  margin-top:50%;
+}
 button[type="submit"] {
   position: absolute;
   transform: translate(365%, -250%);
