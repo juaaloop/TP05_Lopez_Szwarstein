@@ -3,13 +3,15 @@
   padding: 0%;
   font-family: "Crimson Text", serif;
 }
+
 body {
   overflow: hidden;
 }
-.tutorial{      
-  display:none;
+
+.tutorial {
+  display: none;
   position: fixed;
-   top: 50%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: beige;
@@ -18,13 +20,13 @@ body {
   border: 2px solid #520000;
   border-radius: 10px;
   box-shadow: 0 0 15px rgba(82, 0, 0, 0.5);
-    z-index: 9999;        
+  z-index: 9999;
 }
 
-.creditos{      
-  display:none;
+.creditos {
+  display: none;
   position: fixed;
-   top: 50%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: beige;
@@ -33,38 +35,42 @@ body {
   border: 2px solid #520000;
   border-radius: 10px;
   box-shadow: 0 0 15px rgba(82, 0, 0, 0.5);
-    z-index: 9999;        
+  z-index: 9999;
 }
+
 .contenido {
   position: relative;
   z-index: 2;
 }
 
 #cerrarTutorial {
-            display: inline-block;
-            margin-top: 1%;
-            padding: 2%;
-            background-color: #520000;;
-            color: rgb(255, 255, 255);
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 1rem;
-            transition: background-color 0.3s ease;
+  display: inline-block;
+  margin-top: 1%;
+  padding: 2%;
+  background-color: #520000;
+  ;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
 }
 
 #cerrarCreditos {
-            display: inline-block;
-            margin-top: 1%;
-            padding: 2%;
-            background-color: #520000;;
-            color: rgb(255, 255, 255);
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 1rem;
-            transition: background-color 0.3s ease;
+  display: inline-block;
+  margin-top: 1%;
+  padding: 2%;
+  background-color: #520000;
+  ;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
 }
+
 .fondo-blur {
   position: fixed;
   top: 0;
@@ -118,11 +124,13 @@ body {
   position: relative;
   font-family: "Times New Roman", serif;
 }
+
 .inicio #textoDialogo {
   position: relative;
   width: 100%;
   letter-spacing: 2px;
 }
+
 .indice h1 {
   margin-top: 7.5%;
   font-weight: 700;
@@ -139,11 +147,9 @@ body::after {
   content: "";
   position: fixed;
   inset: 0;
-  background: radial-gradient(
-    ellipse at center,
-    rgba(255, 255, 255, 0) 40%,
-    rgba(0, 0, 0, 0.5) 100%
-  );
+  background: radial-gradient(ellipse at center,
+      rgba(255, 255, 255, 0) 40%,
+      rgba(0, 0, 0, 0.5) 100%);
   pointer-events: none;
 }
 
@@ -327,13 +333,12 @@ button[type="submit"]:hover {
   pointer-events: none;
 }
 
-.indice > * {
+.indice>* {
   position: relative;
   z-index: 2;
 }
 
-.inicio {
-}
+.inicio {}
 
 .contenedorDialogo {
   width: 70%;
@@ -342,13 +347,13 @@ button[type="submit"]:hover {
   margin-top: 18%;
   margin-left: 14%;
   padding: 2%;
-  background: linear-gradient(
-    to right,
-    rgba(22, 22, 22, 0.8),
-    rgba(36, 36, 36, 0.8)
-  );
-  border: 1px solid rgba(160, 160, 160, 0.2); /* tenue, gris pálido */
-  border-left: 1px solid #5e5e5e; /* estilo "cinta" */
+  background: linear-gradient(to right,
+      rgba(22, 22, 22, 0.8),
+      rgba(36, 36, 36, 0.8));
+  border: 1px solid rgba(160, 160, 160, 0.2);
+  /* tenue, gris pálido */
+  border-left: 1px solid #5e5e5e;
+  /* estilo "cinta" */
   border-right: 1px solid #4e4c4c;
   border-radius: 5px;
   font-size: 18px;
@@ -447,29 +452,37 @@ button[type="submit"]:hover {
   background-color: #ffe7c87a;
   color: #441313da;
 }
+
 #nombreEstudio {
   transform: translate(65%, -750%);
 }
+
 #nombreBiblioteca {
   transform: translate(65%, -1200%);
   font-size: 20px;
 }
+
 #nombreRetrato {
   transform: translate(65%, -225%);
   font-size: 20px;
 }
+
 #nombrePatio {
   transform: translate(205%, -1600%);
 }
+
 #nombreBaño {
   transform: translate(350%, -1250%);
 }
+
 #nombreCocina {
   transform: translate(350%, -800%);
 }
+
 #nombreSotano {
   transform: translate(350%, -450%);
 }
+
 #botonPatio {
   padding: 8%;
   padding-top: 0%;
@@ -611,14 +624,17 @@ header img {
   border-radius: 15px;
   background-color: #cac9c970;
 }
+
 #zona-drop img {
   transition: filter 0.3s ease;
 }
+
 #zona-drop img:hover {
   filter: drop-shadow(0 0 10px rgba(192, 63, 58, 0.6)) brightness(1);
   transition: all 0.3s ease;
   cursor: pointer;
 }
+
 .arbusto {
   width: 20%;
   height: auto;
@@ -685,6 +701,7 @@ header img {
   margin-top: 2%;
   transform: translate(0%, 150%);
 }
+
 #pergamino img {
   width: 100%;
 }
@@ -694,9 +711,11 @@ header img {
   width: 25%;
   transform: translate(5%, 0%);
 }
+
 .oculto {
   display: none;
 }
+
 .overlay {
   position: fixed;
   top: 0;
@@ -709,6 +728,7 @@ header img {
   align-items: center;
   z-index: 1000;
 }
+
 .oculto {
   display: none;
 }
@@ -720,6 +740,7 @@ header img {
   margin-top: 25%;
   height: 9rem;
 }
+
 #nombrePersonaje {
   font-size: 20px;
   color: #b48a58;
@@ -729,11 +750,13 @@ header img {
   margin-bottom: 1%;
   font-size: 24px;
 }
+
 #textoDialogo {
   width: 75%;
   position: absolute;
   font-size: 18px;
 }
+
 #personajeDialogo {
   z-index: -1;
   position: absolute;
@@ -754,11 +777,13 @@ header img {
   background-attachment: fixed;
   overflow: hidden;
 }
+
 #olga {
   width: 25%;
   margin-top: 2%;
   margin-left: 60%;
 }
+
 #botonEstanteria {
   position: relative;
   padding: 4%;
@@ -767,6 +792,7 @@ header img {
   margin-left: 10%;
   margin-top: 7.5%;
 }
+
 /*Estanteria*/
 .estanteria {
   background-image: url("/img/estanteria.png");
@@ -782,9 +808,11 @@ header img {
   justify-content: center;
   align-items: flex-end;
 }
+
 .estanteria ul {
   margin-top: 0%;
 }
+
 .estanteria li {
   width: 15%;
   padding: 1%;
@@ -799,7 +827,9 @@ header img {
   filter: drop-shadow(0 0 10px rgba(255, 238, 180, 0.6)) brightness(1.2);
   transition: all 0.4s ease;
 }
-.estanteria header a {
+
+.estanteria header a,
+.manijas header a {
   position: absolute;
   margin: 3%;
   margin-left: 7.5%;
@@ -813,7 +843,9 @@ header img {
   text-align: center;
   text-decoration: none;
 }
-.estanteria h2 {
+
+.estanteria h2,
+.manijas h2 {
   width: 50%;
   margin-top: 2%;
   margin-left: 23%;
@@ -828,14 +860,17 @@ header img {
   text-align: center;
   box-shadow: 0 0 0 0 transparent;
 }
+
 button[type="submit"] {
   position: absolute;
   transform: translate(365%, -250%);
 }
+
 button[type="submit"]:hover {
   position: absolute;
   transform: translate(365%, -250%);
 }
+
 .estanteria li .frasco {
   clear: both;
   height: auto;
@@ -935,13 +970,16 @@ button[type="submit"]:hover {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
 .puzzleManijas {
   width: 80%;
   display: flex;
 }
+
 .puzzleManijas input[type="image"] {
-  width: 20%;
+  width: 40%;
 }
+
 .baño #botonManijas {
   border: 0px solid white;
   padding: 4%;
@@ -951,49 +989,119 @@ button[type="submit"]:hover {
 
 #numeroTotal {
   position: absolute;
+  padding: 1.2%;
+  background-color: white;
+  width: 2%;
+  margin-top: 2%;
+  border-radius: 50%;
+  border: 1px solid #1f1b1b;
+  outline: none;
+  text-align: center;
+  margin-left: 42%;
+  color: rgb(0, 0, 0);
+}
 
-  margin-top: 25%;
-  color: white;
+.manijas1,
+.manijas2 {
+  margin-top: 35%;
+  display: flex;
+  width: 50%;
+  position: absolute;
 }
-.manijas1{
-  float:left;
+
+.manijas1 {
+  margin-left: 7.5%;
 }
-.manijas2{
-  float:right;
+
+.manijas2 {
+  margin-left: 45%;
 }
-.numeros{
-  clear:both
+
+.numeros {
+  clear: both
 }
+
 #numeromanijaIzquierda {
   position: absolute;
-  font-size: medium;
-  margin-left: 30%;
-  float: left;
-  color: white;
+  font-size: 42px;
+  margin-top: 30%;
+  margin-left: 23.5%;
+  color: rgb(0, 0, 0);
 }
 
 #numeromanijaDerecha {
   position: absolute;
-  font-size: medium;
-  margin-right: 30%;
-  float: right;
-  color: white;
+  font-size: 42px;
+  margin-top: 30%;
+  margin-left: 62%;
+  color: rgb(0, 0, 0);
 }
+
+.manijas button {
+  position: absolute;
+  transform: translate(320%, 1300%);
+}
+
+.manijas button:hover {
+  position: absolute;
+  transform: translate();
+  transform: translate(320%, 1300%);
+
+}
+
+
 .baño div img {
   display: flex;
 }
 
 /*retratos */
-.losRetratos{
-  display:flex;
+.losRetratos {
+  display: flex;
 }
-.retratos{
-  width:10%;
+
+.retrato {
+  position: absolute;
+
+  width: 20%;
 }
-#desbloquearRetratos{
-  opacity:0.1;
-  
+
+.retrato:nth-child(1) {
+margin-top: 7.5%;
+margin-left: 26%;
+width: 14%;
 }
+
+.retrato:nth-child(2) {
+margin-top: 5%;
+margin-left: 4%;
+}
+.retrato:nth-child(3) {
+margin-top: 10%;
+margin-left: 40%;
+width: 18%;
+
+}
+.retrato:nth-child(4) {
+margin-top: 5%;
+margin-left: 75%;
+}
+.retrato:nth-child(5) {
+margin-top: 18%;
+margin-left: 60%;
+width: 13%;
+}
+.retrato:nth-child(6) {
+margin-top: 4%;
+margin-left: 57%;
+width: 18%;
+}
+
+
+#desbloquearRetratos {
+  opacity: 0.1;
+
+}
+
 /*estudio */
 .estudio {
   background-image: url(/img/estudio.png);
@@ -1002,15 +1110,19 @@ button[type="submit"]:hover {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-#abueloEstudio{
-  width:35%;
+
+#abueloEstudio {
+  width: 35%;
 }
-#submitFinal{
-  margin-top:4%;
+
+#submitFinal {
+  margin-top: 4%;
 }
-.estudio input{
-  margin-left:1%;
+
+.estudio input {
+  margin-left: 1%;
 }
+
 /*FUENTESS*/
 @font-face {
   font-family: "Titulo";

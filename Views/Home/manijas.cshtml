@@ -2,12 +2,13 @@
     <link rel="stylesheet" href="/css/style.css" />
 <body class="manijas">
  <header>
-        <a href="@Url.Action("salaDeEstar")">Volver a la sala de estar</a>
+        <a href="@Url.Action("baño")">Volver al baño</a>
     </header>
     
+<h2>Arregla la canilla para que llegue a 14 en 8 giros positivos</h2>
 
 @{ if(ViewBag.estaDesbloqueada){
-    <h2 class="contenedorDialogo">Justo cuando giras la ultima canilla escuchas un ruido desde abajo de la bañera... Solo hay un libro rojo ahi...¿De donde proviene?</h2>
+    <h2 class="contenedorDialogo">Justo cuando giras la ultima canilla escuchas un ruido proveniente de abajo de la bañera... Solo hay un libro rojo ahi...¿De donde proviene?</h2>
 }else{
     <div class="puzzleManijas">
     
@@ -59,8 +60,7 @@
     <input type="hidden" name="clave" value="@(ViewBag.manija1.ToString() + ViewBag.manija2.ToString())">
     <input type="hidden" name="sala" value="5">
     <input type="hidden" name="salaOriginal" value="manijas">
-    <input type="submit">
-    
+    <button type="submit">Enviar</button>
 </form>
 }}     
     </body>
