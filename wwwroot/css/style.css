@@ -1045,7 +1045,7 @@ button[type="submit"]:hover {
   background-color: #20201f8e;
   color: #f0e6d2;
   box-shadow: 0 0 6px rgba(166, 140, 108, 0.5);
-  transform: translate(200%, 1520%);
+  transform: translate(200%, 1300%);
   transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -1057,9 +1057,8 @@ button[type="submit"]:hover {
 }
 
 .caja button[type="submit"] {
-      width: 20%;
-    transform: translate(90%, 1270%);
-}
+  width: 8%;
+  transform: translate(450%, 1100%);}
 
 .caja button[type="submit"]::placeholder {
   color: #b8a879;
@@ -1067,7 +1066,7 @@ button[type="submit"]:hover {
 }
 
 .caja button[type="submit"]:hover {
-  transform: translate(450%, 1300%);
+  transform: translate(450%, 1100%);
 
 }
 
