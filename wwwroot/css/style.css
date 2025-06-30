@@ -486,6 +486,8 @@ button[type="submit"]:hover {
 #nombreSala {
   transform: translate(205%, -350%);
 }
+
+
 #botonPatio {
   padding: 8%;
   padding-top: 0%;
@@ -494,56 +496,80 @@ button[type="submit"]:hover {
   transform: translate(-115%, 40%);
   border: 0px solid rgb(0, 0, 0);
 }
-
+.baño #botonPatio{
+    transform: translate(20%, -450%);
+  border: 0px solid rgb(0, 0, 0);
+}
 #botonEstudio {
   width: 0%;
   padding: 4%;
   transform: translate(-430%, 260%);
   border: 0px solid rgb(0, 0, 0);
 }
-
+.baño #botonEstudio {
+  transform: translate(60%, -230%);
+  border: 0px solid rgb(0, 0, 0);
+}
 #botonBiblioteca {
   width: 0%;
   padding: 4%;
   transform: translate(-430%, 155%);
   border: 0px solid rgb(0, 0, 0);
 }
-
+.baño #botonBiblioteca {
+  transform: translate(60%, -340%);
+  border: 0px solid rgb(0, 0, 0);
+}
 #botonSala {
   padding: 5.5%;
   padding-top: 17%;
   transform: translate(-235%, 55%);
   border: 0px solid rgb(0, 0, 0);
 }
-
+.baño #botonSala {
+  transform: translate(120%, -120%);
+  border: 0px solid rgb(0, 0, 0);
+}
 #botonRetratos {
   padding: 4%;
   padding-top: 2%;
   transform: translate(-430%, 490%);
   border: 0px solid rgb(0, 0, 0);
 }
-
+.baño #botonRetratos {
+  transform: translate(60%, -160%);
+  border: 0px solid rgb(0, 0, 0);
+}
 #botonBaño {
   padding: 5%;
   padding-top: 1%;
   transform: translate(-145%, 210%);
   border: 0px solid rgb(0, 0, 0);
 }
-
+.baño #botonBaño {
+  transform: translate(255%, -440%);
+  border: 0px solid rgb(0, 0, 0);
+}
 #botonCocina {
   padding: 5%;
   padding-top: 3%;
   transform: translate(-145%, 240%);
   border: 0px solid rgb(0, 0, 0);
 }
-
+.baño #botonCocina {
+  transform: translate(255%, -250%);
+  border: 0px solid rgb(0, 0, 0);
+}
 #botonSotano {
   padding: 5%;
   padding-top: 3%;
   transform: translate(-145%, 345%);
   border: 0px solid rgb(0, 0, 0);
 }
-
+.baño #botonSotano {
+  transform: translate(255%, -150%);
+  border: 0px solid rgb(0, 0, 0);
+}
 .salaDeEstar {
   background-image: url("/img/saladeestar.png");
   background-size: cover;
