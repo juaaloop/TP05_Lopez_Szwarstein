@@ -1055,8 +1055,7 @@ button[type="submit"]:hover {
 
 .caja button[type="submit"] {
   width: 8%;
-  transform: translate(450%, 1300%);
-}
+  transform: translate(450%, 1100%);}
 
 .caja button[type="submit"]::placeholder {
   color: #b8a879;
