@@ -31,7 +31,7 @@ class Partida
         salas.Add(4, new Sala("Karamázov1900", false, new List<int> { 3 }));
         salas.Add(5, new Sala("53", false, new List<int> { 2, 4 }));
         salas.Add(6, new Sala("desbloquear", false, new List<int> { 5 }));
-        salas.Add(7, new Sala("Empezar", false, new List<int> { 6 }));
+        salas.Add(7, new Sala("Los hermanos Karamazov", false, new List<int> { 6 }));
         salas.Add(8, new Sala("Empezar", false, new List<int> { 7 }));
 
 
