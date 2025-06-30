@@ -939,7 +939,12 @@ header img {
   margin-bottom:-10%;
 }
 #pergamino2{
-  margin-top:-5%;
+  margin-top:-50%;
+    float: right;
+  margin-right: 1%;
+  width: 5%;
+  cursor: pointer;
+  transform: translate(0%, 150%);
 }
 button[type="submit"] {
   position: absolute;
@@ -1051,7 +1056,7 @@ button[type="submit"]:hover {
   background-color: #20201f8e;
   color: #f0e6d2;
   box-shadow: 0 0 6px rgba(166, 140, 108, 0.5);
-  transform: translate(200%, 1300%);
+  transform: translate(50%, 1100%);
   transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 

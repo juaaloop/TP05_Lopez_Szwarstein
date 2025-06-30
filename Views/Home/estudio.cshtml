@@ -48,6 +48,7 @@
         const dialogosSinPistas = [
             "Estuviste jugando al detective",
             "Pero todavia no podes probar nada, volve a mi cuando tengas todas las pistas necesarias",
+            "...",
             "..."
         ];
 
@@ -99,6 +100,9 @@
                 document.getElementById("contenedorEstudio").style.display = "block";
                 texto.textContent = dialogosSinPistas[dialogoId];
                 dialogoId++;
+                if(dialogosSinPistas.length <=dialogoId){
+                    document.getElementById("overlayDialogo").style.display = "none";
+                }
             } else {
                 document.getElementById("contenedorDialogoPersonaje").style.display = "none";
             }
