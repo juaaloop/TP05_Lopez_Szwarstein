@@ -28,6 +28,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
+<<<<<<< HEAD
+=======
+      <Fingerprint>qaldjfpu24</Fingerprint>
+      <Integrity>7rNZXvM6BKvGlS/pWb6LTTtWG+K01Sd9YatJm1PmhDM=</Integrity>
+>>>>>>> 9595b5e49b2e688c3cdc661c12c5c64b2e82a63c
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\style.css))</OriginalItemSpec>
