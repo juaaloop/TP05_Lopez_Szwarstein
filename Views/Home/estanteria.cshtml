@@ -23,7 +23,7 @@
         <input type="hidden" name="salaOriginal" value="estanteria" />
         <button type="submit">Confirmar orden</button>
     </form>
-     <a href="#" id="pergamino"><img src="/img/pergamino.png" alt="elemento" /></a>
+     <a href="#" id="pergamino2"><img src="/img/pergamino.png" alt="elemento" /></a>
     <div id="modalPergamino" style="display:none;">
         <div id="modalContenido">
             <span id="cerrarPergamino">&times;</span>
@@ -79,7 +79,7 @@ else
         document.querySelector('input[name="clave"]').value = orden.join('');
     });
     
-        document.getElementById("pergamino").addEventListener("click", function (e) {
+        document.getElementById("pergamino2").addEventListener("click", function (e) {
             e.preventDefault();
             document.getElementById("modalPergamino").style.display = "block";
         });

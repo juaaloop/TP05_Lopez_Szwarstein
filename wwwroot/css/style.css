@@ -933,7 +933,13 @@ header img {
  margin-bottom: -30%;
 }
 .estanteria h2{
-  margin-top:50%;
+  margin-top:2%;
+}
+#ordenForm{
+  margin-bottom:-10%;
+}
+#pergamino2{
+  margin-top:-5%;
 }
 button[type="submit"] {
   position: absolute;
