@@ -83,7 +83,7 @@ public class HomeController : Controller
     public IActionResult salaDeRetratos()
     {
  Partida partidaNueva = Objeto.StringToObject<Partida>(HttpContext.Session.GetString("partida"));
-        ViewBag.estaDesbloqueada = partidaNueva.salas[2].estaDesbloqueada;
+        ViewBag.estaDesbloqueada = partidaNueva.salas[6].estaDesbloqueada;
         return View();
     }
 

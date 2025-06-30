@@ -1203,10 +1203,13 @@ button[type="submit"]:hover {
 
 
 #desbloquearRetratos {
-  opacity: 0.1;
-
+    opacity: 0.05;
+    margin-left: 35%;
+    margin-top: -31%;
 }
-
+#pistaRetratos{
+      margin-top: 40%;
+}
 /*estudio */
 .estudio {
   background-image: url(/img/estudio.png);

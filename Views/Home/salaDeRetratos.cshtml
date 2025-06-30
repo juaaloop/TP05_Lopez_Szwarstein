@@ -29,6 +29,7 @@
 </div>
 
 <body class="salaDeRetratos">
+   
     <div class="losRetratos">
         <img src="/img/retrato1.png" alt="" class="retrato">
         <img src="/img/retrato2.png" alt="" class="retrato">
@@ -38,7 +39,12 @@
         <img src="/img/retrato6.png" alt="" class="retrato">
 
     </div>
-
+    @if(!ViewBag.estaDesbloqueada){
+<H2 class="contenedorDialogo" id="pistaRetratos">Глаза — зеркало души.</H2>
+    }else{
+        <H2 class="contenedorDialogo" id="pistaRetratos">Книги...</H2>
+    }
+ 
     <form method="post" action="@Url.Action("desbloquearSala")">
         <input type="hidden" name="clave" value="desbloquear" class="contenedorDialogo" />
         <input type="hidden" name="sala" value="6" />
