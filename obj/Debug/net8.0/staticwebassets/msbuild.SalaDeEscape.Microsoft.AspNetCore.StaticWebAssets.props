@@ -30,8 +30,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>zx6wrecae4</Fingerprint>
-      <Integrity>2eHOkVsVcNn3tacZzyiCTprOdddeTOAEuR/Pl8U0w7U=</Integrity>
+      <Fingerprint>aeotv056l7</Fingerprint>
+      <Integrity>PpDuc0+4Ed7NzUu4Fe1wVJ6DdcIvL9K/JYOUxjeXEN8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\style.css'))</OriginalItemSpec>
@@ -822,8 +822,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>kr2r36xfd9</Fingerprint>
-      <Integrity>QC6Y00IfLu63+o9utoa7wzgFR2AcEpC5DGgY521GREI=</Integrity>
+      <Fingerprint>t6vnndqpku</Fingerprint>
+      <Integrity>W1ePLph7FriuvKMraftD9rEKA7clxVmkcHAjia+fuWc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\patio.png'))</OriginalItemSpec>
